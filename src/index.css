@@ -20,6 +20,8 @@
 }
 
 .dark {
+  --watermark-blend: screen;
+  --watermark-filter: invert(1);
   --background: #150a24;
   --foreground: #f3e7d6;
   --sidebar: #1c0e30;
@@ -58,15 +60,33 @@ body::before {
   pointer-events: none;
   opacity: 0.15;
   mix-blend-mode: var(--watermark-blend, multiply);
+  filter: var(--watermark-filter, none);
   background-image: url('/vecna-site/logo-hand.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: min(60vw, 600px) auto;
+  background-size: auto 100vh;
   background-attachment: fixed;
 }
 
-.dark body::before {
-  --watermark-blend: screen;
+
+/* Marca d'água pequena e repetida dentro dos cards claros */
+[class*="bg-[var(--card)]"] {
+  position: relative;
+}
+
+[class*="bg-[var(--card)]"]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: var(--watermark-blend, multiply);
+  filter: var(--watermark-filter, none);
+  background-image: url('/vecna-site/logo-hand.png');
+  background-repeat: repeat;
+  background-size: 48px auto;
+  border-radius: inherit;
 }
 
 #root {
