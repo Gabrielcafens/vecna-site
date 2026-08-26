@@ -107,6 +107,7 @@ export interface Character {
   notes: string
   image?: string
   sheet?: string
+  feats?: string[]
 }
 
 export interface DndClassLevel {

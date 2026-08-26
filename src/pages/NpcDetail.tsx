@@ -15,7 +15,7 @@ export default function NpcDetailPage() {
   if (!n) return <div className="p-6">Not found.</div>
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <Link to="/npcs" className="inline-flex items-center gap-1 text-sm text-[var(--muted)] hover:text-[var(--accent)] mb-4">
         <ArrowLeft className="h-4 w-4" /> {t('npcs.title')}
       </Link>

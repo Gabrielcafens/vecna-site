@@ -13,7 +13,7 @@ export function Topbar({ onMenuClick }: { onMenuClick: () => void }) {
       <Button variant="ghost" size="icon" className="md:hidden" onClick={onMenuClick}>
         <Menu className="h-5 w-5" />
       </Button>
-      <div className="flex-1 flex justify-center md:justify-start">
+      <div className="flex-1 flex justify-center">
         <CommandSearch />
       </div>
       <Button variant="outline" size="sm" onClick={toggleLang} title="Trocar idioma">

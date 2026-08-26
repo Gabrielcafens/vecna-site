@@ -50,6 +50,29 @@ body {
   font-size: 17px;
 }
 
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: var(--watermark-blend, multiply);
+  background-image: url('/vecna-site/logo-hand.png');
+  background-repeat: repeat;
+  background-size: 200px auto;
+  background-attachment: fixed;
+}
+
+.dark body::before {
+  --watermark-blend: screen;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
 h1, h2, h3, .font-display {
   font-family: 'Cinzel', Georgia, serif;
   letter-spacing: 0.02em;

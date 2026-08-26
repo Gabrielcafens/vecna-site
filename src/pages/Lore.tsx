@@ -1,6 +1,6 @@
 export default function LorePage() {
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">Lore da Campanha</h1>
 
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">

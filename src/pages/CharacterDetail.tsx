@@ -4,7 +4,7 @@ import { useData } from '@/lib/useData'
 import { useT } from '@/lib/i18n'
 import { Badge } from '@/components/ui/badge'
 import { Spinner } from '@/components/ui/skeleton'
-import { ArrowLeft, User } from 'lucide-react'
+import { ArrowLeft, User, Star } from 'lucide-react'
 
 export default function CharacterDetailPage() {
   const { name } = useParams()
@@ -16,7 +16,7 @@ export default function CharacterDetailPage() {
   if (!c) return <div className="p-6">Not found.</div>
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <Link to="/personagens" className="inline-flex items-center gap-1 text-sm text-[var(--muted)] hover:text-[var(--accent)] mb-4">
         <ArrowLeft className="h-4 w-4" /> {t('characters.title')}
       </Link>
@@ -35,6 +35,12 @@ export default function CharacterDetailPage() {
         <div className="flex-1">
           <h1 className="text-2xl font-bold text-[var(--accent)]">{c.name}</h1>
           <p className="text-sm text-[var(--muted)] mb-3">{[c.race, c.class, c.background].filter(Boolean).join(' · ')} — Nível {c.level}</p>
+          {c.feats && c.feats.length > 0 && (
+            <div className="flex items-center gap-1 flex-wrap mb-2">
+              <Star className="h-3.5 w-3.5 text-[var(--accent)] shrink-0" />
+              {c.feats.map((f) => <Badge key={f}>{f}</Badge>)}
+            </div>
+          )}
           <div className="flex flex-wrap gap-1 mb-3">
             {c.tags.map((tag) => <Badge key={tag}>{tag}</Badge>)}
           </div>

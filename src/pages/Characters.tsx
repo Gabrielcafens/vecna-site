@@ -4,7 +4,7 @@ import { useData } from '@/lib/useData'
 import { useT } from '@/lib/i18n'
 import { Badge } from '@/components/ui/badge'
 import { CardGridSkeleton } from '@/components/ui/skeleton'
-import { User } from 'lucide-react'
+import { User, Maximize2, ArrowRight } from 'lucide-react'
 
 export default function CharactersPage() {
   const t = useT()
@@ -21,24 +21,48 @@ export default function CharactersPage() {
             <Link
               key={c.name}
               to={`/personagens/${encodeURIComponent(c.name)}`}
-              className="rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm hover:shadow-lg hover:border-[var(--accent)]/50 transition-all duration-200"
+              className="group relative flex flex-col rounded-xl border border-[var(--border)] bg-[var(--card)] shadow-sm hover:shadow-lg hover:border-[var(--accent)]/50 transition-all duration-200 overflow-hidden"
             >
-              <div className="flex items-center gap-3 mb-2">
+              <Maximize2 className="absolute top-3 right-3 h-3.5 w-3.5 text-[var(--muted)] opacity-50 group-hover:opacity-100 group-hover:text-[var(--accent)] transition-all" />
+
+              <div className="flex items-center gap-3 p-4 pb-3 border-b border-[var(--border)] bg-[var(--accent)]/5">
                 {c.image ? (
-                  <img src={`${import.meta.env.BASE_URL}${c.image}`} alt={c.name} className="h-12 w-12 rounded-full object-cover object-top border border-[var(--border)]" />
+                  <img src={`${import.meta.env.BASE_URL}${c.image}`} alt={c.name} className="h-14 w-14 rounded-full object-cover object-top border-2 border-[var(--accent)]/60" />
                 ) : (
-                  <div className="h-12 w-12 rounded-full bg-[var(--sidebar)] border border-[var(--border)] flex items-center justify-center">
-                    <User className="h-6 w-6 text-[var(--muted)]" />
+                  <div className="h-14 w-14 rounded-full bg-[var(--sidebar)] border-2 border-[var(--border)] flex items-center justify-center">
+                    <User className="h-7 w-7 text-[var(--muted)]" />
                   </div>
                 )}
                 <div>
-                  <h3 className="font-semibold text-[var(--accent)]">{c.name}</h3>
-                  <span className="text-xs">Nível {c.level}</span>
+                  <h3 className="font-display font-bold text-[var(--accent)] leading-tight">{c.name}</h3>
+                  <span className="text-[11px] text-[var(--muted)]">Nível {c.level}</span>
                 </div>
               </div>
-              <p className="text-[11px] italic text-[var(--muted)] mb-2">{[c.race, c.class, c.background].filter(Boolean).join(' · ')}</p>
-              <div className="flex flex-wrap gap-1">
-                {c.tags.slice(0, 3).map((tag) => <Badge key={tag}>{tag}</Badge>)}
+
+              <div className="p-4 pt-3 flex-1 flex flex-col">
+                <p className="text-[11px] italic text-[var(--muted)] mb-3">{[c.race, c.class, c.background].filter(Boolean).join(' · ')}</p>
+
+                {c.feats && c.feats.length > 0 && (
+                  <div className="mb-3">
+                    <div className="text-[9px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">Talentos</div>
+                    <div className="flex flex-wrap gap-1">
+                      {c.feats.map((f) => <Badge key={f}>{f}</Badge>)}
+                    </div>
+                  </div>
+                )}
+
+                {c.tags.length > 0 && (
+                  <div className="mb-1">
+                    <div className="text-[9px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">Baralho das Muitas Coisas</div>
+                    <div className="flex flex-wrap gap-1">
+                      {c.tags.slice(0, 3).map((tag) => <Badge key={tag}>{tag}</Badge>)}
+                    </div>
+                  </div>
+                )}
+
+                <div className="mt-auto pt-3 flex items-center gap-1 text-[11px] font-medium text-[var(--accent)] opacity-70 group-hover:opacity-100 transition-opacity">
+                  Ver ficha completa <ArrowRight className="h-3 w-3" />
+                </div>
               </div>
             </Link>
           ))}

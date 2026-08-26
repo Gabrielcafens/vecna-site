@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n'
-import { BookOpen, Users, Contact, Skull, Printer, Image as ImageIcon, Star, BookMarked, HeartCrack, ExternalLink } from 'lucide-react'
+import { BookOpen, Users, Contact, Skull, Printer, Image as ImageIcon, BookMarked, HeartCrack, ExternalLink } from 'lucide-react'
 
 const SRD_5ETOOLS_URL = 'https://5e.tools/spells.html#filter=source%3AXPHB%2CXDMG%2CXMM'
 
@@ -22,7 +22,6 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
       label: t('nav.group.rules'),
       items: [
         { to: '/monstros', label: t('nav.monsters'), icon: Skull },
-        { to: '/talentos', label: t('nav.feats'), icon: Star },
         { to: '/regras', label: t('nav.rules'), icon: BookMarked },
         { to: '/condicoes', label: t('nav.conditions'), icon: HeartCrack },
       ],
