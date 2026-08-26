@@ -19,7 +19,7 @@ const BESTIARY: StatBlock[] = [
     cr: '1',
     ac: 13,
     hp: '22 (5d8)',
-    speed: '9m',
+    speed: '9m (6 casas)',
     stats: [
       { label: 'FOR', score: 9, mod: '-1' },
       { label: 'DES', score: 14, mod: '+2' },
@@ -42,7 +42,7 @@ const BESTIARY: StatBlock[] = [
     cr: '1',
     ac: 12,
     hp: '27 (6d8)',
-    speed: '9m',
+    speed: '9m (6 casas)',
     stats: [
       { label: 'FOR', score: 8, mod: '-1' },
       { label: 'DES', score: 12, mod: '+1' },
@@ -65,7 +65,7 @@ const BESTIARY: StatBlock[] = [
     cr: '6',
     ac: 15,
     hp: '85 (13d8+26)',
-    speed: '9m',
+    speed: '9m (6 casas)',
     stats: [
       { label: 'FOR', score: 10, mod: '+0' },
       { label: 'DES', score: 14, mod: '+2' },
@@ -89,7 +89,7 @@ const BESTIARY: StatBlock[] = [
     cr: '1',
     ac: 12,
     hp: '22 (5d8)',
-    speed: '9m, escalada 9m',
+    speed: '9m (6 casas), escalada 9m (6 casas)',
     stats: [
       { label: 'FOR', score: 13, mod: '+1' },
       { label: 'DES', score: 15, mod: '+2' },
@@ -112,7 +112,7 @@ const BESTIARY: StatBlock[] = [
     cr: '1/4',
     ac: 13,
     hp: '13 (2d8+4)',
-    speed: '9m',
+    speed: '9m (6 casas)',
     stats: [
       { label: 'FOR', score: 10, mod: '+0' },
       { label: 'DES', score: 14, mod: '+2' },
@@ -135,7 +135,7 @@ const BESTIARY: StatBlock[] = [
     cr: '2',
     ac: 12,
     hp: '58 (9d8+18)',
-    speed: '4,5m',
+    speed: '4,5m (3 casas)',
     stats: [
       { label: 'FOR', score: 17, mod: '+3' },
       { label: 'DES', score: 12, mod: '+1' },
@@ -159,7 +159,7 @@ const BESTIARY: StatBlock[] = [
     cr: '8',
     ac: 17,
     hp: '150 (20d12+20)',
-    speed: '9m, voo 18m',
+    speed: '9m (6 casas), voo 18m (12 casas)',
     stats: [
       { label: 'FOR', score: 21, mod: '+5' },
       { label: 'DES', score: 10, mod: '+0' },
