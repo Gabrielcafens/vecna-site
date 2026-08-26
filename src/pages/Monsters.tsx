@@ -65,6 +65,7 @@ const BESTIARY: StatBlock[] = [
   {
     name: 'Valdris',
     subtitle: 'Humanoide médio (humano), leal maligno — vilão da Sessão 1',
+    image: 'npcs/valdris.png',
     cr: '6',
     ac: 15,
     hp: '85 (13d8+26)',

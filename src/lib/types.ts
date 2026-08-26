@@ -124,6 +124,7 @@ export interface Character {
   sheet_data?: CharacterSheetData
   feats?: string[]
   allies?: string
+  allies_image?: string
 }
 
 export interface DndClassLevel {

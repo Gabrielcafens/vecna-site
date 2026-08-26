@@ -7,29 +7,32 @@
     "level": 6,
     "image": "personagens/fabo.jpeg",
     "tags": ["XIV - A Temperança (Talons)", "VII - O Carro (Knight)"],
-    "feats": ["Pico de Adrenalina", "Visão no Escuro", "Vigor Implacável"],
-    "sheet": "Atributos: Força 18 (+4) · Destreza 15 (+3) · Constituição 15 (+3) · Inteligência 10 (+0) · Sabedoria 15 (+3) · Carisma 14 (+2)\nCA 16 (Cota de Malha) · Iniciativa +3 · PV 25\nSalvaguardas: Força +6, Constituição +5\nPerícias: Atletismo +6, Percepção +5, Sobrevivência +5, Intimidação +4\nEstilo de Luta (Feder): ao acertar um oponente, atinge outro a 1,5m sem o modificador de dano (1x por turno)\nArmas: Machado Grande 1d12+2 (duas mãos), Besta Pesada 1d10 (pesada)\n(Ficha física de nível 3 — personagem já está nível 6, atualização de talentos/PV pendente)",
+    "feats": ["Atleta", "Mestre em Armas Grandes"],
+    "sheet": "Atributos: Força 20 (+5) · Destreza 15 (+2) · Constituição 15 (+2) · Inteligência 10 (+0) · Sabedoria 15 (+2) · Carisma 14 (+2)\nCA 16 (Cota de Malha) · Bônus de Proficiência +3\nSalvaguardas: Força +8, Constituição +5\nPerícias: Atletismo +8, Percepção +5, Sobrevivência +5, Intimidação +5\nEstilo de Luta (Feder): ao acertar um oponente, atinge outro a 1,5m sem o modificador de dano (1x por turno)\nAtaque Extra · Ajuste Tático (mover metade do deslocamento sem provocar Ataques de Oportunidade ao usar Recuperar o Fôlego)\nMestre em Armas Grandes: dano extra igual ao Bônus de Proficiência com armas Pesadas; Cortar (ataque bônus extra ao tirar crítico ou reduzir a 0 PV)\nAtleta: Deslocamento de Escalada igual ao Deslocamento; levanta-se e salta gastando só 1,5m de movimento\nArmas: Machado Grande, Besta Pesada, Espada Longa, Alabarda\n(PV e Dado de Vida de nível 6 ainda pendentes de confirmação com o Matheus)",
     "sheet_data": {
-      "abilities": { "str": 18, "dex": 15, "con": 15, "int": 10, "wis": 15, "cha": 14 },
+      "abilities": { "str": 20, "dex": 15, "con": 15, "int": 10, "wis": 15, "cha": 14 },
       "ac": 16,
       "hp": 25,
-      "hit_dice": "3d10",
-      "initiative": 3,
+      "hit_dice": "6d10 (PV pendente)",
+      "initiative": 2,
       "passive_perception": 15,
-      "proficiency_bonus": 2,
+      "proficiency_bonus": 3,
       "saving_throws": ["str", "con"],
       "skills": [
-        { "name": "Atletismo", "bonus": 6 },
+        { "name": "Atletismo", "bonus": 8 },
         { "name": "Percepção", "bonus": 5 },
         { "name": "Sobrevivência", "bonus": 5 },
-        { "name": "Intimidação", "bonus": 4 }
+        { "name": "Intimidação", "bonus": 5 }
       ],
       "weapons": [
-        { "name": "Machado Grande", "bonus": "+6", "damage": "1d12+2" },
-        { "name": "Besta Pesada", "bonus": "+5", "damage": "1d10" }
+        { "name": "Machado Grande", "bonus": "+8", "damage": "1d12+5" },
+        { "name": "Besta Pesada", "bonus": "+5", "damage": "1d10+2" },
+        { "name": "Espada Longa", "bonus": "+8", "damage": "1d8+5 (1d10 duas mãos)" },
+        { "name": "Alabarda", "bonus": "+8", "damage": "1d10+5" }
       ],
-      "features": ["Estilo de Luta: Feder", "Pico de Adrenalina", "Visão no Escuro", "Vigor Implacável"]
+      "features": ["Estilo de Luta: Feder", "Ataque Extra", "Ajuste Tático", "Cortar (Mestre em Armas Grandes)", "Deslocamento de Escalada (Atleta)"]
     },
+    "allies_image": "factions/alianca-dos-lordes.svg",
     "allies": "Aliança dos Lordes\nFabo não é membro oficial, mas orbita a Aliança por causa de Vitu e do que aconteceu na Torre de Xonthal. A Aliança dos Lordes é uma coalizão de cidades e líderes da Costa da Espada (Waterdeep, Nesme, Portas de Baldur, entre outras) formada pra proteger rotas de comércio e conter ameaças que nenhuma cidade sozinha resolveria — dragões, cultos, monstros de fronteira. Não tem exército próprio; depende de agentes e aventureiros pra agir em seu nome. Fabo lida com essa estrutura com desconfiança — pra ele, foi a guerra da Aliança contra Tiamat que custou a tribo dele.",
     "notes": "Fabo não nasceu num exército. Nasceu numa tribo.\n\nNão havia patentes, medalhas ou estandartes. Havia sangue, lealdade e o som dos tambores antes da batalha. O clã Meio-Orc vivia nas fronteiras de uma região sem nome em nenhum mapa de Waterdeep — terras duras, invernos longos, e uma paz frágil mantida pela presença da tribo vizinha de Draconatos, liderada por um jovem paladino chamado Vitu.\n\nFabo e Vitu nunca foram amigos. Eram vizinhos no sentido que tribos vizinhas são vizinhas — respeito mútuo, território respeitado, e uma competição silenciosa que nenhum dos dois precisava verbalizar. Vitu protegia a região. Fabo protegia o clã. Era um equilíbrio que funcionava.\n\nEntão Vitu partiu pra missão. A guerra contra Tiamat chamou o paladino Draconato pra longe — primeiro pra Costa da Espada, depois pro mundo inteiro. Fabo ficou. Continuou protegendo o clã, continuou mantendo o território, continuou sendo o guerreiro que ninguém cantava em verso. E enquanto Vitu salvava o mundo, o Culto do Dragão varreu as tribos como dano colateral — exércitos em marcha, rituais que precisavam de terras vazias, fronteiras que deixaram de importar quando dragões cruzavam o céu.\n\nA tribo Meio-Orc de Fabo foi destruída. A tribo Draconata de Vitu foi dispersada.\n\nQuando Vitu voltou vitorioso, voltou pra ruínas. Fabo também voltou. Encontrou o mesmo. A diferença é que Vitu voltou como herói — carregando a culpa em silêncio, mas carregando também o nome que os bardos cantavam. E Fabo voltou como fantasma. O homem que ficou, que lutou, que sangrou nas mesmas fronteiras que Vitu havia abandonado — e que não tem ninguém pra testemunhar isso.\n\nVitu sabe. Carrega esse peso. Mas saber e consertar são coisas diferentes — e Fabo não quer conserto. Quer algo mais difícil: quer ser impossível de ignorar.\n\nVeio pra Phandalin de propósito, sabendo que era o berço da lenda do rival. Entrou numa taverna, ouviu os bardos cantando sobre o Dragonborn Azul, esperou até o fim, deixou moedas na mesa e saiu.\n\nTrês dias depois, uma mensagem com a letra inconfundível de um Draconato: \"Tenho pistas de quem massacrou as tribos. Venha à Torre de Xonthal — Farol da Esperança — ao amanhecer. — Vitu\"\n\nFabo foi. Não pela missão. Não pela Aliança. Mas porque Vitu, pela primeira vez em toda a vida deles, estava pedindo algo a ele. E isso mudava tudo.\n\n—\n\nNo Baralho das Muitas Coisas puxou A Temperança (Talons — todos os itens mágicos carregados se desintegram) e O Carro (Knight — ganhou um cavaleiro NPC fiel como aliado, que se tornou o Vitu, jogado como personagem legado de nível 16)."
   },
@@ -58,6 +61,7 @@
       ],
       "features": ["Duelismo", "Minar (Espírito)", "Afligir", "Surto de Ação", "Recuperar o Fôlego", "Atacante Selvagem"]
     },
+    "allies_image": "factions/alianca-dos-lordes.svg",
     "allies": "Aliança dos Lordes\nPhillipe é cavaleiro da Aliança dos Lordes por treinamento direto de Sildar Hallwinter, que por sua vez treinou Heidan Forteluz — o mentor original de Phillipe. A Aliança é uma coalizão de cidades da Costa da Espada que protege rotas de comércio e civis contra ameaças grandes demais pra uma cidade sozinha, agindo através de agentes de campo em vez de um exército formal. Pra Phillipe, a Aliança não é uma instituição abstrata — é Sildar, Foster e Vitu, os três pilares que ele tenta imitar sem perceber que já está no caminho certo.",
     "notes": "Phillipe não tem sobrenome porque nunca teve família pra dar um.\n\nHeidan Forteluz o encontrou com sete anos numa cidade que não existe mais — órfão, faminto, dormindo atrás de uma ferraria. O cavaleiro podia ter dado algumas moedas e seguido em frente. Em vez disso, ofereceu a mão e disse: \"Você parece o tipo que não desiste fácil.\"\n\nHeidan Forteluz não era qualquer cavaleiro. Havia sido treinado pelo próprio Sildar Hallwinter nos anos de guerra — formado nas tradições de honra e serviço da Aliança dos Lordes. Quando se tornou cavaleiro por mérito próprio, carregou consigo o que Sildar havia plantado nele. E quando encontrou Phillipe órfão com sete anos, fez o mesmo.\n\nO grupo que operava em Phandalin antes da guerra era pequeno e improvável: Heidan Forteluz, o cavaleiro; Lee Sin, o Monge de Phandalin; e Erin, a Branca — Meio-Elfa Feiticeira de Linhagem Dracônica de cabelos brancos que ninguém conseguia classificar direito. Phillipe cresceu à sombra desses três — carregando escudos, afiando lâminas, observando como pessoas extraordinárias resolvem problemas impossíveis.\n\nOs Magos de Thay que operavam em Phandalin faziam parte da facção dissidente que apoiava o Culto do Dragão — aqueles que acreditavam que a restauração de Tiamat traria poder e glória a Thay. Invocaram um Beholder Zumbi em Phandalin. Heidan e Lee Sin morreram juntos enfrentando ele. Erin, a Branca, conseguiu escapar — e eventualmente reapareceu ao lado de Drarkent e Erudhir no início da guerra contra Tiamat.\n\nPhillipe sobreviveu. Com sete anos de escudeiro nas costas e nenhum mestre pra seguir.\n\nPhillipe foi ao cemitério local uma vez. Ficou parado na entrada. Não conseguiu entrar. Nunca voltou.\n\nFoi Sildar Hallwinter quem o encontrou depois — o mestre do mestre, fechando um círculo que Heidan não viveu pra ver. Phillipe cresceu olhando pra Sildar, Foster e Vitu como o que um cavaleiro pode se tornar se sobreviver tempo suficiente. São os três pilares que ele tenta imitar sem saber que já está no caminho certo. Sildar treinou-o como cavaleiro da Aliança e o encaminhou aos Gnomos de Phandelver para o treinamento arcano. Phillipe acabou de ser nomeado cavaleiro — o título mais baixo que existe. Heidan não viveu pra ver. Sildar estava lá pelos dois.\n\nSildar bateu na porta do quarto. Sentou. Ficou em silêncio por um momento — o silêncio de alguém escolhendo as palavras com cuidado. \"Você é cavaleiro agora. Chegou a hora de se provar. Venha à Torre de Xonthal — Farol da Esperança — ao amanhecer.\"\n\nPhillipe não perguntou por quê. Estava pronto antes do amanhecer.\n\n—\n\nNo Baralho das Muitas Coisas puxou O Diabo (Flames — um diabo poderoso vira inimigo pra sempre, até um dos dois morrer). Sildar é a âncora de Phillipe: o que Sildar pede, ele faz sem perguntar."
   },
@@ -92,6 +96,7 @@
       ],
       "features": ["Alerta", "Iniciado em Magia (Druida)", "Pacto do Tomo", "Rajada Agonizante", "Rajada Repulsora"]
     },
+    "allies_image": "factions/enclave-esmeralda.svg",
     "allies": "Enclave Esmeralda\nOrganização de druidas, guardas-florestais e guardiões da natureza dedicada a manter o equilíbrio natural — não é contra a civilização, mas não serve a ela: age contra qualquer coisa que ameace esse equilíbrio, seja um exército invasor, uma corrupção mágica ou magos brincando com forças que não entendem. Foi no posto do Enclave em Phandalin que Eldris mostrou o emblema que o levou até Foster e a Torre de Xonthal.\n\nTitânia\nRainha do Verão Eterno, soberana da Corte Estival do Plano Feérico (Feywild) — uma das figuras Arquifada mais poderosas que existem, associada a beleza, abundância e um perigo sutil que vem embrulhado em encantamento. Titânia raramente dá respostas diretas; ensina em camadas, cada verdade escondendo outra pergunta, e os pactos feitos com ela seguem termos que só ela conhece por completo. Pra Eldris, ela não se apresentou como divindade, mas como anfitriã de um jardim sem fim — e o que ela realmente quer dele ainda está se revelando aos poucos."
   },
   {

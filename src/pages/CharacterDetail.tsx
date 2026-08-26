@@ -5,7 +5,7 @@ import { useData } from '@/lib/useData'
 import { useT } from '@/lib/i18n'
 import { Badge } from '@/components/ui/badge'
 import { Spinner } from '@/components/ui/skeleton'
-import { ArrowLeft, User, Star } from 'lucide-react'
+import { ArrowLeft, User, Star, BookOpen, Users } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 export default function CharacterDetailPage() {
@@ -52,24 +52,28 @@ export default function CharacterDetailPage() {
         </div>
 
         {c.allies ? (
-          <div className="flex gap-1 border-b border-[var(--border)] mb-4">
+          <div className="flex gap-2 mb-4">
             <button
               onClick={() => setTab('lore')}
               className={cn(
-                'px-4 py-2 text-sm font-medium border-b-2 -mb-px transition-colors',
-                tab === 'lore' ? 'border-[var(--accent)] text-[var(--accent)]' : 'border-transparent text-[var(--muted)] hover:text-[var(--foreground)]'
+                'flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold transition-colors',
+                tab === 'lore'
+                  ? 'bg-[var(--accent)] text-[var(--accent-foreground)] shadow-sm'
+                  : 'bg-[var(--sidebar)] text-[var(--muted)] hover:text-[var(--foreground)] border border-[var(--border)]'
               )}
             >
-              Lore
+              <BookOpen className="h-3.5 w-3.5" /> Lore
             </button>
             <button
               onClick={() => setTab('allies')}
               className={cn(
-                'px-4 py-2 text-sm font-medium border-b-2 -mb-px transition-colors',
-                tab === 'allies' ? 'border-[var(--accent)] text-[var(--accent)]' : 'border-transparent text-[var(--muted)] hover:text-[var(--foreground)]'
+                'flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold transition-colors',
+                tab === 'allies'
+                  ? 'bg-[var(--accent)] text-[var(--accent-foreground)] shadow-sm'
+                  : 'bg-[var(--sidebar)] text-[var(--muted)] hover:text-[var(--foreground)] border border-[var(--border)]'
               )}
             >
-              Aliados & Patronos
+              <Users className="h-3.5 w-3.5" /> Aliados & Patronos
             </button>
           </div>
         ) : null}
@@ -78,7 +82,12 @@ export default function CharacterDetailPage() {
           <p className="text-sm whitespace-pre-line leading-relaxed">{c.notes}</p>
         )}
         {c.allies && tab === 'allies' && (
-          <p className="text-sm whitespace-pre-line leading-relaxed">{c.allies}</p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            {c.allies_image && (
+              <img src={`${import.meta.env.BASE_URL}${c.allies_image}`} alt="Emblema" className="w-20 h-auto shrink-0 mx-auto sm:mx-0" />
+            )}
+            <p className="text-sm whitespace-pre-line leading-relaxed flex-1">{c.allies}</p>
+          </div>
         )}
 
         {c.sheet && (

@@ -19,9 +19,37 @@ export default function LorePage() {
           <p className="text-sm leading-relaxed mb-3">
             Com Tiamat derrotada, o Culto do Dragão perdeu força e os grandes veteranos passaram a viver o descanso que ganharam — ou a assumir cargos de liderança na Aliança dos Lordes, guiando a próxima geração de aventureiros. Mas restos do culto continuaram espalhados pelos reinos, e foi um desses grupos dissidentes de Magos de Thay que puxou os eventos do Necrotério de Thay.
           </p>
-          <p className="text-sm leading-relaxed">
+          <p className="text-sm leading-relaxed mb-6">
             Essa campanha é o que vem depois: uma nova geração de heróis herdando o mundo que os veteranos deixaram — e as sombras que eles não conseguiram apagar de vez.
           </p>
+
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">O grupo original</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+              <h3 className="font-semibold text-sm mb-1">Foster</h3>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">Gnomo Mago de Divinação, devoto de Gond. Deu o golpe final em Tiamat com a Varinha de Mísseis Mágicos. Hoje vive na Torre de Xonthal com o Bob, secretamente tentando prolongar a própria vida sem recorrer à necromancia.</p>
+            </div>
+            <div className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+              <h3 className="font-semibold text-sm mb-1">Vitu</h3>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">Dragonborn Paladino da Glória, liderou o grupo contra Tiamat. Carrega a culpa por ter deixado as tribos de fronteira — incluindo a de Fabo — vulneráveis enquanto estava em guerra. Hoje é jogável como personagem legado ao lado do Fabo.</p>
+            </div>
+            <div className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+              <h3 className="font-semibold text-sm mb-1">Sildar Hallwinter</h3>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">Humano Guerreiro veterano, cargo sênior na Aliança dos Lordes e patrono de Phandalin. Treinou Heidan Forteluz, que por sua vez treinou Phillipe — quando Heidan morreu, Sildar assumiu Phillipe diretamente.</p>
+            </div>
+            <div className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+              <h3 className="font-semibold text-sm mb-1">Bob</h3>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">Espectador verde, companheiro do grupo desde a época da guerra. Flutua entre a Torre de Xonthal e a casa de Vitu. Foster conduz experimentos discretos nele tentando torná-lo algo mais... jogável.</p>
+            </div>
+            <div className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+              <h3 className="font-semibold text-sm mb-1">Drarkent</h3>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">Bárbaro lendário da guerra contra Tiamat — suas histórias inspiraram uma geração inteira de aventureiros a servir a Aliança dos Lordes. Reapareceu ao lado de Erin no início da guerra.</p>
+            </div>
+            <div className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+              <h3 className="font-semibold text-sm mb-1">Erin, a Branca</h3>
+              <p className="text-sm text-[var(--muted)] leading-relaxed">Meio-Elfa Feiticeira de Linhagem Dracônica, cabelos brancos, ninguém conseguia classificar direito. Parte do grupo original de Phandalin ao lado de Heidan Forteluz e Lee Sin — sobreviveu ao ataque do Beholder Zumbi que matou os outros dois, e eventualmente reapareceu junto de Drarkent e Erudhir no início da guerra contra Tiamat.</p>
+            </div>
+          </div>
         </div>
       </details>
 
