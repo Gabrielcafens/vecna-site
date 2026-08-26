@@ -3,15 +3,26 @@ export default function LorePage() {
     <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">Lore da Campanha</h1>
 
+      <div className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
+        <img
+          src={`${import.meta.env.BASE_URL}lore-party-antiga.png`}
+          alt="O grupo original que derrotou Tiamat em Tyranny of Dragons, com o mestre da campanha ao centro"
+          className="w-full max-w-2xl mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-3"
+        />
+        <p className="text-xs text-center italic text-[var(--muted)]">
+          O grupo original de Tyranny of Dragons, que derrotou Tiamat — o ponto de partida de toda a campanha.
+        </p>
+      </div>
+
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           Sessão 1 — O Necrotério de Thay
         </summary>
         <div className="mt-4">
           <img
-            src={`${import.meta.env.BASE_URL}lore-party-antiga.png`}
-            alt="O grupo original que derrotou Tiamat, com o mestre da campanha ao centro"
-            className="w-full max-w-2xl mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-4"
+            src={`${import.meta.env.BASE_URL}cronicas-de-thay.jpeg`}
+            alt="Crônicas de Thay — pôster da sessão one-shot"
+            className="w-full max-w-md mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-4"
           />
           <p className="text-sm italic text-[var(--muted)] mb-6">
             Epílogo de Tyranny of Dragons / Prólogo de Phandelver and Below: The Shattered Obelisk — D&amp;D 2024 (5.5ª edição). Sessão concluída, grupo subiu para o Nível 4.
