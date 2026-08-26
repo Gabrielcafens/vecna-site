@@ -5764,8 +5764,8 @@
   {
     "key": "boar",
     "name_en": "Boar",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Javali",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Médio",
     "challenge_rating": 0.25,
@@ -5817,17 +5817,17 @@
     "traits": [
       {
         "name_en": "Bloodied Fury",
-        "name_pt": null,
+        "name_pt": "Fúria Ensanguentada",
         "desc_en": "While Bloodied, the boar has Advantage on attack rolls.",
-        "desc_pt": null
+        "desc_pt": "Enquanto Ensanguentado, o javali tem Vantagem em jogadas de ataque."
       }
     ],
     "actions": [
       {
         "name_en": "Gore",
-        "name_pt": null,
+        "name_pt": "Investida",
         "desc_en": "Melee Attack Roll: +3, reach 5 ft. 4 (1d6 + 1) Piercing damage. If the target is a Medium or smaller creature and the boar moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Piercing damage and has the Prone condition.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m. 4 (1d6 + 1) de dano Perfurante. Se o alvo for uma criatura Média ou menor e o javali tiver se movido 6+ metros em linha reta na direção dele imediatamente antes do acerto, o alvo sofre 3 (1d6) de dano Perfurante extra e recebe a condição Caído."
       }
     ],
     "bonus_actions": [],
@@ -6337,8 +6337,8 @@
   {
     "key": "bugbear-warrior",
     "name_en": "Bugbear Warrior",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Bugbear Guerreiro",
+    "translated": true,
     "type_pt": "Feérico",
     "size_pt": "Médio",
     "challenge_rating": 1,
@@ -6399,23 +6399,23 @@
     "traits": [
       {
         "name_en": "Abduct",
-        "name_pt": null,
+        "name_pt": "Sequestrar",
         "desc_en": "The bugbear needn't spend extra movement to move a creature it is grappling.",
-        "desc_pt": null
+        "desc_pt": "O bugbear não precisa gastar movimento extra pra mover uma criatura que está agarrando."
       }
     ],
     "actions": [
       {
         "name_en": "Grab",
-        "name_pt": null,
+        "name_pt": "Agarrar",
         "desc_en": "Melee Attack Roll: +4, reach 10 ft. 9 (2d6 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 12).",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 3 m. 9 (2d6 + 2) de dano de Concussão. Se o alvo for uma criatura Média ou menor, recebe a condição Agarrado (CD de fuga 12)."
       },
       {
         "name_en": "Light Hammer",
-        "name_pt": null,
+        "name_pt": "Martelo Leve",
         "desc_en": "Melee or Ranged Attack Roll: +4 (with Advantage if the target is Grappled by the bugbear), reach 10 ft. or range 20/60 ft. 9 (3d4 + 2) Bludgeoning damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo ou à Distância: +4 (com Vantagem se o alvo estiver Agarrado pelo bugbear), alcance 3 m ou alcance 6/18 m. 9 (3d4 + 2) de dano de Concussão."
       }
     ],
     "bonus_actions": [],
@@ -7486,8 +7486,8 @@
   {
     "key": "commoner",
     "name_en": "Commoner",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Plebeu",
+    "translated": true,
     "type_pt": "Humanoide",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -7539,17 +7539,17 @@
     "traits": [
       {
         "name_en": "Training",
-        "name_pt": null,
+        "name_pt": "Treinamento",
         "desc_en": "The commoner has proficiency in one skill of the DM's choice and has Advantage whenever it makes an ability check using that skill.",
-        "desc_pt": null
+        "desc_pt": "O plebeu tem proficiência em uma perícia à escolha do Mestre e tem Vantagem sempre que faz um teste de habilidade usando essa perícia."
       }
     ],
     "actions": [
       {
         "name_en": "Club",
-        "name_pt": null,
+        "name_pt": "Cassetete",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 2 (1d4) Bludgeoning damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 2 (1d4) de dano de Concussão."
       }
     ],
     "bonus_actions": [],
@@ -7989,8 +7989,8 @@
   {
     "key": "cultist",
     "name_en": "Cultist",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Cultista",
+    "translated": true,
     "type_pt": "Humanoide",
     "size_pt": "Pequeno",
     "challenge_rating": 0.125,
@@ -8052,9 +8052,9 @@
     "actions": [
       {
         "name_en": "Ritual Sickle",
-        "name_pt": null,
+        "name_pt": "Foice Ritual",
         "desc_en": "Melee Attack Roll: +3, reach 5 ft. 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m. 3 (1d4 + 1) de dano Cortante mais 1 de dano Necrótico."
       }
     ],
     "bonus_actions": [],
@@ -8233,8 +8233,8 @@
   {
     "key": "death-dog",
     "name_en": "Death Dog",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Cão da Morte",
+    "translated": true,
     "type_pt": "Monstruosidade",
     "size_pt": "Médio",
     "challenge_rating": 1,
@@ -8296,15 +8296,15 @@
     "actions": [
       {
         "name_en": "Multiattack",
-        "name_pt": null,
+        "name_pt": "Ataque Múltiplo",
         "desc_en": "The death dog makes two Bite attacks.",
-        "desc_pt": null
+        "desc_pt": "O cão da morte faz dois ataques de Mordida."
       },
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. 4 (1d4 + 2) Piercing damage. If the target is a creature, it is subjected to the following effect. Constitution Saving Throw: DC 12. First Failure The target has the Poisoned condition. While Poisoned, the target's Hit Point maximum doesn't return to normal when finishing a Long Rest, and it repeats the save every 24 hours that elapse, ending the effect on itself on a success. Subsequent Failures: The Poisoned target's Hit Point maximum decreases by 5 (1d10).",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 4 (1d4 + 2) de dano Perfurante. Se o alvo for uma criatura, ele sofre o seguinte efeito. Teste de Resistência de Constituição: CD 12. Primeira Falha: O alvo recebe a condição Envenenado. Enquanto Envenenado, o Ponto de Vida máximo do alvo não volta ao normal ao terminar um Descanso Longo, e ele repete o teste a cada 24 horas, encerrando o efeito em si mesmo com sucesso. Falhas Seguintes: O Ponto de Vida máximo do alvo Envenenado diminui em 5 (1d10)."
       }
     ],
     "bonus_actions": [],
@@ -8504,8 +8504,8 @@
   {
     "key": "dire-wolf",
     "name_en": "Dire Wolf",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Lobo Terrível",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Grande",
     "challenge_rating": 1,
@@ -8566,17 +8566,17 @@
     "traits": [
       {
         "name_en": "Pack Tactics",
-        "name_pt": null,
+        "name_pt": "Táticas em Grupo",
         "desc_en": "The wolf has Advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
-        "desc_pt": null
+        "desc_pt": "O lobo tem Vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado do lobo estiver a até 1,5 m da criatura e esse aliado não tiver a condição Incapacitado."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +5, reach 5 ft. 8 (1d10 + 3) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m. 8 (1d10 + 3) de dano Perfurante. Se o alvo for uma criatura Grande ou menor, recebe a condição Caído."
       }
     ],
     "bonus_actions": [],
@@ -14113,8 +14113,8 @@
   {
     "key": "gnoll-warrior",
     "name_en": "Gnoll Warrior",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Gnoll Guerreiro",
+    "translated": true,
     "type_pt": "Ínfero",
     "size_pt": "Médio",
     "challenge_rating": 0.5,
@@ -14167,15 +14167,15 @@
     "actions": [
       {
         "name_en": "Rend",
-        "name_pt": null,
+        "name_pt": "Rasgar",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. 5 (1d6 + 2) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 5 (1d6 + 2) de dano Perfurante."
       },
       {
         "name_en": "Bone Bow",
-        "name_pt": null,
+        "name_pt": "Arco de Osso",
         "desc_en": "Ranged Attack Roll: +3, range 150/600 ft. 6 (1d10 + 1) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque à Distância: +3, alcance 45/180 m. 6 (1d10 + 1) de dano Perfurante."
       }
     ],
     "bonus_actions": [
@@ -15259,8 +15259,8 @@
   {
     "key": "guard",
     "name_en": "Guard",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Guarda",
+    "translated": true,
     "type_pt": "Humanoide",
     "size_pt": "Pequeno",
     "challenge_rating": 0.125,
@@ -15318,9 +15318,9 @@
     "actions": [
       {
         "name_en": "Spear",
-        "name_pt": null,
+        "name_pt": "Lança",
         "desc_en": "Melee or Ranged Attack Roll: +3, reach 5 ft. or range 20/60 ft. 4 (1d6 + 1) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo ou à Distância: +3, alcance 1,5 m ou alcance 6/18 m. 4 (1d6 + 1) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -16343,8 +16343,8 @@
   {
     "key": "hobgoblin-warrior",
     "name_en": "Hobgoblin Warrior",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Hobgoblin Guerreiro",
+    "translated": true,
     "type_pt": "Feérico",
     "size_pt": "Médio",
     "challenge_rating": 0.5,
@@ -16396,23 +16396,23 @@
     "traits": [
       {
         "name_en": "Pack Tactics",
-        "name_pt": null,
+        "name_pt": "Táticas em Grupo",
         "desc_en": "The hobgoblin has Advantage on an attack roll against a creature if at least one of the hobgoblin's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
-        "desc_pt": null
+        "desc_pt": "O hobgoblin tem Vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado do hobgoblin estiver a até 1,5 m da criatura e esse aliado não tiver a condição Incapacitado."
       }
     ],
     "actions": [
       {
         "name_en": "Longsword",
-        "name_pt": null,
+        "name_pt": "Espada Longa",
         "desc_en": "Melee Attack Roll: +3, reach 5 ft. 12 (2d10 + 1) Slashing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m. 12 (2d10 + 1) de dano Cortante."
       },
       {
         "name_en": "Longbow",
-        "name_pt": null,
+        "name_pt": "Arco Longo",
         "desc_en": "Ranged Attack Roll: +3, range 150/600 ft. 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poison damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque à Distância: +3, alcance 45/180 m. 5 (1d8 + 1) de dano Perfurante mais 7 (3d4) de dano de Veneno."
       }
     ],
     "bonus_actions": [],
@@ -20578,8 +20578,8 @@
   {
     "key": "noble",
     "name_en": "Noble",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Nobre",
+    "translated": true,
     "type_pt": "Humanoide",
     "size_pt": "Pequeno",
     "challenge_rating": 0.125,
@@ -20645,9 +20645,9 @@
     "actions": [
       {
         "name_en": "Rapier",
-        "name_pt": null,
+        "name_pt": "Rapieira",
         "desc_en": "Melee Attack Roll: +3, reach 5 ft. 5 (1d8 + 1) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m. 5 (1d8 + 1) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -20884,8 +20884,8 @@
   {
     "key": "ogre",
     "name_en": "Ogre",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Ogro",
+    "translated": true,
     "type_pt": "Gigante",
     "size_pt": "Grande",
     "challenge_rating": 2,
@@ -20938,15 +20938,15 @@
     "actions": [
       {
         "name_en": "Greatclub",
-        "name_pt": null,
+        "name_pt": "Cassetete Grande",
         "desc_en": "Melee Attack Roll: +6, reach 5 ft. 13 (2d8 + 4) Bludgeoning damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +6, alcance 1,5 m. 13 (2d8 + 4) de dano de Concussão."
       },
       {
         "name_en": "Javelin",
-        "name_pt": null,
+        "name_pt": "Azagaia",
         "desc_en": "Melee or Ranged Attack Roll: +6, reach 5 ft. or range 30/120 ft. 11 (2d6 + 4) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo ou à Distância: +6, alcance 1,5 m ou alcance 9/36 m. 11 (2d6 + 4) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -22517,8 +22517,8 @@
   {
     "key": "priest-acolyte",
     "name_en": "Priest Acolyte",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Acólito Sacerdote",
+    "translated": true,
     "type_pt": "Humanoide",
     "size_pt": "Pequeno",
     "challenge_rating": 0.25,
@@ -22580,21 +22580,21 @@
     "actions": [
       {
         "name_en": "Mace",
-        "name_pt": null,
+        "name_pt": "Maça",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. 5 (1d6 + 2) Bludgeoning damage plus 2 (1d4) Radiant damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 5 (1d6 + 2) de dano de Concussão mais 2 (1d4) de dano Radiante."
       },
       {
         "name_en": "Radiant Flame",
-        "name_pt": null,
+        "name_pt": "Chama Radiante",
         "desc_en": "Ranged Attack Roll: +4, range 60 ft. 7 (2d6) Radiant damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque à Distância: +4, alcance 18 m. 7 (2d6) de dano Radiante."
       },
       {
         "name_en": "Spellcasting",
-        "name_pt": null,
+        "name_pt": "Conjuração",
         "desc_en": "The priest casts one of the following spells, using Wisdom as the spellcasting ability:\n\n- **At Will:** Light, Thaumaturgy",
-        "desc_pt": null
+        "desc_pt": "O sacerdote conjura uma das seguintes magias, usando Sabedoria como habilidade de conjuração:\n\n- **À Vontade:** Luz, Taumaturgia"
       }
     ],
     "bonus_actions": [
@@ -24400,8 +24400,8 @@
   {
     "key": "scout",
     "name_en": "Scout",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Batedor",
+    "translated": true,
     "type_pt": "Humanoide",
     "size_pt": "Pequeno",
     "challenge_rating": 0.5,
@@ -24471,21 +24471,21 @@
     "actions": [
       {
         "name_en": "Multiattack",
-        "name_pt": null,
+        "name_pt": "Ataque Múltiplo",
         "desc_en": "The scout makes two attacks, using Shortsword and Longbow in any combination.",
-        "desc_pt": null
+        "desc_pt": "O batedor faz dois ataques, usando Espada Curta e Arco Longo em qualquer combinação."
       },
       {
         "name_en": "Shortsword",
-        "name_pt": null,
+        "name_pt": "Espada Curta",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. 5 (1d6 + 2) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 5 (1d6 + 2) de dano Perfurante."
       },
       {
         "name_en": "Longbow",
-        "name_pt": null,
+        "name_pt": "Arco Longo",
         "desc_en": "Ranged Attack Roll: +4, range 150/600 ft. 6 (1d8 + 2) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque à Distância: +4, alcance 45/180 m. 6 (1d8 + 2) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -26519,8 +26519,8 @@
   {
     "key": "stirge",
     "name_en": "Stirge",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Estirge",
+    "translated": true,
     "type_pt": "Monstruosidade",
     "size_pt": "Pequeno",
     "challenge_rating": 0.125,
@@ -26573,9 +26573,9 @@
     "actions": [
       {
         "name_en": "Proboscis",
-        "name_pt": null,
+        "name_pt": "Probóscide",
         "desc_en": "Melee Attack Roll: +5, reach 5 ft. 6 (1d6 + 3) Piercing damage, and the stirge attaches to the target. While attached, the stirge can't make Proboscis attacks, and the target takes 5 (2d4) Necrotic damage at the start of each of the stirge's turns. The stirge can detach itself by spending 5 feet of its movement. The target or a creature within 5 feet of it can detach the stirge as an action.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m. 6 (1d6 + 3) de dano Perfurante, e o estirge se prende ao alvo. Enquanto preso, o estirge não pode fazer ataques de Probóscide, e o alvo sofre 5 (2d4) de dano Necrótico no início de cada turno do estirge. O estirge pode se soltar gastando 1,5 m do seu movimento. O alvo ou uma criatura a até 1,5 m dele pode soltar o estirge como uma ação."
       }
     ],
     "bonus_actions": [],
@@ -30920,8 +30920,8 @@
   {
     "key": "worg",
     "name_en": "Worg",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Worg",
+    "translated": true,
     "type_pt": "Feérico",
     "size_pt": "Grande",
     "challenge_rating": 0.5,
@@ -30979,9 +30979,9 @@
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +5, reach 5 ft. 7 (1d8 + 3) Piercing damage, and the next attack roll made against the target before the start of the worg's next turn has Advantage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m. 7 (1d8 + 3) de dano Perfurante, e a próxima jogada de ataque contra o alvo antes do início do próximo turno do worg tem Vantagem."
       }
     ],
     "bonus_actions": [],

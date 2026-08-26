@@ -92,6 +92,8 @@ export interface DndClass {
   hit_die: string | null
   saves_pt: string[]
   caster_type_pt: string
+  table_column_names: string[]
+  levels: DndClassLevel[]
   level1_features: ClassFeature[]
 }
 
@@ -103,6 +105,14 @@ export interface Character {
   level: number
   tags: string[]
   notes: string
+  image?: string
+}
+
+export interface DndClassLevel {
+  level: number
+  proficiency_bonus: number
+  features: { name_en: string; name_pt: string | null }[]
+  columns: Record<string, string>
 }
 
 export interface Npc {

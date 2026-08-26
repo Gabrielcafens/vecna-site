@@ -1,0 +1,3697 @@
+[
+  {
+    "key": "barbarian",
+    "name_en": "Barbarian",
+    "name_pt": "Bárbaro",
+    "translated": true,
+    "hit_die": "D12",
+    "saves_pt": [
+      "Constituição",
+      "Força"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "table_column_names": [
+      "Rage Damage",
+      "Rages",
+      "Weapon Mastery"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Rage",
+            "name_pt": "Fúria"
+          },
+          {
+            "name_en": "Unarmored Defense",
+            "name_pt": "Defesa Sem Armadura"
+          },
+          {
+            "name_en": "Weapon Mastery",
+            "name_pt": "Maestria em Armas"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "2",
+          "Maestria em Armas": "2"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Danger Sense",
+            "name_pt": "Senso de Perigo"
+          },
+          {
+            "name_en": "Reckless Attack",
+            "name_pt": "Ataque Imprudente"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "2",
+          "Maestria em Armas": "2"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Barbarian Subclass",
+            "name_pt": "Subclasse de Bárbaro"
+          },
+          {
+            "name_en": "Primal Knowledge",
+            "name_pt": "Conhecimento Primitivo"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "3",
+          "Maestria em Armas": "2"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "3",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Extra Attack",
+            "name_pt": "Ataque Extra"
+          },
+          {
+            "name_en": "Fast Movement",
+            "name_pt": "Movimento Rápido"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "3",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "4",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Feral Instinct",
+            "name_pt": "Instinto Selvagem"
+          },
+          {
+            "name_en": "Instinctive Pounce",
+            "name_pt": "Investida Instintiva"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "4",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+2",
+          "Fúrias": "4",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Brutal Strike",
+            "name_pt": "Golpe Brutal"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "4",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "4",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Relentless Rage",
+            "name_pt": "Fúria Implacável"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "4",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "5",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Improved Brutal Strike",
+            "name_pt": "Golpe Brutal Aprimorado"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "5",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "5",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Persistent Rage",
+            "name_pt": "Fúria Persistente"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+3",
+          "Fúrias": "5",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+4",
+          "Fúrias": "5",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Improved Brutal Strike (Enhanced)",
+            "name_pt": "Golpe Brutal Aprimorado (Melhorado)"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+4",
+          "Fúrias": "6",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Indomitable Might",
+            "name_pt": "Poder Indomável"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+4",
+          "Fúrias": "6",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+4",
+          "Fúrias": "6",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Primal Champion",
+            "name_pt": "Campeão Primitivo"
+          }
+        ],
+        "columns": {
+          "Dano da Fúria": "+4",
+          "Fúrias": "6",
+          "Maestria em Armas": "4"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Rage",
+        "name_pt": "Fúria",
+        "desc_en": "You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhile active, your Rage follows the rules below. *Damage Resistance.* You have Resistance to Bludgeoning, Piercing, and Slashing damage.\n\n**Rage Damage.** When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.\n\n**Strength Advantage.** You have Advantage on Strength checks and Strength saving throws.\n\n**No Concentration or Spells.** You can't maintain Concentration, and you can't cast spells.\n\n**Duration.** The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
+        "desc_pt": "Você pode imbuir-se de um poder primitivo chamado Fúria, uma força que concede vigor e resiliência extraordinários. Você pode entrar em Fúria como uma Ação Bônus se não estiver usando armadura Pesada.\n\nVocê pode entrar em Fúria o número de vezes mostrado para o seu nível de Bárbaro na tabela de Características do Bárbaro. Você recupera um uso gasto ao terminar um Descanso Curto, e recupera todos os usos gastos ao terminar um Descanso Longo.\n\nEnquanto ativa, sua Fúria segue as regras abaixo.\n\n**Resistência a Dano.** Você tem Resistência a dano de Concussão, Perfurante e Cortante.\n\n**Dano da Fúria.** Quando você faz um ataque usando Força — com uma arma ou um Ataque Desarmado — e causa dano ao alvo, você ganha um bônus ao dano que aumenta conforme ganha níveis de Bárbaro, como mostrado na tabela.\n\n**Vantagem em Força.** Você tem Vantagem em testes e salvaguardas de Força.\n\n**Sem Concentração ou Magias.** Você não pode manter Concentração, e não pode conjurar magias.\n\n**Duração.** A Fúria dura até o final do seu próximo turno, e termina antes se você vestir armadura Pesada ou tiver a condição Incapacitado. Se sua Fúria ainda estiver ativa no seu próximo turno, você pode estendê-la por mais uma rodada fazendo uma das seguintes ações: fazer uma jogada de ataque contra um inimigo; forçar um inimigo a fazer uma salvaguarda; ou usar uma Ação Bônus para estender a Fúria.\n\nCada vez que a Fúria é estendida, ela dura até o final do seu próximo turno. Você pode manter uma Fúria por até 10 minutos."
+      },
+      {
+        "name_en": "Unarmored Defense",
+        "name_pt": "Defesa Sem Armadura",
+        "desc_en": "While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",
+        "desc_pt": "Enquanto não estiver usando nenhuma armadura, sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Constituição. Você pode usar um Escudo e ainda obter esse benefício."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas Corpo a Corpo Simples ou Marciais à sua escolha, como Machados Grandes e Machadinhas. Sempre que terminar um Descanso Longo, você pode praticar exercícios com armas e trocar uma dessas escolhas.\n\nAo atingir certos níveis de Bárbaro, você ganha a habilidade de usar as propriedades de maestria de mais tipos de armas, como mostrado na tabela de Características do Bárbaro."
+      }
+    ]
+  },
+  {
+    "key": "bard",
+    "name_en": "Bard",
+    "name_pt": "Bardo",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Carisma",
+      "Destreza"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Bardic Die",
+      "Cantrips",
+      "Prepared Spells"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Bardic Inspiration",
+            "name_pt": "Inspiração de Bardo"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D6",
+          "Truques": "2",
+          "Magias Preparadas": "4"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Expertise",
+            "name_pt": "Especialização"
+          },
+          {
+            "name_en": "Jack of All Trades",
+            "name_pt": "Pau pra Toda Obra"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D6",
+          "Truques": "2",
+          "Magias Preparadas": "5"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D6",
+          "Truques": "2",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D6",
+          "Truques": "3",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Font of Inspiration",
+            "name_pt": "Fonte de Inspiração"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D8",
+          "Truques": "3",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D8",
+          "Truques": "3",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Countercharm",
+            "name_pt": "Contracanto"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D8",
+          "Truques": "3",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D8",
+          "Truques": "3",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D8",
+          "Truques": "3",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Magical Secrets",
+            "name_pt": "Segredos Mágicos"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D10",
+          "Truques": "4",
+          "Magias Preparadas": "15"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D10",
+          "Truques": "4",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D10",
+          "Truques": "4",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D10",
+          "Truques": "4",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D10",
+          "Truques": "4",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D12",
+          "Truques": "4",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D12",
+          "Truques": "4",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Dado de Bardo": "D12",
+          "Truques": "4",
+          "Magias Preparadas": "19"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Superior Inspiration",
+            "name_pt": "Inspiração Superior"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D12",
+          "Truques": "4",
+          "Magias Preparadas": "20"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D12",
+          "Truques": "4",
+          "Magias Preparadas": "21"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Words of Creation",
+            "name_pt": "Palavras da Criação"
+          }
+        ],
+        "columns": {
+          "Dado de Bardo": "D12",
+          "Truques": "4",
+          "Magias Preparadas": "22"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Bardic Inspiration",
+        "name_pt": "Inspiração de Bardo",
+        "desc_en": "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.\n\n**Using Bardic Inspiration.** As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.\n\nOnce within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.\n\n**Number of Uses.** You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**At Higher Levels.** Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.",
+        "desc_pt": "Você pode inspirar sobrenaturalmente outras pessoas por meio de palavras, música ou dança. Essa inspiração é representada pelo seu dado de Inspiração de Bardo, que é um d6.\n\n**Usando a Inspiração de Bardo.** Como uma Ação Bônus, você pode inspirar outra criatura a até 18 m de você que possa ver ou ouvir você. Essa criatura ganha um de seus dados de Inspiração de Bardo. Uma criatura só pode ter um dado de Inspiração de Bardo por vez.\n\nUma vez dentro da próxima hora, quando a criatura falhar em um Teste de d20, ela pode rolar o dado de Inspiração de Bardo e somar o resultado ao d20, potencialmente transformando a falha em sucesso. O dado é gasto quando é rolado.\n\n**Número de Usos.** Você pode conceder um dado de Inspiração de Bardo um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e recupera todos os usos gastos ao terminar um Descanso Longo.\n\n**Em Níveis Superiores.** Seu dado de Inspiração de Bardo muda quando você atinge certos níveis de Bardo. O dado se torna um d8 no nível 5, um d10 no nível 10 e um d12 no nível 15."
+      }
+    ]
+  },
+  {
+    "key": "cleric",
+    "name_en": "Cleric",
+    "name_pt": "Clérigo",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Carisma",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Cantrips",
+      "Channel Divinity",
+      "Prepared Spells"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Divine Order",
+            "name_pt": "Ordem Divina"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "4"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Channel Divinity",
+            "name_pt": "Canalizar Divindade"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "5"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Cleric Subclasses",
+            "name_pt": "Subclasses de Clérigo"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Sear Undead",
+            "name_pt": "Queimar Mortos-Vivos"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Blessed Strikes",
+            "name_pt": "Golpes Abençoados"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Divine Intervention",
+            "name_pt": "Intervenção Divina"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "15"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Improved Blessed Strikes",
+            "name_pt": "Golpes Abençoados Aprimorados"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "19"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "4",
+          "Magias Preparadas": "20"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "4",
+          "Magias Preparadas": "21"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Greater Divine Intervention",
+            "name_pt": "Intervenção Divina Maior"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Canalizar Divindade": "4",
+          "Magias Preparadas": "22"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Divine Order",
+        "name_pt": "Ordem Divina",
+        "desc_en": "You have dedicated yourself to one of the following sacred roles of your choice.\n\n**Protector.** Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.\n\n**Thaumaturge.** You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).",
+        "desc_pt": "Você se dedicou a um dos seguintes papéis sagrados à sua escolha.\n\n**Protetor.** Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armadura Pesada.\n\n**Taumaturgo.** Você conhece um truque extra da lista de magias de Clérigo. Além disso, sua conexão mística com o divino concede um bônus aos seus testes de Inteligência (Arcanismo ou Religião). O bônus é igual ao seu modificador de Sabedoria (mínimo de +1)."
+      }
+    ]
+  },
+  {
+    "key": "druid",
+    "name_en": "Druid",
+    "name_pt": "Druida",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Inteligência",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Cantrips",
+      "Prepared Spells"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Druidic",
+            "name_pt": "Druídico"
+          },
+          {
+            "name_en": "Primal Order",
+            "name_pt": "Ordem Primitiva"
+          }
+        ],
+        "columns": {
+          "Truques": "2",
+          "Magias Preparadas": "4"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Wild Companion",
+            "name_pt": "Companheiro Selvagem"
+          },
+          {
+            "name_en": "Wild Shape",
+            "name_pt": "Forma Selvagem"
+          }
+        ],
+        "columns": {
+          "Truques": "2",
+          "Magias Preparadas": "5"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Druid Subclass",
+            "name_pt": "Subclasse de Druida"
+          }
+        ],
+        "columns": {
+          "Truques": "2",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Wild Resurgence",
+            "name_pt": "Ressurgimento Selvagem"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Elemental Fury",
+            "name_pt": "Fúria Elemental"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "15"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Improved Elemental Fury",
+            "name_pt": "Fúria Elemental Aprimorada"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "19"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Beast Spells",
+            "name_pt": "Magias da Fera"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "20"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "21"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Archdruid",
+            "name_pt": "Arquidruida"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "22"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Druidic",
+        "name_pt": "Druídico",
+        "desc_en": "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the *Speak with Animals* spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic.",
+        "desc_pt": "Você conhece o Druídico, a língua secreta dos Druidas. Ao aprender essa língua ancestral, você também desbloqueou a magia de se comunicar com animais; você sempre tem a magia *Falar com Animais* preparada.\n\nVocê pode usar o Druídico para deixar mensagens ocultas. Você e outros que conheçam o Druídico percebem automaticamente tal mensagem. Outros percebem a presença da mensagem com um teste de Inteligência (Investigação) CD 15 bem-sucedido, mas não conseguem decifrá-la sem magia."
+      },
+      {
+        "name_en": "Primal Order",
+        "name_pt": "Ordem Primitiva",
+        "desc_en": "You have dedicated yourself to one of the following sacred roles of your choice.\n\n**Magician.** You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).\n\n**Warden.** Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",
+        "desc_pt": "Você se dedicou a um dos seguintes papéis sagrados à sua escolha.\n\n**Mago.** Você conhece um truque extra da lista de magias de Druida. Além disso, sua conexão mística com a natureza concede um bônus aos seus testes de Inteligência (Arcanismo ou Natureza). O bônus é igual ao seu modificador de Sabedoria (bônus mínimo de +1).\n\n**Guardião.** Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armadura Média."
+      }
+    ]
+  },
+  {
+    "key": "fighter",
+    "name_en": "Fighter",
+    "name_pt": "Guerreiro",
+    "translated": true,
+    "hit_die": "D10",
+    "saves_pt": [
+      "Destreza",
+      "Força"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "table_column_names": [
+      "Second Wind",
+      "Weapon Mastery"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Fighting Style",
+            "name_pt": "Estilo de Luta"
+          },
+          {
+            "name_en": "Second Wind",
+            "name_pt": "Fôlego Extra"
+          },
+          {
+            "name_en": "Weapon Mastery",
+            "name_pt": "Maestria em Armas"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "2",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Action Surge",
+            "name_pt": "Surto de Ação"
+          },
+          {
+            "name_en": "Tactical Mind",
+            "name_pt": "Mente Tática"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "2",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Fighter Subclass",
+            "name_pt": "Subclasse de Guerreiro"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "2",
+          "Maestria em Armas": "3"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "3",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Extra Attack",
+            "name_pt": "Ataque Extra"
+          },
+          {
+            "name_en": "Tactical Shift",
+            "name_pt": "Mudança Tática"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "3",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "3",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Fôlego Extra": "3",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "3",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Indomitable",
+            "name_pt": "Indomável"
+          },
+          {
+            "name_en": "Tactical Master",
+            "name_pt": "Mestre Tático"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "3",
+          "Maestria em Armas": "4"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "5"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Two Extra Attacks",
+            "name_pt": "Dois Ataques Extras"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "5"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "5"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Indomitable",
+            "name_pt": "Indomável"
+          },
+          {
+            "name_en": "Studdied Attacks",
+            "name_pt": "Ataques Estudados"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "5"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "5"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "5"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "6"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Action Surge",
+            "name_pt": "Surto de Ação"
+          },
+          {
+            "name_en": "Indomitable",
+            "name_pt": "Indomável"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "6"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "6"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "6"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Three Extra Attacks",
+            "name_pt": "Três Ataques Extras"
+          }
+        ],
+        "columns": {
+          "Fôlego Extra": "4",
+          "Maestria em Armas": "6"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Fighting Style",
+        "name_pt": "Estilo de Luta",
+        "desc_en": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see \"Feats\"). Defense is recommended.\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.",
+        "desc_pt": "Você aperfeiçoou sua destreza marcial e ganha um talento de Estilo de Luta à sua escolha (veja \"Talentos\"). Defesa é recomendado.\n\nSempre que ganhar um nível de Guerreiro, você pode trocar o talento escolhido por um talento de Estilo de Luta diferente."
+      },
+      {
+        "name_en": "Second Wind",
+        "name_pt": "Fôlego Extra",
+        "desc_en": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.",
+        "desc_pt": "Você tem uma reserva limitada de resistência física e mental da qual pode recorrer. Como uma Ação Bônus, você pode usá-la para recuperar Pontos de Vida iguais a 1d10 mais seu nível de Guerreiro.\n\nVocê pode usar essa característica duas vezes. Você recupera um uso gasto ao terminar um Descanso Curto, e recupera todos os usos gastos ao terminar um Descanso Longo."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de três tipos de armas Simples ou Marciais à sua escolha. Sempre que terminar um Descanso Longo, você pode praticar exercícios com armas e trocar uma dessas escolhas."
+      }
+    ]
+  },
+  {
+    "key": "monk",
+    "name_en": "Monk",
+    "name_pt": "Monge",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Destreza",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "table_column_names": [
+      "Focus Points",
+      "Martial Arts"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Martial Arts",
+            "name_pt": "Artes Marciais"
+          },
+          {
+            "name_en": "Unarmored Defense",
+            "name_pt": "Defesa Sem Armadura"
+          }
+        ],
+        "columns": {
+          "Artes Marciais": "1d6"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Monk's Focus",
+            "name_pt": "Foco de Monge"
+          },
+          {
+            "name_en": "Unarmoed Movement",
+            "name_pt": "Movimento Desarmado"
+          },
+          {
+            "name_en": "Uncanny Metabolism",
+            "name_pt": "Metabolismo Sobrenatural"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "2",
+          "Artes Marciais": "1d6"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Monk Subclass",
+            "name_pt": "Subclasse de Monge"
+          },
+          {
+            "name_en": "Stunning Strike",
+            "name_pt": "Golpe Atordoante"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "3",
+          "Artes Marciais": "1d6"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          },
+          {
+            "name_en": "Slow Fall",
+            "name_pt": "Queda Suave"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "4",
+          "Artes Marciais": "1d6"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Extra Attack",
+            "name_pt": "Ataque Extra"
+          },
+          {
+            "name_en": "Stunning Strike",
+            "name_pt": "Golpe Atordoante"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "5",
+          "Artes Marciais": "1d8"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Empowered Strikes",
+            "name_pt": "Golpes Potencializados"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "6",
+          "Artes Marciais": "1d8"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Evasion",
+            "name_pt": "Evasão"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "7",
+          "Artes Marciais": "1d8"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "8",
+          "Artes Marciais": "1d8"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Acrobatic Movement",
+            "name_pt": "Movimento Acrobático"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "9",
+          "Artes Marciais": "1d8"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Heightened Focus",
+            "name_pt": "Foco Aguçado"
+          },
+          {
+            "name_en": "Self-Restoration",
+            "name_pt": "Autorrestauração"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "10",
+          "Artes Marciais": "1d8"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Pontos de Foco": "11",
+          "Artes Marciais": "1d10"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "12",
+          "Artes Marciais": "1d10"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Deflect Energy",
+            "name_pt": "Desviar Energia"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "13",
+          "Artes Marciais": "1d10"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Disciplined Survivor",
+            "name_pt": "Sobrevivente Disciplinado"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "14",
+          "Artes Marciais": "1d10"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Perfect Focus",
+            "name_pt": "Foco Perfeito"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "15",
+          "Artes Marciais": "1d10"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "16",
+          "Artes Marciais": "1d10"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Pontos de Foco": "17",
+          "Artes Marciais": "1d12"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Superior Defense",
+            "name_pt": "Defesa Superior"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "18",
+          "Artes Marciais": "1d12"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "19",
+          "Artes Marciais": "1d12"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Body and Mind",
+            "name_pt": "Corpo e Mente"
+          }
+        ],
+        "columns": {
+          "Pontos de Foco": "20",
+          "Artes Marciais": "1d12"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Martial Arts",
+        "name_pt": "Artes Marciais",
+        "desc_en": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons\n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\n**Bonus Unarmed Strike.** You can make an Unarmed Strike as a Bonus Action.\n\n**Martial Arts Die.** You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\n**Dexterous Attacks.** You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.",
+        "desc_pt": "Sua prática de artes marciais concede domínio de estilos de combate que usam seu Ataque Desarmado e armas de Monge (armas Corpo a Corpo Simples e armas Corpo a Corpo Marciais com a propriedade Leve).\n\nVocê ganha os seguintes benefícios enquanto estiver desarmado ou empunhando apenas armas de Monge, sem usar armadura ou empunhar um Escudo.\n\n**Ataque Desarmado Bônus.** Você pode fazer um Ataque Desarmado como uma Ação Bônus.\n\n**Dado de Artes Marciais.** Você pode rolar 1d6 no lugar do dano normal do seu Ataque Desarmado ou armas de Monge. Esse dado muda conforme você ganha níveis de Monge.\n\n**Ataques Destros.** Você pode usar seu modificador de Destreza em vez de Força para as jogadas de ataque e dano de Ataques Desarmados e armas de Monge. Além disso, ao usar a opção Agarrar ou Empurrar do seu Ataque Desarmado, você pode usar seu modificador de Destreza em vez de Força para determinar a CD da salvaguarda."
+      },
+      {
+        "name_en": "Unarmored Defense",
+        "name_pt": "Defesa Sem Armadura",
+        "desc_en": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",
+        "desc_pt": "Enquanto não estiver usando armadura ou empunhando um Escudo, sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Sabedoria."
+      }
+    ]
+  },
+  {
+    "key": "paladin",
+    "name_en": "Paladin",
+    "name_pt": "Paladino",
+    "translated": true,
+    "hit_die": "D10",
+    "saves_pt": [
+      "Carisma",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Meio conjurador",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Channel Divinity",
+      "Prepared Spells"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Lay On Hands",
+            "name_pt": "Imposição de Mãos"
+          },
+          {
+            "name_en": "Weapon Mastery",
+            "name_pt": "Maestria em Armas"
+          }
+        ],
+        "columns": {
+          "Magias Preparadas": "2"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Fighting Style",
+            "name_pt": "Estilo de Luta"
+          },
+          {
+            "name_en": "Paladin's Smite",
+            "name_pt": "Investida do Paladino"
+          }
+        ],
+        "columns": {
+          "Magias Preparadas": "3"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Channel Divinity",
+            "name_pt": "Canalizar Divindade"
+          },
+          {
+            "name_en": "Paladin Subclass",
+            "name_pt": "Subclasse de Paladino"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "4"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "5"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Extra Attack",
+            "name_pt": "Ataque Extra"
+          },
+          {
+            "name_en": "Faithful Steed",
+            "name_pt": "Montaria Fiel"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Aura of Protection",
+            "name_pt": "Aura de Proteção"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Abjure Foes",
+            "name_pt": "Repelir Inimigos"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Aura of Courage",
+            "name_pt": "Aura de Coragem"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "2",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Radiant Strikes",
+            "name_pt": "Golpes Radiantes"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Restoring Touch",
+            "name_pt": "Toque Restaurador"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Aura Expansion",
+            "name_pt": "Expansão da Aura"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "15"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Canalizar Divindade": "3",
+          "Magias Preparadas": "15"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Lay On Hands",
+        "name_pt": "Imposição de Mãos",
+        "desc_en": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.",
+        "desc_pt": "Seu toque abençoado pode curar ferimentos. Você tem uma reserva de poder de cura que se restaura ao terminar um Descanso Longo. Com essa reserva, você pode restaurar um total de Pontos de Vida igual a cinco vezes seu nível de Paladino.\n\nComo uma Ação Bônus, você pode tocar uma criatura (que pode ser você mesmo) e usar a reserva de cura para restaurar uma quantidade de Pontos de Vida a essa criatura, até o máximo restante na reserva.\n\nVocê também pode gastar 5 Pontos de Vida da reserva de cura para remover a condição Envenenado de uma criatura; esses pontos não restauram Pontos de Vida também."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas à sua escolha com as quais tem proficiência, como Espadas Longas e Azagaias.\n\nSempre que terminar um Descanso Longo, você pode trocar os tipos de armas escolhidos."
+      }
+    ]
+  },
+  {
+    "key": "ranger",
+    "name_en": "Ranger",
+    "name_pt": "Patrulheiro",
+    "translated": true,
+    "hit_die": "D10",
+    "saves_pt": [
+      "Destreza",
+      "Força"
+    ],
+    "caster_type_pt": "Meio conjurador",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Favored Enemy",
+      "Prepared Spells"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Favored Enemy",
+            "name_pt": "Inimigo Favorito"
+          },
+          {
+            "name_en": "Weapon Mastery",
+            "name_pt": "Maestria em Armas"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "2",
+          "Magias Preparadas": "2"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Deft Explorer",
+            "name_pt": "Explorador Habilidoso"
+          },
+          {
+            "name_en": "Fighting Style",
+            "name_pt": "Estilo de Luta"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "2",
+          "Magias Preparadas": "3"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ranger Subclass",
+            "name_pt": "Subclasse de Patrulheiro"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "2",
+          "Magias Preparadas": "4"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "2",
+          "Magias Preparadas": "5"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Extra Attack",
+            "name_pt": "Ataque Extra"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "3",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Roving",
+            "name_pt": "Vagante"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "3",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Inimigo Favorito": "3",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "3",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Expertise",
+            "name_pt": "Especialização"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "4",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Tireless",
+            "name_pt": "Incansável"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "4",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Inimigo Favorito": "4",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "4",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Relentless Hunter",
+            "name_pt": "Caçador Implacável"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "5",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Nature's Veil",
+            "name_pt": "Véu da Natureza"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "5",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Inimigo Favorito": "5",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "5",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Precise Hunter",
+            "name_pt": "Caçador Preciso"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "6",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Feral Senses",
+            "name_pt": "Sentidos Selvagens"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "6",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "6",
+          "Magias Preparadas": "15"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Foe Slayer",
+            "name_pt": "Matador de Inimigos"
+          }
+        ],
+        "columns": {
+          "Inimigo Favorito": "6",
+          "Magias Preparadas": "15"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Favored Enemy",
+        "name_pt": "Inimigo Favorito",
+        "desc_en": "You always have the *Hunter's Mark* spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.",
+        "desc_pt": "Você sempre tem a magia *Marca do Caçador* preparada. Você pode conjurá-la duas vezes sem gastar um espaço de magia, e recupera todos os usos gastos dessa habilidade ao terminar um Descanso Longo.\n\nO número de vezes que você pode conjurar a magia sem um espaço de magia aumenta ao atingir certos níveis de Patrulheiro."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas à sua escolha com as quais tem proficiência, como Arcos Longos e Espadas Curtas.\n\nSempre que terminar um Descanso Longo, você pode trocar os tipos de armas escolhidos."
+      }
+    ]
+  },
+  {
+    "key": "rogue",
+    "name_en": "Rogue",
+    "name_pt": "Ladino",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Destreza",
+      "Inteligência"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "table_column_names": [
+      "Sneak Attack"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Expertise",
+            "name_pt": "Especialização"
+          },
+          {
+            "name_en": "Sneak Attack",
+            "name_pt": "Ataque Furtivo"
+          },
+          {
+            "name_en": "Thieves' Cant",
+            "name_pt": "Gíria de Ladrão"
+          },
+          {
+            "name_en": "Weapon Mastery",
+            "name_pt": "Maestria em Armas"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "1d6"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Cunning Action",
+            "name_pt": "Ação Ardilosa"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "1d6"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Rogue Subclass",
+            "name_pt": "Subclasse de Ladino"
+          },
+          {
+            "name_en": "Steady Aim",
+            "name_pt": "Mira Firme"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "2d6"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "2d6"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Cunning Strike",
+            "name_pt": "Golpe Ardiloso"
+          },
+          {
+            "name_en": "Uncanny Dodge",
+            "name_pt": "Esquiva Sobrenatural"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "3d6"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Expertise",
+            "name_pt": "Especialização"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "3d6"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Evasion",
+            "name_pt": "Evasão"
+          },
+          {
+            "name_en": "Reliable Talent",
+            "name_pt": "Talento Confiável"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "4d6"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "4d6"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Ataque Furtivo": "5d6"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Ataque Furtivo": "5d6"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Improved Cunning Strike",
+            "name_pt": "Golpe Ardiloso Aprimorado"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "6d6"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "6d6"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Ataque Furtivo": "7d6"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Devious Strikes",
+            "name_pt": "Golpes Desonestos"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "7d6"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Slippery Mind",
+            "name_pt": "Mente Escorregadia"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "8d6"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "8d6"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Ataque Furtivo": "9d6"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Elusive",
+            "name_pt": "Elusivo"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "9d6"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "10d6"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Stroke of Luck",
+            "name_pt": "Golpe de Sorte"
+          }
+        ],
+        "columns": {
+          "Ataque Furtivo": "10d6"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Expertise",
+        "name_pt": "Especialização",
+        "desc_en": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
+        "desc_pt": "Você ganha Especialização em duas de suas proficiências em perícias à sua escolha. Prestidigitação e Furtividade são recomendadas se você tiver proficiência nelas.\n\nNo nível 6 de Ladino, você ganha Especialização em mais duas de suas proficiências em perícias à sua escolha."
+      },
+      {
+        "name_en": "Sneak Attack",
+        "name_pt": "Ataque Furtivo",
+        "desc_en": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nThe extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.",
+        "desc_pt": "Você sabe golpear sutilmente e explorar a distração de um inimigo. Uma vez por turno, você pode causar 1d6 de dano extra a uma criatura que acertar com uma jogada de ataque se tiver Vantagem na jogada e o ataque usar uma arma Sutil ou à Distância. O tipo do dano extra é o mesmo da arma.\n\nVocê não precisa de Vantagem na jogada de ataque se pelo menos um aliado estiver a até 1,5 m do alvo, esse aliado não tiver a condição Incapacitado, e você não tiver Desvantagem na jogada de ataque.\n\nO dano extra aumenta conforme você ganha níveis de Ladino."
+      },
+      {
+        "name_en": "Thieves' Cant",
+        "name_pt": "Gíria de Ladrão",
+        "desc_en": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\"",
+        "desc_pt": "Você aprendeu vários idiomas nas comunidades onde exerceu seus talentos ladinos. Você conhece a Gíria de Ladrão e mais um idioma à sua escolha."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas à sua escolha com as quais tem proficiência, como Adagas e Arcos Curtos.\n\nSempre que terminar um Descanso Longo, você pode trocar os tipos de armas escolhidos."
+      }
+    ]
+  },
+  {
+    "key": "sorcerer",
+    "name_en": "Sorcerer",
+    "name_pt": "Feiticeiro",
+    "translated": true,
+    "hit_die": "D6",
+    "saves_pt": [
+      "Carisma",
+      "Constituição"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Cantrips",
+      "Prepared Spells",
+      "Sorcery Points"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Innate Sorcery",
+            "name_pt": "Feitiçaria Inata"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "2"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Font of Magic",
+            "name_pt": "Fonte de Magia"
+          },
+          {
+            "name_en": "Metamagic",
+            "name_pt": "Metamagia"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "4",
+          "Pontos de Feitiçaria": "2"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Sorcerer Subclass",
+            "name_pt": "Subclasse de Feiticeiro"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "6",
+          "Pontos de Feitiçaria": "3"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "7",
+          "Pontos de Feitiçaria": "4"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Sorcerous Restoration",
+            "name_pt": "Restauração Feiticeira"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "9",
+          "Pontos de Feitiçaria": "5"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "10",
+          "Pontos de Feitiçaria": "6"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Sorcery Incarnate",
+            "name_pt": "Feitiçaria Encarnada"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "11",
+          "Pontos de Feitiçaria": "7"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "12",
+          "Pontos de Feitiçaria": "8"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "14",
+          "Pontos de Feitiçaria": "9"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Metamagic",
+            "name_pt": "Metamagia"
+          }
+        ],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "15",
+          "Pontos de Feitiçaria": "10"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "16",
+          "Pontos de Feitiçaria": "11"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "16",
+          "Pontos de Feitiçaria": "12"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "17",
+          "Pontos de Feitiçaria": "13"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "17",
+          "Pontos de Feitiçaria": "14"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "18",
+          "Pontos de Feitiçaria": "15"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "18",
+          "Pontos de Feitiçaria": "16"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "19",
+          "Pontos de Feitiçaria": "17"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "20",
+          "Pontos de Feitiçaria": "18"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "21",
+          "Pontos de Feitiçaria": "19"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Arcane Apotheosis",
+            "name_pt": "Apoteose Arcana"
+          }
+        ],
+        "columns": {
+          "Truques": "6",
+          "Magias Preparadas": "22",
+          "Pontos de Feitiçaria": "20"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Innate Sorcery",
+        "name_pt": "Feitiçaria Inata",
+        "desc_en": "An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:\n\n- The spell save DC of your Sorcerer spells increases by 1.\n- You have Advantage on the attack rolls of Sorcerer spells you cast.\n\nYou can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.",
+        "desc_pt": "Um evento em seu passado deixou uma marca indelével em você, infundindo-o com magia latente. Como uma Ação Bônus, você pode liberar essa magia por 1 minuto, durante o qual ganha os seguintes benefícios:\n\n- A CD de resistência de magia de suas magias de Feiticeiro aumenta em 1.\n- Você tem Vantagem nas jogadas de ataque de magias de Feiticeiro que conjurar.\n\nVocê pode usar essa característica duas vezes, e recupera todos os usos gastos ao terminar um Descanso Longo."
+      }
+    ]
+  },
+  {
+    "key": "warlock",
+    "name_en": "Warlock",
+    "name_pt": "Bruxo",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Carisma",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Magia de Pacto",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Cantrips",
+      "Eldritch Invocations",
+      "Prepared Spells",
+      "Slot Level",
+      "Spell Slots"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Eldritch Invocations",
+            "name_pt": "Invocações Élficas"
+          }
+        ],
+        "columns": {
+          "Truques": "2",
+          "Invocações Élficas": "1",
+          "Magias Preparadas": "2",
+          "Círculo do Espaço": "1º",
+          "Espaços de Magia": "1"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Magic Cunning",
+            "name_pt": "Astúcia Mágica"
+          }
+        ],
+        "columns": {
+          "Truques": "2",
+          "Invocações Élficas": "3",
+          "Magias Preparadas": "3",
+          "Círculo do Espaço": "1º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Warlock Subclass",
+            "name_pt": "Subclasse de Bruxo"
+          }
+        ],
+        "columns": {
+          "Truques": "2",
+          "Invocações Élficas": "3",
+          "Magias Preparadas": "4",
+          "Círculo do Espaço": "2º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Invocações Élficas": "3",
+          "Magias Preparadas": "5",
+          "Círculo do Espaço": "2º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "3",
+          "Invocações Élficas": "5",
+          "Magias Preparadas": "6",
+          "Círculo do Espaço": "3º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "3",
+          "Invocações Élficas": "5",
+          "Magias Preparadas": "7",
+          "Círculo do Espaço": "3º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "3",
+          "Invocações Élficas": "6",
+          "Magias Preparadas": "8",
+          "Círculo do Espaço": "4º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Invocações Élficas": "6",
+          "Magias Preparadas": "9",
+          "Círculo do Espaço": "4º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Contact Patron",
+            "name_pt": "Contatar Patrono"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Invocações Élficas": "7",
+          "Magias Preparadas": "10",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "7",
+          "Magias Preparadas": "10",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "2"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Mystic Arcanum",
+            "name_pt": "Arcano Místico"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "7",
+          "Magias Preparadas": "11",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "3"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "8",
+          "Magias Preparadas": "11",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "3"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Mystic Arcanum",
+            "name_pt": "Arcano Místico"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "8",
+          "Magias Preparadas": "12",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "3"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "8",
+          "Magias Preparadas": "12",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "3"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Mystic Arcanum",
+            "name_pt": "Arcano Místico"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "9",
+          "Magias Preparadas": "13",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "3"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "9",
+          "Magias Preparadas": "13",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "3"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Mystic Arcanum",
+            "name_pt": "Arcano Místico"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "9",
+          "Magias Preparadas": "14",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "4"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "10",
+          "Magias Preparadas": "14",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "4"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "10",
+          "Magias Preparadas": "15",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "4"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Eldritch Master",
+            "name_pt": "Mestre Élfico"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Invocações Élficas": "10",
+          "Magias Preparadas": "15",
+          "Círculo do Espaço": "5º",
+          "Espaços de Magia": "4"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Eldritch Invocations",
+        "name_pt": "Invocações Élficas",
+        "desc_en": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\n\n**Prerequisites.** If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.\n\n**Replacing and Gaining Invocations.** Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.\n\nYou can't pick the same invocation more than once unless its description says otherwise.",
+        "desc_pt": "Você desenterrou Invocações Élficas, fragmentos de conhecimento proibido que lhe concedem uma habilidade mágica duradoura ou outras lições. Você ganha uma invocação à sua escolha, como Pacto do Tomo.\n\n**Pré-requisitos.** Se uma invocação tiver um pré-requisito, você deve cumpri-lo para aprendê-la.\n\n**Trocando e Ganhando Invocações.** Sempre que ganhar um nível de Bruxo, você pode trocar uma de suas invocações por outra para a qual se qualifique. Você não pode trocar uma invocação se ela for pré-requisito de outra que você possua.\n\nVocê não pode escolher a mesma invocação mais de uma vez, a menos que sua descrição diga o contrário."
+      }
+    ]
+  },
+  {
+    "key": "wizard",
+    "name_en": "Wizard",
+    "name_pt": "Mago",
+    "translated": true,
+    "hit_die": "D6",
+    "saves_pt": [
+      "Inteligência",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "table_column_names": [
+      "Cantrips",
+      "Prepared Spells"
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Arcane Recovery",
+            "name_pt": "Recuperação Arcana"
+          },
+          {
+            "name_en": "Ritual Adept",
+            "name_pt": "Adepto de Rituais"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "4"
+        }
+      },
+      {
+        "level": 2,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Scholar",
+            "name_pt": "Erudito"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "5"
+        }
+      },
+      {
+        "level": 3,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Wizard Subclass",
+            "name_pt": "Subclasse de Mago"
+          }
+        ],
+        "columns": {
+          "Truques": "3",
+          "Magias Preparadas": "6"
+        }
+      },
+      {
+        "level": 4,
+        "proficiency_bonus": 2,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "7"
+        }
+      },
+      {
+        "level": 5,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Memorize Spell",
+            "name_pt": "Memorizar Magia"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "9"
+        }
+      },
+      {
+        "level": 6,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "10"
+        }
+      },
+      {
+        "level": 7,
+        "proficiency_bonus": 3,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "11"
+        }
+      },
+      {
+        "level": 8,
+        "proficiency_bonus": 3,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "12"
+        }
+      },
+      {
+        "level": 9,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "4",
+          "Magias Preparadas": "14"
+        }
+      },
+      {
+        "level": 10,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "15"
+        }
+      },
+      {
+        "level": 11,
+        "proficiency_bonus": 4,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 12,
+        "proficiency_bonus": 4,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "16"
+        }
+      },
+      {
+        "level": 13,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "17"
+        }
+      },
+      {
+        "level": 14,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "18"
+        }
+      },
+      {
+        "level": 15,
+        "proficiency_bonus": 5,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "19"
+        }
+      },
+      {
+        "level": 16,
+        "proficiency_bonus": 5,
+        "features": [
+          {
+            "name_en": "Ability Score Improvement",
+            "name_pt": "Aprimoramento de Valor de Habilidade"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "21"
+        }
+      },
+      {
+        "level": 17,
+        "proficiency_bonus": 6,
+        "features": [],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "22"
+        }
+      },
+      {
+        "level": 18,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Spell Mastery",
+            "name_pt": "Maestria em Magia"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "23"
+        }
+      },
+      {
+        "level": 19,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Epic Boon",
+            "name_pt": "Dádiva Épica"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "24"
+        }
+      },
+      {
+        "level": 20,
+        "proficiency_bonus": 6,
+        "features": [
+          {
+            "name_en": "Signature Spells",
+            "name_pt": "Magias Características"
+          }
+        ],
+        "columns": {
+          "Truques": "5",
+          "Magias Preparadas": "25"
+        }
+      }
+    ],
+    "level1_features": [
+      {
+        "name_en": "Arcane Recovery",
+        "name_pt": "Recuperação Arcana",
+        "desc_en": "You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest.",
+        "desc_pt": "Você pode recuperar parte de sua energia mágica estudando seu grimório. Ao terminar um Descanso Curto, você pode escolher espaços de magia gastos para recuperar. Os espaços recuperados podem ter um círculo combinado não superior à metade do seu nível de Mago (arredondado para cima), e nenhum pode ser de círculo 6 ou superior.\n\nDepois de usar essa característica, você não pode fazê-lo novamente até terminar um Descanso Longo."
+      },
+      {
+        "name_en": "Ritual Adept",
+        "name_pt": "Adepto de Rituais",
+        "desc_en": "You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.",
+        "desc_pt": "Você pode conjurar qualquer magia como Ritual se ela tiver a marca de Ritual e estiver em seu grimório. Você não precisa tê-la preparada, mas deve ler do grimório para conjurá-la dessa forma."
+      }
+    ]
+  }
+]

@@ -1,25 +1,30 @@
 import { useState } from 'react'
-import spellsData from '@/data/spells.json'
-import itemsData from '@/data/items.json'
-import monstersData from '@/data/monsters.json'
 import type { Spell, ItemEntry, Monster } from '@/lib/types'
 import { useLanguage, pick } from '@/lib/language'
+import { useT } from '@/lib/i18n'
+import { useData } from '@/lib/useData'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
-
-const spells = spellsData as Spell[]
-const items = itemsData as ItemEntry[]
-const monsters = monstersData as Monster[]
+import { Spinner } from '@/components/ui/skeleton'
 
 type CardType = 'spells' | 'items' | 'monsters'
 
 export default function CardsPage() {
   const { lang } = useLanguage()
+  const t = useT()
   const [type, setType] = useState<CardType>('spells')
   const [search, setSearch] = useState('')
   const [selected, setSelected] = useState<Set<string>>(new Set())
 
-  const source = type === 'spells' ? spells : type === 'items' ? items : monsters
+  const { data: spells } = useData<Spell[]>('data/spells.json')
+  const { data: items } = useData<ItemEntry[]>('data/items.json')
+  const { data: monsters } = useData<Monster[]>('data/monsters.json')
+
+  const sourceMap = { spells, items, monsters }
+  const source = sourceMap[type]
+
+  if (!source) return <Spinner />
+
   const filtered = source.filter((x) => {
     const name = pick(lang, x.name_pt, x.name_en).toLowerCase()
     return !search || name.includes(search.toLowerCase()) || x.name_en.toLowerCase().includes(search.toLowerCase())
@@ -36,21 +41,19 @@ export default function CardsPage() {
 
   return (
     <div className="p-6 max-w-6xl mx-auto">
-      <h1 className="text-2xl font-bold mb-1 no-print">Cartas para Imprimir</h1>
-      <p className="text-sm text-[var(--muted)] mb-4 no-print">
-        Escolha o tipo, selecione as cartas e use o botão de imprimir do navegador (Ctrl+P). Só as selecionadas saem no papel.
-      </p>
+      <h1 className="text-2xl font-bold mb-1 no-print">{t('cards.title')}</h1>
+      <p className="text-sm text-[var(--muted)] mb-4 no-print">{t('cards.subtitle')}</p>
 
       <div className="flex flex-wrap gap-3 mb-4 no-print">
         <select value={type} onChange={(e) => { setType(e.target.value as CardType); setSelected(new Set()) }} className="h-9 rounded-md border border-[var(--border)] bg-[var(--card)] px-2 text-sm">
-          <option value="spells">Magias</option>
-          <option value="items">Itens</option>
-          <option value="monsters">Monstros</option>
+          <option value="spells">{t('nav.spells')}</option>
+          <option value="items">{t('nav.items')}</option>
+          <option value="monsters">{t('nav.monsters')}</option>
         </select>
-        <Input placeholder="Buscar..." value={search} onChange={(e) => setSearch(e.target.value)} className="w-56" />
-        <Button variant="outline" size="sm" onClick={() => setSelected(new Set(filtered.map((x) => x.key)))}>Selecionar todas (filtradas)</Button>
-        <Button variant="outline" size="sm" onClick={() => setSelected(new Set())}>Limpar seleção</Button>
-        <Button size="sm" onClick={() => window.print()}>Imprimir ({selected.size})</Button>
+        <Input placeholder={t('cards.search')} value={search} onChange={(e) => setSearch(e.target.value)} className="w-56" />
+        <Button variant="outline" size="sm" onClick={() => setSelected(new Set(filtered.map((x) => x.key)))}>{t('cards.selectAll')}</Button>
+        <Button variant="outline" size="sm" onClick={() => setSelected(new Set())}>{t('cards.clear')}</Button>
+        <Button size="sm" onClick={() => window.print()}>{t('cards.print')} ({selected.size})</Button>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 gap-4">
@@ -59,10 +62,10 @@ export default function CardsPage() {
           return (
             <div
               key={x.key}
-              className={`relative rounded-lg border-2 bg-white text-black p-4 print:break-inside-avoid ${isSelected ? 'border-[var(--accent)]' : 'border-[var(--border)]'} ${!isSelected ? 'print:hidden' : ''}`}
+              className={`vecna-card relative print:break-inside-avoid ${!isSelected ? 'print:hidden' : ''} ${isSelected ? 'ring-2 ring-[var(--accent)]' : ''}`}
             >
-              <label className="absolute top-2 left-2 no-print">
-                <input type="checkbox" checked={isSelected} onChange={() => toggle(x.key)} />
+              <label className="absolute top-2.5 left-3 no-print z-10">
+                <input type="checkbox" checked={isSelected} onChange={() => toggle(x.key)} className="h-4 w-4 accent-[var(--accent)]" />
               </label>
               <CardContent type={type} item={x} lang={lang} />
             </div>
@@ -78,20 +81,20 @@ function CardContent({ type, item, lang }: { type: CardType; item: Spell | ItemE
     const s = item as Spell
     return (
       <>
-        <div className="flex justify-between items-center border-b-2 border-black pb-1 mb-2 ml-4">
-          <h3 className="font-bold">{pick(lang, s.name_pt, s.name_en)}</h3>
-          <span className="rounded-full border-2 border-black w-6 h-6 flex items-center justify-center text-xs font-bold">{s.level}</span>
+        <header className="vecna-card-header">
+          <h3 className="vecna-card-name">{pick(lang, s.name_pt, s.name_en)}</h3>
+          <span className="vecna-card-level">{s.level}</span>
+        </header>
+        <div className="vecna-card-stats">
+          <div><span>{lang === 'en' ? 'Range' : 'Alcance'}</span><strong>{s.range_text}</strong></div>
+          <div><span>{lang === 'en' ? 'Components' : 'Componentes'}</span><strong>{s.components}</strong></div>
+          <div><span>{lang === 'en' ? 'Duration' : 'Duração'}</span><strong>{s.concentration ? 'Conc. ' : ''}{s.duration_pt}</strong></div>
+          <div><span>{lang === 'en' ? 'Casting' : 'Conjuração'}</span><strong>{s.ritual ? 'R ' : ''}{s.casting_time_pt}</strong></div>
         </div>
-        <div className="grid grid-cols-2 gap-1 text-[10px] mb-2 border-b pb-2">
-          <div><strong>Alcance:</strong> {s.range_text}</div>
-          <div><strong>Comp.:</strong> {s.components}</div>
-          <div><strong>Duração:</strong> {s.concentration ? 'Conc. ' : ''}{s.duration_pt}</div>
-          <div><strong>Conjur.:</strong> {s.ritual ? 'R ' : ''}{s.casting_time_pt}</div>
-        </div>
-        <p className="text-xs whitespace-pre-line">{pick(lang, s.desc_pt, s.desc_en)}</p>
-        <div className="flex justify-between text-[10px] italic mt-2 pt-1 border-t">
+        <p className="vecna-card-body">{pick(lang, s.desc_pt, s.desc_en)}</p>
+        <footer className="vecna-card-footer">
           <span>{s.school_pt}</span><span>{s.classes_pt.join(', ')}</span>
-        </div>
+        </footer>
       </>
     )
   }
@@ -99,32 +102,33 @@ function CardContent({ type, item, lang }: { type: CardType; item: Spell | ItemE
     const i = item as ItemEntry
     return (
       <>
-        <div className="flex justify-between items-center border-b-2 border-black pb-1 mb-2 ml-4">
-          <h3 className="font-bold">{pick(lang, i.name_pt, i.name_en)}</h3>
-          {i.cost && <span className="text-xs font-bold">{i.cost} PO</span>}
+        <header className="vecna-card-header">
+          <h3 className="vecna-card-name">{pick(lang, i.name_pt, i.name_en)}</h3>
+          {i.cost && <span className="vecna-card-cost">{i.cost} PO</span>}
+        </header>
+        <div className="vecna-card-stats">
+          <div><span>{lang === 'en' ? 'Category' : 'Categoria'}</span><strong>{i.category_pt}</strong></div>
+          {i.weapon && <div><span>{lang === 'en' ? 'Damage' : 'Dano'}</span><strong>{i.weapon.damage_dice} {i.weapon.damage_type_pt}</strong></div>}
+          {i.armor && <div><span>AC</span><strong>{i.armor.ac_display}</strong></div>}
         </div>
-        <div className="text-[10px] mb-2 border-b pb-2">
-          <div><strong>Categoria:</strong> {i.category_pt}</div>
-          {i.weapon && <div><strong>Dano:</strong> {i.weapon.damage_dice} {i.weapon.damage_type_pt}</div>}
-          {i.armor && <div><strong>CA:</strong> {i.armor.ac_display}</div>}
-        </div>
-        <p className="text-xs whitespace-pre-line">{pick(lang, i.desc_pt, i.desc_en)}</p>
+        <p className="vecna-card-body">{pick(lang, i.desc_pt, i.desc_en)}</p>
       </>
     )
   }
   const m = item as Monster
   return (
     <>
-      <div className="flex justify-between items-center border-b-2 border-black pb-1 mb-2 ml-4">
-        <h3 className="font-bold">{pick(lang, m.name_pt, m.name_en)}</h3>
-        <span className="text-xs font-bold">ND {m.challenge_rating}</span>
-      </div>
-      <p className="text-[10px] italic mb-1">{m.size_pt} {m.type_pt}</p>
-      <div className="text-[10px] mb-2 border-b pb-2">
-        <div><strong>CA:</strong> {m.armor_class} · <strong>PV:</strong> {m.hit_points}</div>
+      <header className="vecna-card-header">
+        <h3 className="vecna-card-name">{pick(lang, m.name_pt, m.name_en)}</h3>
+        <span className="vecna-card-level">{m.challenge_rating}</span>
+      </header>
+      <p className="vecna-card-subtitle">{m.size_pt} {m.type_pt}</p>
+      <div className="vecna-card-stats">
+        <div><span>AC</span><strong>{m.armor_class}</strong></div>
+        <div><span>HP</span><strong>{m.hit_points}</strong></div>
       </div>
       {m.actions.slice(0, 3).map((a, idx) => (
-        <p key={idx} className="text-[10px] mb-1"><strong>{pick(lang, a.name_pt, a.name_en)}.</strong> {pick(lang, a.desc_pt, a.desc_en)}</p>
+        <p key={idx} className="vecna-card-body"><strong>{pick(lang, a.name_pt, a.name_en)}.</strong> {pick(lang, a.desc_pt, a.desc_en)}</p>
       ))}
     </>
   )

@@ -3,33 +3,37 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #f7f5f2;
-  --foreground: #171018;
-  --sidebar: #ede8e2;
-  --sidebar-foreground: #171018;
-  --card: #ffffff;
-  --card-foreground: #171018;
-  --border: #ddd5cc;
-  --muted: #6b6375;
-  --accent: #4f7d2c;
+  --background: #f6ede0;
+  --foreground: #210f37;
+  --sidebar: #ecdfca;
+  --sidebar-foreground: #210f37;
+  --card: #fffaf2;
+  --card-foreground: #210f37;
+  --border: #dcc9a8;
+  --muted: #6f5b6e;
+  --accent: #a55b4b;
   --accent-foreground: #ffffff;
+  --accent2: #dca06d;
+  --eye: #dca06d;
   --danger: #7a2020;
-  --ring: #4f7d2c;
+  --ring: #a55b4b;
 }
 
 .dark {
-  --background: #0a0810;
-  --foreground: #e6e0ec;
-  --sidebar: #120e1a;
-  --sidebar-foreground: #e6e0ec;
-  --card: #16111f;
-  --card-foreground: #e6e0ec;
-  --border: #322a40;
-  --muted: #9a8fae;
-  --accent: #7ec850;
-  --accent-foreground: #0a0810;
-  --danger: #b23b3b;
-  --ring: #7ec850;
+  --background: #150a24;
+  --foreground: #f3e7d6;
+  --sidebar: #1c0e30;
+  --sidebar-foreground: #f3e7d6;
+  --card: #2a1544;
+  --card-foreground: #f3e7d6;
+  --border: #4f1c51;
+  --muted: #b79bc0;
+  --accent: #dca06d;
+  --accent-foreground: #210f37;
+  --accent2: #a55b4b;
+  --eye: #dca06d;
+  --danger: #c1483f;
+  --ring: #dca06d;
 }
 
 * {
@@ -38,9 +42,25 @@
 
 body {
   margin: 0;
-  background: var(--background);
+  background:
+    radial-gradient(ellipse at top, color-mix(in srgb, var(--accent) 6%, transparent), transparent 60%),
+    var(--background);
   color: var(--foreground);
-  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Cinzel', Georgia, serif;
+  letter-spacing: 0.02em;
+}
+
+/* Textura de couro velho na sidebar */
+aside {
+  background-image:
+    radial-gradient(circle at 20% 10%, color-mix(in srgb, var(--foreground) 4%, transparent), transparent 40%),
+    radial-gradient(circle at 80% 70%, color-mix(in srgb, var(--foreground) 4%, transparent), transparent 45%),
+    repeating-linear-gradient(0deg, color-mix(in srgb, var(--foreground) 2%, transparent) 0px, transparent 2px, transparent 4px);
 }
 
 ::selection {
@@ -50,4 +70,87 @@ body {
 
 @media print {
   .no-print { display: none !important; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--border) 25%, color-mix(in srgb, var(--border) 60%, transparent) 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+  border-radius: 0.5rem;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 1s linear infinite;
+}
+
+/* Cartas estilo pergaminho, pra tela e impressão */
+.vecna-card {
+  background: #f4ecdc;
+  color: #2a1e14;
+  border: 2px solid #b08d3e;
+  border-radius: 10px;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 220px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+.vecna-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #2a1e14;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
+  padding-left: 1.4rem;
+}
+.vecna-card-name { font-size: 1.05rem; margin: 0; font-weight: bold; }
+.vecna-card-level, .vecna-card-cost {
+  border: 2px solid #2a1e14;
+  border-radius: 50%;
+  min-width: 1.7rem;
+  height: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  padding: 0 0.3rem;
+}
+.vecna-card-cost { border-radius: 6px; }
+.vecna-card-subtitle { font-style: italic; font-size: 0.72rem; color: #6b5c48; margin: 0 0 0.4rem; }
+.vecna-card-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 0.6rem;
+  font-size: 0.68rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #b08d3e;
+  padding-bottom: 0.4rem;
+}
+.vecna-card-stats div { display: flex; flex-direction: column; }
+.vecna-card-stats span { text-transform: uppercase; letter-spacing: 0.03em; color: #6b5c48; font-size: 0.6rem; }
+.vecna-card-body { font-size: 0.8rem; line-height: 1.35; flex-grow: 1; white-space: pre-line; margin: 0 0 0.4rem; }
+.vecna-card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  font-size: 0.68rem;
+  border-top: 1px solid #b08d3e;
+  padding-top: 0.3rem;
+  margin-top: auto;
+  color: #6b5c48;
+}
+
+@media print {
+  .vecna-card { break-inside: avoid; }
 }

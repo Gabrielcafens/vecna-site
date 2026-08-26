@@ -1,42 +1,45 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
+import { useT } from '@/lib/i18n'
 import { BookOpen, Users, Contact, Sparkles, Swords, Skull, GraduationCap, Printer, Image as ImageIcon, Eye } from 'lucide-react'
 
-const groups = [
-  {
-    label: 'Campanha',
-    items: [
-      { to: '/', label: 'Lore', icon: BookOpen, end: true },
-      { to: '/personagens', label: 'Personagens', icon: Users },
-      { to: '/npcs', label: 'NPCs', icon: Contact },
-      { to: '/fotos', label: 'Fotos', icon: ImageIcon },
-    ],
-  },
-  {
-    label: 'Regras (SRD 5.2)',
-    items: [
-      { to: '/magias', label: 'Magias', icon: Sparkles },
-      { to: '/itens', label: 'Itens', icon: Swords },
-      { to: '/monstros', label: 'Monstros', icon: Skull },
-      { to: '/classes', label: 'Classes', icon: GraduationCap },
-    ],
-  },
-  {
-    label: 'Mesa',
-    items: [{ to: '/cartas', label: 'Cartas para imprimir', icon: Printer }],
-  },
-]
-
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
+  const t = useT()
+
+  const groups = [
+    {
+      label: t('nav.group.campaign'),
+      items: [
+        { to: '/', label: t('nav.lore'), icon: BookOpen, end: true },
+        { to: '/personagens', label: t('nav.characters'), icon: Users },
+        { to: '/npcs', label: t('nav.npcs'), icon: Contact },
+        { to: '/fotos', label: t('nav.photos'), icon: ImageIcon },
+      ],
+    },
+    {
+      label: t('nav.group.rules'),
+      items: [
+        { to: '/magias', label: t('nav.spells'), icon: Sparkles },
+        { to: '/itens', label: t('nav.items'), icon: Swords },
+        { to: '/monstros', label: t('nav.monsters'), icon: Skull },
+        { to: '/classes', label: t('nav.classes'), icon: GraduationCap },
+      ],
+    },
+    {
+      label: t('nav.group.table'),
+      items: [{ to: '/cartas', label: t('nav.cards'), icon: Printer }],
+    },
+  ]
+
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-[var(--border)] bg-[var(--sidebar)] text-[var(--sidebar-foreground)]">
       <div className="flex items-center gap-2 px-4 py-5 border-b border-[var(--border)]">
         <div className="relative flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent)]/60 shadow-md shadow-[var(--accent)]/20">
-          <Eye className="h-5 w-5 text-[var(--accent-foreground)]" />
+          <Eye className="h-5 w-5 text-[var(--eye)]" />
         </div>
         <div>
-          <div className="text-lg font-bold tracking-[0.15em] leading-none">VECNA</div>
-          <div className="text-[10px] text-[var(--muted)] leading-none mt-1">site da campanha</div>
+          <div className="font-display text-lg font-bold tracking-[0.15em] leading-none">{t('app.title')}</div>
+          <div className="text-[10px] text-[var(--muted)] leading-none mt-1">{t('app.subtitle')}</div>
         </div>
       </div>
       <nav className="flex-1 overflow-y-auto p-3 space-y-5">
@@ -77,7 +80,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
         ))}
       </nav>
       <div className="p-3 text-[10px] text-[var(--muted)] border-t border-[var(--border)]">
-        Conteúdo baseado no SRD 5.2 (CC-BY 4.0)
+        {t('footer.license')}
       </div>
     </aside>
   )
