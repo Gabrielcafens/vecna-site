@@ -56,11 +56,12 @@ body::before {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.05;
+  opacity: 0.15;
   mix-blend-mode: var(--watermark-blend, multiply);
   background-image: url('/vecna-site/logo-hand.png');
-  background-repeat: repeat;
-  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: min(60vw, 600px) auto;
   background-attachment: fixed;
 }
 
