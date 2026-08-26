@@ -99,6 +99,8 @@ aside {
 
 @media print {
   .no-print { display: none !important; }
+  html { font-size: 100%; }
+  .vecna-card-name { font-size: 0.85rem !important; }
 }
 
 .skeleton {
