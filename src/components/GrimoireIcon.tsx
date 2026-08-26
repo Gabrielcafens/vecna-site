@@ -1,30 +1,30 @@
 export function GrimoireIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 100 100" className={className} xmlns="http://www.w3.org/2000/svg">
-      {/* Palma */}
+      {/* Palma - verde necromante */}
       <path
         d="M28 55c0-14 10-22 22-22s22 8 22 22v10c0 14-10 24-22 24s-22-10-22-24V55Z"
-        fill="#1a1118"
-        stroke="#5c4033"
+        fill="#3a5c2e"
+        stroke="#1f3319"
         strokeWidth="3"
       />
       {/* Dedos */}
-      <rect x="32" y="14" width="8" height="24" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
-      <rect x="43" y="8" width="8" height="30" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
-      <rect x="54" y="8" width="8" height="30" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
-      <rect x="65" y="14" width="8" height="26" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
+      <rect x="32" y="14" width="8" height="24" rx="4" fill="#3a5c2e" stroke="#1f3319" strokeWidth="3" />
+      <rect x="43" y="8" width="8" height="30" rx="4" fill="#3a5c2e" stroke="#1f3319" strokeWidth="3" />
+      <rect x="54" y="8" width="8" height="30" rx="4" fill="#3a5c2e" stroke="#1f3319" strokeWidth="3" />
+      <rect x="65" y="14" width="8" height="26" rx="4" fill="#3a5c2e" stroke="#1f3319" strokeWidth="3" />
       {/* Polegar */}
-      <rect x="16" y="50" width="22" height="9" rx="4.5" fill="#1a1118" stroke="#5c4033" strokeWidth="3" transform="rotate(-25 27 54.5)" />
+      <rect x="16" y="50" width="22" height="9" rx="4.5" fill="#3a5c2e" stroke="#1f3319" strokeWidth="3" transform="rotate(-25 27 54.5)" />
 
-      {/* Olho na palma */}
+      {/* Olho na palma - roxo */}
       <path
         d="M32 62c6-8 12-11 18-11s12 3 18 11c-6 8-12 11-18 11s-12-3-18-11Z"
         fill="#0d080c"
-        stroke="#d4af37"
+        stroke="#8a3ab9"
         strokeWidth="1.8"
       />
-      <circle cx="50" cy="62" r="6" fill="#4a1a63" stroke="#8a3ab9" strokeWidth="1" />
-      <circle cx="50" cy="62" r="2.4" fill="#1a1118" />
+      <circle cx="50" cy="62" r="6.5" fill="#7c3aed" stroke="#c9a8f5" strokeWidth="1" />
+      <circle cx="50" cy="62" r="2.6" fill="#0d080c" />
     </svg>
   )
 }

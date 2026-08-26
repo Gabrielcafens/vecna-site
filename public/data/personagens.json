@@ -5,6 +5,7 @@
     "class": "Guerreiro Campeão",
     "background": "Soldado de Clã",
     "level": 4,
+    "image": "personagens/fabo.jpeg",
     "tags": ["XIV - A Temperança (Talons)", "VII - O Carro (Knight)"],
     "notes": "Nasceu numa tribo Meio-Orc que vivia em paz frágil nas fronteiras, ao lado da tribo Draconata de Vitu. Quando Vitu partiu pra missão contra Tiamat, Fabo ficou — o Culto do Dragão varreu as tribos como parte de um ritual necromântico dos Magos de Thay. Fabo sobreviveu; Vitu voltou como herói.\n\nVeio pra Phandalin atrás de pistas sobre quem massacrou as tribos, a pedido de Vitu.\n\nNo Baralho das Muitas Coisas puxou A Temperança (Talons — todos os itens mágicos carregados se desintegram) e O Carro (Knight — ganhou um cavaleiro NPC fiel como aliado, que se tornou o Vitu, jogado como personagem legado de nível 16)."
   },
@@ -14,6 +15,7 @@
     "class": "Guerreiro Eldritch Knight",
     "background": "Soldado / Cavaleiro da Aliança dos Lordes",
     "level": 4,
+    "image": "personagens/phillipe.jpeg",
     "tags": ["XV - O Diabo (Flames)"],
     "notes": "Órfão resgatado por Heidan Forteluz aos sete anos. Cresceu como escudeiro ao lado de Heidan, Lee Sin e Erin, a Branca. Um Beholder Zumbi invocado pelos Magos de Thay matou Heidan e Lee Sin em Phandalin; Phillipe sobreviveu. Sildar Hallwinter o encontrou depois, treinou-o como cavaleiro e o encaminhou aos Gnomos de Phandelver.\n\nNo Baralho das Muitas Coisas puxou O Diabo (Flames — um diabo poderoso vira inimigo pra sempre, até um dos dois morrer). Sildar é a âncora de Phillipe: o que Sildar pede, ele faz sem perguntar."
   },
@@ -24,6 +26,7 @@
     "background": "Eremita (Enclave Esmeralda)",
     "level": 4,
     "tags": ["VIII - A Força (Comet)", "XVIII - A Lua (Moon)", "XVII - A Estrela (Star)"],
-    "notes": "Designado pelo Enclave Esmeralda a um posto de observação aos oito anos. Uma clareira foi engolida pelo Feérico numa noite sem lua e Eldris ficou preso lá por doze anos sem envelhecer — voltou com vinte anos, idêntico ao menino que desapareceu. Titânia o despertou com urgência e o mandou procurar o Enclave Esmeralda em Phandalin.\n\nNo Baralho das Muitas Coisas puxou três cartas: A Força (Comet — Vantagem em testes de morte por 1 ano, condicionada a abater sozinho o inimigo escolhido no próximo combate), A Lua (Moon — pode lançar Wish 1d3 vezes, rolou 3) e A Estrela (Star — +2 permanente em um atributo à escolha, máx. 24)."
+    "notes": "Designado pelo Enclave Esmeralda a um posto de observação aos oito anos. Uma clareira foi engolida pelo Feérico numa noite sem lua e Eldris ficou preso lá por doze anos sem envelhecer — voltou com vinte anos, idêntico ao menino que desapareceu. Titânia o despertou com urgência e o mandou procurar o Enclave Esmeralda em Phandalin.\n\nNo Baralho das Muitas Coisas puxou três cartas: A Força (Comet — Vantagem em testes de morte por 1 ano, condicionada a abater sozinho o inimigo escolhido no próximo combate), A Lua (Moon — pode lançar Wish 1d3 vezes, rolou 3) e A Estrela (Star — +2 permanente em um atributo à escolha, máx. 24).",
+    "sheet": "Atributos: Força 8 (-1) · Destreza 14 (+2) · Constituição 10 (+0) · Inteligência 14 (+2) · Sabedoria 16 (+3) · Carisma 18 (+4)\nCA 15 (Couro Batido + Destreza) · Iniciativa +4 · Percepção Passiva 15 · CD de Magia 14\nPerícias: Persuasão +6, Percepção +5, Medicina +5, Sobrevivência +5, Arcanismo +4\nTalentos: Alerta, Iniciado em Magia (Druida)\nInvocações Élficas: Rajada Agonizante, Rajada Repulsora, Pacto do Tomo\n(Ficha de nível 3 — pode estar um passo atrás do nível 4 já estabelecido na campanha)"
   }
 ]

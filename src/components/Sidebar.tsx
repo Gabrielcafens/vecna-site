@@ -37,8 +37,8 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-[var(--border)] bg-[var(--sidebar)] text-[var(--sidebar-foreground)]">
       <div className="flex items-center gap-2 px-4 py-5 border-b border-[var(--border)]">
-        <div className="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent)]/60 shadow-md shadow-[var(--accent)]/20">
-          <GrimoireIcon className="h-7 w-7 text-[var(--accent-foreground)]" />
+        <div className="relative flex h-14 w-14 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent)]/60 shadow-md shadow-[var(--accent)]/20 shrink-0">
+          <GrimoireIcon className="h-11 w-11" />
         </div>
         <div>
           <div className="font-display text-lg font-bold tracking-[0.15em] leading-none">{t('app.title')}</div>

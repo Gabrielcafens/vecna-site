@@ -106,6 +106,7 @@ export interface Character {
   tags: string[]
   notes: string
   image?: string
+  sheet?: string
 }
 
 export interface DndClassLevel {

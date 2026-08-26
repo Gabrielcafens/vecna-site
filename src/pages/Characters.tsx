@@ -25,7 +25,7 @@ export default function CharactersPage() {
             >
               <div className="flex items-center gap-3 mb-2">
                 {c.image ? (
-                  <img src={c.image} alt={c.name} className="h-12 w-12 rounded-full object-cover border border-[var(--border)]" />
+                  <img src={`${import.meta.env.BASE_URL}${c.image}`} alt={c.name} className="h-12 w-12 rounded-full object-cover border border-[var(--border)]" />
                 ) : (
                   <div className="h-12 w-12 rounded-full bg-[var(--sidebar)] border border-[var(--border)] flex items-center justify-center">
                     <User className="h-6 w-6 text-[var(--muted)]" />
