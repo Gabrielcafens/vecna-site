@@ -1,7 +1,8 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n'
-import { BookOpen, Users, Contact, Sparkles, Swords, Skull, GraduationCap, Printer, Image as ImageIcon, Eye } from 'lucide-react'
+import { BookOpen, Users, Contact, Sparkles, Swords, Skull, GraduationCap, Printer, Image as ImageIcon } from 'lucide-react'
+import { GrimoireIcon } from '@/components/GrimoireIcon'
 
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   const t = useT()
@@ -34,8 +35,8 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-[var(--border)] bg-[var(--sidebar)] text-[var(--sidebar-foreground)]">
       <div className="flex items-center gap-2 px-4 py-5 border-b border-[var(--border)]">
-        <div className="relative flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent)]/60 shadow-md shadow-[var(--accent)]/20">
-          <Eye className="h-5 w-5 text-[var(--eye)]" />
+        <div className="relative flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent)]/60 shadow-md shadow-[var(--accent)]/20">
+          <GrimoireIcon className="h-7 w-7 text-[var(--accent-foreground)]" />
         </div>
         <div>
           <div className="font-display text-lg font-bold tracking-[0.15em] leading-none">{t('app.title')}</div>
