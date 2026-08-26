@@ -18,7 +18,7 @@ export default function NpcsPage() {
     <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">{t('npcs.title')}</h1>
 
-      <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
+      <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           Sessão 1 — O Necrotério de Thay
         </summary>
@@ -48,7 +48,7 @@ export default function NpcsPage() {
         </div>
       </details>
 
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           🌟 Sessão 2 — O Ninho do Olho Eldritch
         </summary>

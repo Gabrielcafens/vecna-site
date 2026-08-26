@@ -30,7 +30,7 @@ export default function ItemsPage() {
       <h1 className="text-2xl font-bold mb-1">Itens</h1>
       <p className="text-sm text-[var(--muted)] mb-6 max-w-3xl">Itens e artefatos importantes encontrados ao longo da campanha.</p>
 
-      <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
+      <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           Sessão 1 — O Necrotério de Thay
         </summary>
@@ -46,7 +46,7 @@ export default function ItemsPage() {
         </div>
       </details>
 
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           🌟 Sessão 2 — O Ninho do Olho Eldritch
         </summary>

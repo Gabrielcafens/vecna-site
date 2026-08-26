@@ -57,7 +57,7 @@ export default function MonstersPage() {
       <h1 className="text-2xl font-bold mb-1">{t('monsters.title')}</h1>
       <p className="text-sm text-[var(--muted)] mb-6 max-w-3xl">{t('monsters.subtitle')}</p>
 
-      <details open className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4">
+      <details open className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           Sessão 1 — O Necrotério de Thay
         </summary>
@@ -66,7 +66,7 @@ export default function MonstersPage() {
         </div>
       </details>
 
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4">
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           🌟 Sessão 2 — O Ninho do Olho Eldritch
         </summary>
