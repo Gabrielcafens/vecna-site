@@ -9,6 +9,8 @@ import ItemsPage from '@/pages/Items'
 import MonstersPage from '@/pages/Monsters'
 import ClassesPage from '@/pages/Classes'
 import ClassDetailPage from '@/pages/ClassDetail'
+import FeatsPage from '@/pages/Feats'
+import BackgroundsPage from '@/pages/Backgrounds'
 import PhotosPage from '@/pages/Photos'
 import CardsPage from '@/pages/Cards'
 
@@ -25,6 +27,8 @@ function App() {
         <Route path="/monstros" element={<MonstersPage />} />
         <Route path="/classes" element={<ClassesPage />} />
         <Route path="/classes/:key" element={<ClassDetailPage />} />
+        <Route path="/talentos" element={<FeatsPage />} />
+        <Route path="/antecedentes" element={<BackgroundsPage />} />
         <Route path="/fotos" element={<PhotosPage />} />
         <Route path="/cartas" element={<CardsPage />} />
       </Route>

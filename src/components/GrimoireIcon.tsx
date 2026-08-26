@@ -1,19 +1,30 @@
 export function GrimoireIcon({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-      {/* capa do livro */}
-      <path d="M6 5.5C6 4.67 6.67 4 7.5 4H23c1.1 0 2 .9 2 2v20c0 1.1-.9 2-2 2H7.5c-.83 0-1.5-.67-1.5-1.5V5.5Z" fill="currentColor" />
-      {/* lombada */}
-      <rect x="6" y="4" width="2.4" height="24" rx="0.6" fill="black" fillOpacity="0.25" />
-      {/* runas na capa */}
-      <path d="M11 9.5h8M11 13h5" stroke="black" strokeOpacity="0.35" strokeWidth="0.9" strokeLinecap="round" />
-      {/* boca/fenda que segura a gema */}
-      <path d="M11 20.5c1.6 1.6 3.4 2.4 5 2.4s3.4-.8 5-2.4c-1.6 2.6-3.4 4-5 4s-3.4-1.4-5-4Z" fill="black" fillOpacity="0.4" />
-      {/* gema */}
-      <path d="M16 17.2l2.3 2.3-2.3 2.3-2.3-2.3 2.3-2.3Z" fill="var(--eye)" />
-      <path d="M16 17.2l2.3 2.3-2.3 2.3-2.3-2.3 2.3-2.3Z" fill="var(--eye)" opacity="0.6">
-        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite" />
-      </path>
+    <svg viewBox="0 0 100 100" className={className} xmlns="http://www.w3.org/2000/svg">
+      {/* Palma */}
+      <path
+        d="M28 55c0-14 10-22 22-22s22 8 22 22v10c0 14-10 24-22 24s-22-10-22-24V55Z"
+        fill="#1a1118"
+        stroke="#5c4033"
+        strokeWidth="3"
+      />
+      {/* Dedos */}
+      <rect x="32" y="14" width="8" height="24" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
+      <rect x="43" y="8" width="8" height="30" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
+      <rect x="54" y="8" width="8" height="30" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
+      <rect x="65" y="14" width="8" height="26" rx="4" fill="#1a1118" stroke="#5c4033" strokeWidth="3" />
+      {/* Polegar */}
+      <rect x="16" y="50" width="22" height="9" rx="4.5" fill="#1a1118" stroke="#5c4033" strokeWidth="3" transform="rotate(-25 27 54.5)" />
+
+      {/* Olho na palma */}
+      <path
+        d="M32 62c6-8 12-11 18-11s12 3 18 11c-6 8-12 11-18 11s-12-3-18-11Z"
+        fill="#0d080c"
+        stroke="#d4af37"
+        strokeWidth="1.8"
+      />
+      <circle cx="50" cy="62" r="6" fill="#4a1a63" stroke="#8a3ab9" strokeWidth="1" />
+      <circle cx="50" cy="62" r="2.4" fill="#1a1118" />
     </svg>
   )
 }

@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n'
-import { BookOpen, Users, Contact, Sparkles, Swords, Skull, GraduationCap, Printer, Image as ImageIcon } from 'lucide-react'
+import { BookOpen, Users, Contact, Sparkles, Swords, Skull, GraduationCap, Printer, Image as ImageIcon, Star, ScrollText } from 'lucide-react'
 import { GrimoireIcon } from '@/components/GrimoireIcon'
 
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
@@ -24,6 +24,8 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
         { to: '/itens', label: t('nav.items'), icon: Swords },
         { to: '/monstros', label: t('nav.monsters'), icon: Skull },
         { to: '/classes', label: t('nav.classes'), icon: GraduationCap },
+        { to: '/talentos', label: t('nav.feats'), icon: Star },
+        { to: '/antecedentes', label: t('nav.backgrounds'), icon: ScrollText },
       ],
     },
     {
