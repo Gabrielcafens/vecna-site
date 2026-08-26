@@ -1,0 +1,380 @@
+[
+  {
+    "key": "dragonborn",
+    "name_en": "Dragonborn",
+    "name_pt": "Draconato",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 5–7 feet tall)",
+        "desc_pt": "Médio (cerca de 1,50–2,10 m de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Draconic Ancestry",
+        "name_pt": "Ancestralidade Dracônica",
+        "desc_en": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.\n\nTable: Draconic Ancestors\n\n| Dragon | Damage Type |\n|---|---|\n| Black | Acid |\n| Blue | Lightning |\n| Brass |Fire |\n| Bronze | Lightning |\n| Copper | Acid|\n|Gold|Fire|\n|Green|Poison|\n|Red|Fire|\n|Silver|Cold|\n|White|Cold|",
+        "desc_pt": "Sua linhagem vem de um dragão progenitor. Escolha o tipo de dragão na tabela Ancestrais Dracônicos. Sua escolha afeta suas características Arma de Sopro e Resistência a Dano, além da sua aparência.\n\nTabela: Ancestrais Dracônicos\n\n| Dragão | Tipo de Dano |\n|---|---|\n| Preto | Ácido |\n| Azul | Elétrico |\n| Latão | Fogo |\n| Bronze | Elétrico |\n| Cobre | Ácido |\n| Ouro | Fogo |\n| Verde | Veneno |\n| Vermelho | Fogo |\n| Prateado | Frio |\n| Branco | Frio |"
+      },
+      {
+        "name_en": "Breath Weapon",
+        "name_pt": "Arma de Sopro",
+        "desc_en": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+        "desc_pt": "Ao realizar a ação Atacar no seu turno, você pode substituir um dos ataques por uma exalação de energia mágica em um Cone de 4,5 m ou uma Linha de 9 m de comprimento por 1,5 m de largura (escolha a forma a cada vez). Cada criatura na área deve fazer um teste de resistência de Destreza (CD 8 mais seu modificador de Constituição e Bônus de Proficiência). Se falhar, a criatura sofre 1d10 de dano do tipo determinado pela sua Ancestralidade Dracônica. Se for bem-sucedida, sofre metade do dano. Esse dano aumenta em 1d10 ao atingir os níveis 5 (2d10), 11 (3d10) e 17 (4d10).\n\nVocê pode usar essa Arma de Sopro um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+      },
+      {
+        "name_en": "Damage Resistance",
+        "name_pt": "Resistência a Dano",
+        "desc_en": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
+        "desc_pt": "Você tem Resistência ao tipo de dano determinado pela sua característica Ancestralidade Dracônica."
+      },
+      {
+        "name_en": "Darkvision",
+        "name_pt": "Visão no Escuro",
+        "desc_en": "You have Darkvision with a range of 60 feet",
+        "desc_pt": "Você tem Visão no Escuro com alcance de 18 metros."
+      },
+      {
+        "name_en": "Draconic Flight",
+        "name_pt": "Voo Dracônico",
+        "desc_en": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.",
+        "desc_pt": "Ao atingir o nível de personagem 5, você pode canalizar magia dracônica pra se dar voo temporário. Como uma Ação Bônus, você brota asas espectrais nas costas que duram 10 minutos ou até você retraí-las (sem gastar ação) ou ter a condição Incapacitado. Durante esse tempo, você tem Deslocamento de Voo igual ao seu Deslocamento normal. Depois de usar essa característica, só pode usá-la de novo após terminar um Descanso Longo."
+      }
+    ]
+  },
+  {
+    "key": "dwarf",
+    "name_en": "Dwarf",
+    "name_pt": "Anão",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 4–5 feet tall) ",
+        "desc_pt": "Médio (cerca de 1,20–1,50 m de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Darkvision",
+        "name_pt": "Visão no Escuro",
+        "desc_en": "You have Darkvision with a range of 120 feet.",
+        "desc_pt": "Você tem Visão no Escuro com alcance de 36 metros."
+      },
+      {
+        "name_en": "Dwarven Resilience",
+        "name_pt": "Resiliência Anã",
+        "desc_en": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.",
+        "desc_pt": "Você tem Resistência a dano de Veneno. Também tem Vantagem em testes de resistência pra evitar ou encerrar a condição Envenenado."
+      },
+      {
+        "name_en": "Dwarven Toughness",
+        "name_pt": "Robustez Anã",
+        "desc_en": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.",
+        "desc_pt": "Seu Ponto de Vida máximo aumenta em 1, e aumenta em 1 novamente sempre que você ganha um nível."
+      },
+      {
+        "name_en": "Stonecunning",
+        "name_pt": "Sabedoria da Pedra",
+        "desc_en": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
+        "desc_pt": "Como uma Ação Bônus, você ganha Sentido Sísmico com alcance de 18 metros por 10 minutos. Você deve estar sobre ou tocando uma superfície de pedra pra usar esse Sentido Sísmico. A pedra pode ser natural ou trabalhada.\n\nVocê pode usar essa Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo."
+      }
+    ]
+  },
+  {
+    "key": "elf",
+    "name_en": "Elf",
+    "name_pt": "Elfo",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 5–6 feet tall)",
+        "desc_pt": "Médio (cerca de 1,50–1,80 m de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Darkvision",
+        "name_pt": "Visão no Escuro",
+        "desc_en": "You have Darkvision with a range of 60 feet.",
+        "desc_pt": "Você tem Visão no Escuro com alcance de 18 metros."
+      },
+      {
+        "name_en": "Elven Lineage",
+        "name_pt": "Linhagem Élfica",
+        "desc_en": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nTable: Elven Lineages\n\n|Lineage|Level 1|Level 3|Level 5|\n|---|---|---|---|\n|Drow|The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.|Faerie Fire|Darkness|\n|High Elf|You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.|Detect Magic|Misty Step|\n|Wood Elf|Your Speed increases to 35 feet. You also know the Druidcraft cantrip.|Longstrider|Pass without Trace|\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
+        "desc_pt": "Você faz parte de uma linhagem que concede habilidades sobrenaturais. Escolha uma linhagem na tabela Linhagens Élficas. Você ganha o benefício de nível 1 dessa linhagem.\n\nAo atingir os níveis de personagem 3 e 5, você aprende uma magia de círculo superior, conforme a tabela. Você sempre tem essa magia preparada, podendo conjurá-la uma vez sem gastar espaço de magia, recuperando essa habilidade ao terminar um Descanso Longo. Você também pode conjurá-la usando qualquer espaço de magia apropriado que tiver.\n\nTabela: Linhagens Élficas\n\n|Linhagem|Nível 1|Nível 3|Nível 5|\n|---|---|---|---|\n|Drow|O alcance da sua Visão no Escuro aumenta pra 36 metros. Você também conhece o truque Luzes Dançantes.|Fogo das Fadas|Escuridão|\n|Alto Elfo|Você conhece o truque Prestidigitação. Sempre que terminar um Descanso Longo, pode trocar esse truque por outro da lista de magias de Mago.|Detectar Magia|Passo Nevoento|\n|Elfo da Floresta|Seu Deslocamento aumenta pra 10,5 metros. Você também conhece o truque Ofício Druídico.|Passo Largo|Passar sem Rastro|\n\nInteligência, Sabedoria ou Carisma é sua habilidade de conjuração pras magias dessa característica (escolha a habilidade ao selecionar a linhagem)."
+      },
+      {
+        "name_en": "Fey Ancestry",
+        "name_pt": "Ancestralidade Feérica",
+        "desc_en": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
+        "desc_pt": "Você tem Vantagem em testes de resistência pra evitar ou encerrar a condição Enfeitiçado."
+      },
+      {
+        "name_en": "Keen Senses",
+        "name_pt": "Sentidos Aguçados",
+        "desc_en": "You have proficiency in the Insight, Perception, or Survival skill.",
+        "desc_pt": "Você tem proficiência na perícia Intuição, Percepção ou Sobrevivência."
+      },
+      {
+        "name_en": "Trance",
+        "name_pt": "Transe",
+        "desc_en": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+        "desc_pt": "Você não precisa dormir, e magia não pode fazê-lo dormir. Você pode terminar um Descanso Longo em 4 horas se passar esse tempo numa meditação semiconsciente, durante a qual mantém a consciência."
+      }
+    ]
+  },
+  {
+    "key": "gnome",
+    "name_en": "Gnome",
+    "name_pt": "Gnomo",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Small (about 3–4 feet tall)",
+        "desc_pt": "Pequeno (cerca de 90 cm–1,20 m de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Darkvision",
+        "name_pt": "Visão no Escuro",
+        "desc_en": "You have Darkvision with a range of 60 feet.",
+        "desc_pt": "Você tem Visão no Escuro com alcance de 18 metros."
+      },
+      {
+        "name_en": "Gnomish Cunning",
+        "name_pt": "Astúcia Gnômica",
+        "desc_en": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws.",
+        "desc_pt": "Você tem Vantagem em testes de resistência de Inteligência, Sabedoria e Carisma."
+      },
+      {
+        "name_en": "Gnomish Lineage",
+        "name_pt": "Linhagem Gnômica",
+        "desc_en": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):\n\n**Forest Gnome.** You know the *Minor Illusion* cantrip. You also always have the *Speak with Animals* spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.\n\n**Rock Gnome.** You know the *Mending* and *Prestidigitation* cantrips. In addition, you can spend 10 minutes casting *Prestidigitation* to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from *Prestidigitation*; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
+        "desc_pt": "Você faz parte de uma linhagem que concede habilidades sobrenaturais. Escolha uma das opções abaixo; seja qual for, Inteligência, Sabedoria ou Carisma é sua habilidade de conjuração pras magias dessa característica (escolha a habilidade ao selecionar a linhagem):\n\n**Gnomo da Floresta.** Você conhece o truque Ilusão Menor. Também sempre tem a magia Falar com Animais preparada. Pode conjurá-la sem gastar espaço de magia um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo. Também pode usar espaços de magia pra conjurá-la.\n\n**Gnomo das Rochas.** Você conhece os truques Reparo e Prestidigitação. Além disso, pode gastar 10 minutos conjurando Prestidigitação pra criar um dispositivo mecânico Miúdo (CA 5, 1 PV), como um brinquedo, isqueiro ou caixinha de música. Ao criar o dispositivo, você determina sua função escolhendo um efeito de Prestidigitação; o dispositivo produz esse efeito sempre que você ou outra criatura usa uma Ação Bônus pra ativá-lo com um toque. Você pode ter até três desses dispositivos existindo ao mesmo tempo, e cada um se desfaz 8 horas após sua criação ou quando desmontado com um toque como uma ação de Utilizar."
+      }
+    ]
+  },
+  {
+    "key": "goliath",
+    "name_en": "Goliath",
+    "name_pt": "Goliath",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 7–8 feet tall)",
+        "desc_pt": "Médio (cerca de 2,10–2,40 m de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "35 feet",
+        "desc_pt": "10,5 metros"
+      },
+      {
+        "name_en": "Giant Ancestry",
+        "name_pt": "Ancestralidade Gigante",
+        "desc_en": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Cloud's Jaunt (Cloud Giant)**. As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.\n- **Fire's Burn (Fire Giant)**. When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.\n- **Frost's Chill (Frost Giant)**. When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n- **Hill's Tumble (Hill Giant)**. When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.\n- **Stone's Endurance (Stone Giant)**. When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n- **Storm's Thunder (Storm Giant)**. When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
+        "desc_pt": "Você descende de Gigantes. Escolha um dos benefícios abaixo — uma dádiva sobrenatural da sua ancestralidade; você pode usar o benefício escolhido um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Longo:\n\n- **Salto das Nuvens (Gigante das Nuvens).** Como uma Ação Bônus, você se teletransporta magicamente até 9 metros pra um espaço desocupado que possa ver.\n- **Queimadura do Fogo (Gigante do Fogo).** Ao acertar um alvo com uma jogada de ataque e causar dano, você também pode causar 1d10 de dano de Fogo a esse alvo.\n- **Frio Gélido (Gigante do Gelo).** Ao acertar um alvo com uma jogada de ataque e causar dano, você também pode causar 1d6 de dano de Frio a esse alvo e reduzir seu Deslocamento em 3 metros até o início do seu próximo turno.\n- **Tombo da Colina (Gigante da Colina).** Ao acertar uma criatura Grande ou menor com uma jogada de ataque e causar dano, você pode dar a ela a condição Caído.\n- **Resistência da Pedra (Gigante da Pedra).** Ao sofrer dano, você pode usar uma Reação pra rolar 1d12. Some seu modificador de Constituição ao resultado e reduza o dano por esse total.\n- **Trovão da Tempestade (Gigante da Tempestade).** Ao sofrer dano de uma criatura a até 18 metros, você pode usar uma Reação pra causar 1d8 de dano Trovejante a essa criatura."
+      },
+      {
+        "name_en": "Large Form",
+        "name_pt": "Forma Grande",
+        "desc_en": "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.",
+        "desc_pt": "A partir do nível de personagem 5, você pode mudar seu tamanho pra Grande como uma Ação Bônus, se estiver num espaço grande o bastante. Essa transformação dura 10 minutos ou até você encerrá-la (sem gastar ação). Durante esse tempo, você tem Vantagem em testes de Força, e seu Deslocamento aumenta em 3 metros. Depois de usar essa característica, só pode usá-la de novo após terminar um Descanso Longo."
+      },
+      {
+        "name_en": "Powerful Build",
+        "name_pt": "Compleição Poderosa",
+        "desc_en": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.",
+        "desc_pt": "Você tem Vantagem em qualquer teste de habilidade pra encerrar a condição Agarrado. Você também conta como um tamanho maior ao determinar sua capacidade de carga."
+      }
+    ]
+  },
+  {
+    "key": "halfling",
+    "name_en": "Halfling",
+    "name_pt": "Halfling",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Small (about 2–3 feet tall) ",
+        "desc_pt": "Pequeno (cerca de 60–90 cm de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Brave",
+        "name_pt": "Corajoso",
+        "desc_en": "You have Advantage on saving throws you make to avoid or end the Frightened condition.",
+        "desc_pt": "Você tem Vantagem em testes de resistência pra evitar ou encerrar a condição Amedrontado."
+      },
+      {
+        "name_en": "Halfling Nimbleness",
+        "name_pt": "Agilidade Halfling",
+        "desc_en": "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.",
+        "desc_pt": "Você pode se mover pelo espaço de qualquer criatura de tamanho maior que o seu, mas não pode parar no mesmo espaço."
+      },
+      {
+        "name_en": "Luck",
+        "name_pt": "Sorte",
+        "desc_en": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.",
+        "desc_pt": "Quando tirar 1 no d20 de um Teste de d20, você pode rerrolar o dado, e deve usar o novo resultado."
+      },
+      {
+        "name_en": "Naturally Stealthy",
+        "name_pt": "Furtividade Natural",
+        "desc_en": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
+        "desc_pt": "Você pode realizar a ação Esconder mesmo quando estiver obscurecido apenas por uma criatura pelo menos um tamanho maior que você."
+      }
+    ]
+  },
+  {
+    "key": "human",
+    "name_en": "Human",
+    "name_pt": "Humano",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species",
+        "desc_pt": "Médio (cerca de 1,20–2,10 m de altura) ou Pequeno (cerca de 60 cm–1,20 m), escolhido ao selecionar essa espécie"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Resourceful",
+        "name_pt": "Versátil (Recursos)",
+        "desc_en": "You gain Heroic Inspiration whenever you finish a Long Rest.",
+        "desc_pt": "Você ganha Inspiração Heroica sempre que termina um Descanso Longo."
+      },
+      {
+        "name_en": "Skillful",
+        "name_pt": "Habilidoso",
+        "desc_en": "You gain proficiency in one skill of your choice.",
+        "desc_pt": "Você ganha proficiência em uma perícia à sua escolha."
+      },
+      {
+        "name_en": "Versatile",
+        "name_pt": "Versátil",
+        "desc_en": "You gain an Origin feat of your choice (see \"Feats\"). Skilled is recommended.",
+        "desc_pt": "Você ganha um talento de Origem à sua escolha (veja \"Talentos\"). Habilidoso é recomendado."
+      }
+    ]
+  },
+  {
+    "key": "orc",
+    "name_en": "Orc",
+    "name_pt": "Orc",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 6–7 feet tall)",
+        "desc_pt": "Médio (cerca de 1,80–2,10 m de altura)"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Adrenaline Rush",
+        "name_pt": "Surto de Adrenalina",
+        "desc_en": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.",
+        "desc_pt": "Você pode realizar a ação Correr como uma Ação Bônus. Ao fazer isso, ganha um número de Pontos de Vida Temporários igual ao seu Bônus de Proficiência.\n\nVocê pode usar essa característica um número de vezes igual ao seu Bônus de Proficiência, recuperando todos os usos ao terminar um Descanso Curto ou Longo."
+      },
+      {
+        "name_en": "Darkvision",
+        "name_pt": "Visão no Escuro",
+        "desc_en": "You have Darkvision with a range of 120 feet.",
+        "desc_pt": "Você tem Visão no Escuro com alcance de 36 metros."
+      },
+      {
+        "name_en": "Relentless Endurance",
+        "name_pt": "Resistência Implacável",
+        "desc_en": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.",
+        "desc_pt": "Quando reduzido a 0 Pontos de Vida mas não morto de imediato, você pode cair pra 1 Ponto de Vida em vez disso. Depois de usar essa característica, só pode usá-la de novo após terminar um Descanso Longo."
+      }
+    ]
+  },
+  {
+    "key": "tiefling",
+    "name_en": "Tiefling",
+    "name_pt": "Tiefling",
+    "translated": true,
+    "traits": [
+      {
+        "name_en": "Size",
+        "name_pt": "Tamanho",
+        "desc_en": "Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species",
+        "desc_pt": "Médio (cerca de 1,20–2,10 m de altura) ou Pequeno (cerca de 90 cm–1,20 m), escolhido ao selecionar essa espécie"
+      },
+      {
+        "name_en": "Speed",
+        "name_pt": "Deslocamento",
+        "desc_en": "30 feet",
+        "desc_pt": "9 metros"
+      },
+      {
+        "name_en": "Darkvision",
+        "name_pt": "Visão no Escuro",
+        "desc_en": "You have Darkvision with a range of 60 feet.",
+        "desc_pt": "Você tem Visão no Escuro com alcance de 18 metros."
+      },
+      {
+        "name_en": "Fiendish Legacy",
+        "name_pt": "Legado Infernal",
+        "desc_en": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).\n\n**Table: Fiendish Legacies**\n\n|Legacy|Level 1|Level 3|Level 5|\n|---|---|---|---|\n|Abyssal|You have Resistance to Poison damage. You also know the Poison Spray cantrip.|Ray of Sickness|Hold Person|\n|Chthonic|You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.|False Life|Ray of Enfeeblement|\n|Infernal|You have Resistance to Fire damage. You also know the Fire Bolt cantrip.|Hellish Rebuke|Darkness|",
+        "desc_pt": "Você recebeu um legado que concede habilidades sobrenaturais. Escolha um legado na tabela Legados Infernais. Você ganha o benefício de nível 1 do legado escolhido.\n\nAo atingir os níveis de personagem 3 e 5, você aprende uma magia de círculo superior, conforme a tabela. Você sempre tem essa magia preparada, podendo conjurá-la uma vez sem gastar espaço de magia, recuperando essa habilidade ao terminar um Descanso Longo. Também pode conjurá-la usando qualquer espaço de magia apropriado que tiver.\n\nInteligência, Sabedoria ou Carisma é sua habilidade de conjuração pras magias dessa característica (escolha a habilidade ao selecionar o legado).\n\n**Tabela: Legados Infernais**\n\n|Legado|Nível 1|Nível 3|Nível 5|\n|---|---|---|---|\n|Abissal|Você tem Resistência a dano de Veneno. Também conhece o truque Borrifo Venenoso.|Raio de Fraqueza|Segurar Pessoa|\n|Ctônico|Você tem Resistência a dano Necrótico. Também conhece o truque Toque Gélido.|Vida Falsa|Raio de Debilidade|\n|Infernal|Você tem Resistência a dano de Fogo. Também conhece o truque Raio de Fogo.|Repreensão Infernal|Escuridão|"
+      },
+      {
+        "name_en": "Otherworldly Presence",
+        "name_pt": "Presença Extramundana",
+        "desc_en": "You know the *Thaumaturgy* cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.",
+        "desc_pt": "Você conhece o truque Taumaturgia. Ao conjurá-lo com essa característica, a magia usa a mesma habilidade de conjuração que você usa pra sua característica Legado Infernal."
+      }
+    ]
+  }
+]

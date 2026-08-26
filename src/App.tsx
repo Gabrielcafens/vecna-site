@@ -13,6 +13,8 @@ import ClassDetailPage from '@/pages/ClassDetail'
 import FeatsPage from '@/pages/Feats'
 import BackgroundsPage from '@/pages/Backgrounds'
 import RulesPage from '@/pages/Rules'
+import ConditionsPage from '@/pages/Conditions'
+import SpeciesPage from '@/pages/Species'
 import PhotosPage from '@/pages/Photos'
 import CardsPage from '@/pages/Cards'
 
@@ -33,6 +35,8 @@ function App() {
         <Route path="/talentos" element={<FeatsPage />} />
         <Route path="/antecedentes" element={<BackgroundsPage />} />
         <Route path="/regras" element={<RulesPage />} />
+        <Route path="/condicoes" element={<ConditionsPage />} />
+        <Route path="/racas" element={<SpeciesPage />} />
         <Route path="/fotos" element={<PhotosPage />} />
         <Route path="/cartas" element={<CardsPage />} />
       </Route>
