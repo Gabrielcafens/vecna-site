@@ -134,6 +134,22 @@ export default function LorePage() {
           <p className="text-sm leading-relaxed mb-3">
             Nível de entrada: <strong>6</strong>.
           </p>
+
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">🛠️ Quer entrar na mesa? Crie sua ficha</h2>
+          <p className="text-sm leading-relaxed mb-3">
+            Nível Inicial: <strong>Nível 6</strong> (o grupo já chegou nesse nível vindo da Sessão 1). Regras: D&amp;D 2024 (Versão 5.5), qualquer classe do Livro do Jogador, qualquer raça — desde que a origem do personagem faça sentido em Faerûn.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            <strong>Exemplos de justificativa de raça:</strong> raças comuns (Humano, Elfo, Anão, Halfling, Gnomo) nasceram ou vivem na Costa da Espada; Dragonborn buscam recuperar a honra do seu povo após a quase-extinção dos dragões; Tieflings/Orcs/Goblins usam o serviço à Aliança dos Lordes como redenção; raças de outros planos caíram em Faerûn por uma fenda planar ou foram enviadas por algum motivo cósmico maior.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            <strong>Como seu personagem entra na história:</strong>
+          </p>
+          <ul className="text-sm leading-relaxed mb-3 list-disc pl-5 space-y-1">
+            <li>Já é conhecido de alguém do grupo (Fabo, Phillipe, Eldris ou Vitu) e foi chamado pra reforçar a missão;</li>
+            <li>É um agente independente da Aliança dos Lordes designado pra acompanhar o grupo;</li>
+            <li>Sentiu o "despertar" dos Obeliscos Partidos por conta própria e chegou a Phandalin investigando por seus próprios motivos.</li>
+          </ul>
           <div className="mt-4 rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
             👁 Além desse gancho, o resto da Sessão 2 fica de fora deste site de propósito — ela ainda não foi jogada, e não quero estragar a surpresa pra ninguém na mesa.
           </div>
