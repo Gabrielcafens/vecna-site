@@ -58,27 +58,18 @@ body {
 
 body::before {
   content: '';
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   z-index: 0;
   pointer-events: none;
   opacity: 0.15;
   mix-blend-mode: var(--watermark-blend, multiply);
   filter: var(--watermark-filter, none);
   background-image: url('/vecna-site/logo-hand.png');
+  background-position: 56%;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: auto 100vh;
   background-attachment: fixed;
-}
-
-@media (min-width: 768px) {
-  body::before {
-    left: 16rem;
-  }
+  position: fixed;
+  inset: 0;
 }
 
 #root {
