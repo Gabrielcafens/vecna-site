@@ -72,6 +72,7 @@ body::before {
 /* Marca d'água pequena e repetida dentro dos cards claros */
 [class*="bg-[var(--card)]"] {
   position: relative;
+  z-index: 0;
 }
 
 [class*="bg-[var(--card)]"]::after {
@@ -80,7 +81,7 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.06;
+  opacity: 0.1;
   mix-blend-mode: var(--watermark-blend, multiply);
   filter: var(--watermark-filter, none);
   background-image: url('/vecna-site/logo-hand.png');
