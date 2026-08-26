@@ -1,0 +1,332 @@
+[
+  {
+    "key": "barbarian",
+    "name_en": "Barbarian",
+    "name_pt": "Bárbaro",
+    "translated": true,
+    "hit_die": "D12",
+    "saves_pt": [
+      "Constituição",
+      "Força"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "level1_features": [
+      {
+        "name_en": "Rage",
+        "name_pt": "Fúria",
+        "desc_en": "You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian Features table. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhile active, your Rage follows the rules below. *Damage Resistance.* You have Resistance to Bludgeoning, Piercing, and Slashing damage.\n\n**Rage Damage.** When you make an attack using Strength—with either a weapon or an Unarmed Strike—and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian Features table.\n\n**Strength Advantage.** You have Advantage on Strength checks and Strength saving throws.\n\n**No Concentration or Spells.** You can't maintain Concentration, and you can't cast spells.\n\n**Duration.** The Rage lasts until the end of your next turn, and it ends early if you don Heavy armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one of the following:\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",
+        "desc_pt": "Você pode imbuir-se de um poder primitivo chamado Fúria, uma força que concede vigor e resiliência extraordinários. Você pode entrar em Fúria como uma Ação Bônus se não estiver usando armadura Pesada.\n\nVocê pode entrar em Fúria o número de vezes mostrado para o seu nível de Bárbaro na tabela de Características do Bárbaro. Você recupera um uso gasto ao terminar um Descanso Curto, e recupera todos os usos gastos ao terminar um Descanso Longo.\n\nEnquanto ativa, sua Fúria segue as regras abaixo.\n\n**Resistência a Dano.** Você tem Resistência a dano de Concussão, Perfurante e Cortante.\n\n**Dano da Fúria.** Quando você faz um ataque usando Força — com uma arma ou um Ataque Desarmado — e causa dano ao alvo, você ganha um bônus ao dano que aumenta conforme ganha níveis de Bárbaro, como mostrado na tabela.\n\n**Vantagem em Força.** Você tem Vantagem em testes e salvaguardas de Força.\n\n**Sem Concentração ou Magias.** Você não pode manter Concentração, e não pode conjurar magias.\n\n**Duração.** A Fúria dura até o final do seu próximo turno, e termina antes se você vestir armadura Pesada ou tiver a condição Incapacitado. Se sua Fúria ainda estiver ativa no seu próximo turno, você pode estendê-la por mais uma rodada fazendo uma das seguintes ações: fazer uma jogada de ataque contra um inimigo; forçar um inimigo a fazer uma salvaguarda; ou usar uma Ação Bônus para estender a Fúria.\n\nCada vez que a Fúria é estendida, ela dura até o final do seu próximo turno. Você pode manter uma Fúria por até 10 minutos."
+      },
+      {
+        "name_en": "Unarmored Defense",
+        "name_pt": "Defesa Sem Armadura",
+        "desc_en": "While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",
+        "desc_pt": "Enquanto não estiver usando nenhuma armadura, sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Constituição. Você pode usar um Escudo e ainda obter esse benefício."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas Corpo a Corpo Simples ou Marciais à sua escolha, como Machados Grandes e Machadinhas. Sempre que terminar um Descanso Longo, você pode praticar exercícios com armas e trocar uma dessas escolhas.\n\nAo atingir certos níveis de Bárbaro, você ganha a habilidade de usar as propriedades de maestria de mais tipos de armas, como mostrado na tabela de Características do Bárbaro."
+      }
+    ]
+  },
+  {
+    "key": "bard",
+    "name_en": "Bard",
+    "name_pt": "Bardo",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Carisma",
+      "Destreza"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Bardic Inspiration",
+        "name_pt": "Inspiração de Bardo",
+        "desc_en": "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6.\n\n**Using Bardic Inspiration.** As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.\n\nOnce within the next hour when the creature fails a D20 Test, the creature can roll the Bardic Inspiration die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled.\n\n**Number of Uses.** You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**At Higher Levels.** Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard Features table. The die becomes a d8 at level 5, a d10 at level 10, and a d12 at level 15.",
+        "desc_pt": "Você pode inspirar sobrenaturalmente outras pessoas por meio de palavras, música ou dança. Essa inspiração é representada pelo seu dado de Inspiração de Bardo, que é um d6.\n\n**Usando a Inspiração de Bardo.** Como uma Ação Bônus, você pode inspirar outra criatura a até 18 m de você que possa ver ou ouvir você. Essa criatura ganha um de seus dados de Inspiração de Bardo. Uma criatura só pode ter um dado de Inspiração de Bardo por vez.\n\nUma vez dentro da próxima hora, quando a criatura falhar em um Teste de d20, ela pode rolar o dado de Inspiração de Bardo e somar o resultado ao d20, potencialmente transformando a falha em sucesso. O dado é gasto quando é rolado.\n\n**Número de Usos.** Você pode conceder um dado de Inspiração de Bardo um número de vezes igual ao seu modificador de Carisma (mínimo de uma vez), e recupera todos os usos gastos ao terminar um Descanso Longo.\n\n**Em Níveis Superiores.** Seu dado de Inspiração de Bardo muda quando você atinge certos níveis de Bardo. O dado se torna um d8 no nível 5, um d10 no nível 10 e um d12 no nível 15."
+      }
+    ]
+  },
+  {
+    "key": "cleric",
+    "name_en": "Cleric",
+    "name_pt": "Clérigo",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Carisma",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Divine Order",
+        "name_pt": "Ordem Divina",
+        "desc_en": "You have dedicated yourself to one of the following sacred roles of your choice.\n\n**Protector.** Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.\n\n**Thaumaturge.** You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).",
+        "desc_pt": "Você se dedicou a um dos seguintes papéis sagrados à sua escolha.\n\n**Protetor.** Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armadura Pesada.\n\n**Taumaturgo.** Você conhece um truque extra da lista de magias de Clérigo. Além disso, sua conexão mística com o divino concede um bônus aos seus testes de Inteligência (Arcanismo ou Religião). O bônus é igual ao seu modificador de Sabedoria (mínimo de +1)."
+      }
+    ]
+  },
+  {
+    "key": "druid",
+    "name_en": "Druid",
+    "name_pt": "Druida",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Inteligência",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Druidic",
+        "name_pt": "Druídico",
+        "desc_en": "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of communicating with animals; you always have the *Speak with Animals* spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic.",
+        "desc_pt": "Você conhece o Druídico, a língua secreta dos Druidas. Ao aprender essa língua ancestral, você também desbloqueou a magia de se comunicar com animais; você sempre tem a magia *Falar com Animais* preparada.\n\nVocê pode usar o Druídico para deixar mensagens ocultas. Você e outros que conheçam o Druídico percebem automaticamente tal mensagem. Outros percebem a presença da mensagem com um teste de Inteligência (Investigação) CD 15 bem-sucedido, mas não conseguem decifrá-la sem magia."
+      },
+      {
+        "name_en": "Primal Order",
+        "name_pt": "Ordem Primitiva",
+        "desc_en": "You have dedicated yourself to one of the following sacred roles of your choice.\n\n**Magician.** You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).\n\n**Warden.** Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",
+        "desc_pt": "Você se dedicou a um dos seguintes papéis sagrados à sua escolha.\n\n**Mago.** Você conhece um truque extra da lista de magias de Druida. Além disso, sua conexão mística com a natureza concede um bônus aos seus testes de Inteligência (Arcanismo ou Natureza). O bônus é igual ao seu modificador de Sabedoria (bônus mínimo de +1).\n\n**Guardião.** Treinado para a batalha, você ganha proficiência com armas Marciais e treinamento com armadura Média."
+      }
+    ]
+  },
+  {
+    "key": "fighter",
+    "name_en": "Fighter",
+    "name_pt": "Guerreiro",
+    "translated": true,
+    "hit_die": "D10",
+    "saves_pt": [
+      "Destreza",
+      "Força"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "level1_features": [
+      {
+        "name_en": "Fighting Style",
+        "name_pt": "Estilo de Luta",
+        "desc_en": "You have honed your martial prowess and gain a Fighting Style feat of your choice (see \"Feats\"). Defense is recommended.\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat.",
+        "desc_pt": "Você aperfeiçoou sua destreza marcial e ganha um talento de Estilo de Luta à sua escolha (veja \"Talentos\"). Defesa é recomendado.\n\nSempre que ganhar um nível de Guerreiro, você pode trocar o talento escolhido por um talento de Estilo de Luta diferente."
+      },
+      {
+        "name_en": "Second Wind",
+        "name_pt": "Fôlego Extra",
+        "desc_en": "You have a limited well of physical and mental stamina that you can draw on. As a Bonus Action, you can use it to regain Hit Points equal to 1d10 plus your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter Features table.",
+        "desc_pt": "Você tem uma reserva limitada de resistência física e mental da qual pode recorrer. Como uma Ação Bônus, você pode usá-la para recuperar Pontos de Vida iguais a 1d10 mais seu nível de Guerreiro.\n\nVocê pode usar essa característica duas vezes. Você recupera um uso gasto ao terminar um Descanso Curto, e recupera todos os usos gastos ao terminar um Descanso Longo."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter Features table.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de três tipos de armas Simples ou Marciais à sua escolha. Sempre que terminar um Descanso Longo, você pode praticar exercícios com armas e trocar uma dessas escolhas."
+      }
+    ]
+  },
+  {
+    "key": "monk",
+    "name_en": "Monk",
+    "name_pt": "Monge",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Destreza",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "level1_features": [
+      {
+        "name_en": "Martial Arts",
+        "name_pt": "Artes Marciais",
+        "desc_en": "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:\n\n- Simple Melee weapons\n- Martial Melee weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.\n\n**Bonus Unarmed Strike.** You can make an Unarmed Strike as a Bonus Action.\n\n**Martial Arts Die.** You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.\n\n**Dexterous Attacks.** You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.",
+        "desc_pt": "Sua prática de artes marciais concede domínio de estilos de combate que usam seu Ataque Desarmado e armas de Monge (armas Corpo a Corpo Simples e armas Corpo a Corpo Marciais com a propriedade Leve).\n\nVocê ganha os seguintes benefícios enquanto estiver desarmado ou empunhando apenas armas de Monge, sem usar armadura ou empunhar um Escudo.\n\n**Ataque Desarmado Bônus.** Você pode fazer um Ataque Desarmado como uma Ação Bônus.\n\n**Dado de Artes Marciais.** Você pode rolar 1d6 no lugar do dano normal do seu Ataque Desarmado ou armas de Monge. Esse dado muda conforme você ganha níveis de Monge.\n\n**Ataques Destros.** Você pode usar seu modificador de Destreza em vez de Força para as jogadas de ataque e dano de Ataques Desarmados e armas de Monge. Além disso, ao usar a opção Agarrar ou Empurrar do seu Ataque Desarmado, você pode usar seu modificador de Destreza em vez de Força para determinar a CD da salvaguarda."
+      },
+      {
+        "name_en": "Unarmored Defense",
+        "name_pt": "Defesa Sem Armadura",
+        "desc_en": "While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",
+        "desc_pt": "Enquanto não estiver usando armadura ou empunhando um Escudo, sua Classe de Armadura base é igual a 10 mais seus modificadores de Destreza e Sabedoria."
+      }
+    ]
+  },
+  {
+    "key": "paladin",
+    "name_en": "Paladin",
+    "name_pt": "Paladino",
+    "translated": true,
+    "hit_die": "D10",
+    "saves_pt": [
+      "Carisma",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Meio conjurador",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Lay On Hands",
+        "name_pt": "Imposição de Mãos",
+        "desc_en": "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you finish a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nYou can also expend 5 Hit Points from the pool of healing power to remove the Poisoned condition from the creature; those points don't also restore Hit Points to the creature.",
+        "desc_pt": "Seu toque abençoado pode curar ferimentos. Você tem uma reserva de poder de cura que se restaura ao terminar um Descanso Longo. Com essa reserva, você pode restaurar um total de Pontos de Vida igual a cinco vezes seu nível de Paladino.\n\nComo uma Ação Bônus, você pode tocar uma criatura (que pode ser você mesmo) e usar a reserva de cura para restaurar uma quantidade de Pontos de Vida a essa criatura, até o máximo restante na reserva.\n\nVocê também pode gastar 5 Pontos de Vida da reserva de cura para remover a condição Envenenado de uma criatura; esses pontos não restauram Pontos de Vida também."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas à sua escolha com as quais tem proficiência, como Espadas Longas e Azagaias.\n\nSempre que terminar um Descanso Longo, você pode trocar os tipos de armas escolhidos."
+      }
+    ]
+  },
+  {
+    "key": "ranger",
+    "name_en": "Ranger",
+    "name_pt": "Patrulheiro",
+    "translated": true,
+    "hit_die": "D10",
+    "saves_pt": [
+      "Destreza",
+      "Força"
+    ],
+    "caster_type_pt": "Meio conjurador",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Favored Enemy",
+        "name_pt": "Inimigo Favorito",
+        "desc_en": "You always have the *Hunter's Mark* spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.\n\nThe number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.",
+        "desc_pt": "Você sempre tem a magia *Marca do Caçador* preparada. Você pode conjurá-la duas vezes sem gastar um espaço de magia, e recupera todos os usos gastos dessa habilidade ao terminar um Descanso Longo.\n\nO número de vezes que você pode conjurar a magia sem um espaço de magia aumenta ao atingir certos níveis de Patrulheiro."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Shortswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Longswords.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas à sua escolha com as quais tem proficiência, como Arcos Longos e Espadas Curtas.\n\nSempre que terminar um Descanso Longo, você pode trocar os tipos de armas escolhidos."
+      }
+    ]
+  },
+  {
+    "key": "rogue",
+    "name_en": "Rogue",
+    "name_pt": "Ladino",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Destreza",
+      "Inteligência"
+    ],
+    "caster_type_pt": "Não conjurador",
+    "has_spellcasting": false,
+    "level1_features": [
+      {
+        "name_en": "Expertise",
+        "name_pt": "Especialização",
+        "desc_en": "You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.\n\nAt Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
+        "desc_pt": "Você ganha Especialização em duas de suas proficiências em perícias à sua escolha. Prestidigitação e Furtividade são recomendadas se você tiver proficiência nelas.\n\nNo nível 6 de Ladino, você ganha Especialização em mais duas de suas proficiências em perícias à sua escolha."
+      },
+      {
+        "name_en": "Sneak Attack",
+        "name_pt": "Ataque Furtivo",
+        "desc_en": "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.\n\nYou don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nThe extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.",
+        "desc_pt": "Você sabe golpear sutilmente e explorar a distração de um inimigo. Uma vez por turno, você pode causar 1d6 de dano extra a uma criatura que acertar com uma jogada de ataque se tiver Vantagem na jogada e o ataque usar uma arma Sutil ou à Distância. O tipo do dano extra é o mesmo da arma.\n\nVocê não precisa de Vantagem na jogada de ataque se pelo menos um aliado estiver a até 1,5 m do alvo, esse aliado não tiver a condição Incapacitado, e você não tiver Desvantagem na jogada de ataque.\n\nO dano extra aumenta conforme você ganha níveis de Ladino."
+      },
+      {
+        "name_en": "Thieves' Cant",
+        "name_pt": "Gíria de Ladrão",
+        "desc_en": "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in \"Character Creation.\"",
+        "desc_pt": "Você aprendeu vários idiomas nas comunidades onde exerceu seus talentos ladinos. Você conhece a Gíria de Ladrão e mais um idioma à sua escolha."
+      },
+      {
+        "name_en": "Weapon Mastery",
+        "name_pt": "Maestria em Armas",
+        "desc_en": "Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Scimitars and Shortswords.",
+        "desc_pt": "Seu treinamento com armas permite que você use as propriedades de maestria de dois tipos de armas à sua escolha com as quais tem proficiência, como Adagas e Arcos Curtos.\n\nSempre que terminar um Descanso Longo, você pode trocar os tipos de armas escolhidos."
+      }
+    ]
+  },
+  {
+    "key": "sorcerer",
+    "name_en": "Sorcerer",
+    "name_pt": "Feiticeiro",
+    "translated": true,
+    "hit_die": "D6",
+    "saves_pt": [
+      "Carisma",
+      "Constituição"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Innate Sorcery",
+        "name_pt": "Feitiçaria Inata",
+        "desc_en": "An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:\n\n- The spell save DC of your Sorcerer spells increases by 1.\n- You have Advantage on the attack rolls of Sorcerer spells you cast.\n\nYou can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.",
+        "desc_pt": "Um evento em seu passado deixou uma marca indelével em você, infundindo-o com magia latente. Como uma Ação Bônus, você pode liberar essa magia por 1 minuto, durante o qual ganha os seguintes benefícios:\n\n- A CD de resistência de magia de suas magias de Feiticeiro aumenta em 1.\n- Você tem Vantagem nas jogadas de ataque de magias de Feiticeiro que conjurar.\n\nVocê pode usar essa característica duas vezes, e recupera todos os usos gastos ao terminar um Descanso Longo."
+      }
+    ]
+  },
+  {
+    "key": "warlock",
+    "name_en": "Warlock",
+    "name_pt": "Bruxo",
+    "translated": true,
+    "hit_die": "D8",
+    "saves_pt": [
+      "Carisma",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Magia de Pacto",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Eldritch Invocations",
+        "name_pt": "Invocações Élficas",
+        "desc_en": "You have unearthed Eldritch Invocations, pieces of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\n\n**Prerequisites.** If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.\n\n**Replacing and Gaining Invocations.** Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.\n\nYou can't pick the same invocation more than once unless its description says otherwise.",
+        "desc_pt": "Você desenterrou Invocações Élficas, fragmentos de conhecimento proibido que lhe concedem uma habilidade mágica duradoura ou outras lições. Você ganha uma invocação à sua escolha, como Pacto do Tomo.\n\n**Pré-requisitos.** Se uma invocação tiver um pré-requisito, você deve cumpri-lo para aprendê-la.\n\n**Trocando e Ganhando Invocações.** Sempre que ganhar um nível de Bruxo, você pode trocar uma de suas invocações por outra para a qual se qualifique. Você não pode trocar uma invocação se ela for pré-requisito de outra que você possua.\n\nVocê não pode escolher a mesma invocação mais de uma vez, a menos que sua descrição diga o contrário."
+      },
+      {
+        "name_en": "Pact Magic",
+        "name_pt": "Magia de Pacto",
+        "desc_en": "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See \"Spells\" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.\n\n**Cantrips.** You know two Warlock cantrips of your choice. *Eldritch Blast* and *Prestidigitation* are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.\n\nWhen you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.\n\n**Spell Slots.** The Warlock Features table shows how many spell slots you have to cast your Warlock spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. You regain all expended Pact Magic spell slots when you finish a Short or Long Rest.\n\nFor example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell *Charm Person*, you must spend one of those slots, and you cast it as a level 3 spell.\n\n**Prepared Spells of Level 1+.** You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, choose two level 1 Warlock spells. *Charm Person* and *Hex* are recommended.\n\nThe number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock Features table. Whenever that number increases, choose additional Warlock spells until the number of spells on your list matches the number in the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of levels 1–3.\n\nIf another Warlock feature gives you spells that you always have prepared, those spells don't count against the number of spells you can prepare with this feature, but those spells otherwise count as Warlock spells for you.\n\n**Changing Your Prepared Spells.** Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level.\n\n**Spellcasting Ability.** Charisma is the spellcasting ability for your Warlock spells.\n\n**Spellcasting Focus.** You can use an Arcane Focus as a Spellcasting Focus for your Warlock spells.",
+        "desc_pt": "Por meio de um ritual oculto, você formou um pacto com uma entidade misteriosa para obter poderes mágicos. A entidade é uma voz nas sombras — sua identidade obscura — mas sua dádiva a você é concreta: a habilidade de conjurar magias.\n\n**Truques.** Você conhece dois truques de Bruxo à sua escolha. *Explosão Élfica* e *Prestidigitação* são recomendados. Sempre que ganhar um nível de Bruxo, você pode trocar um dos truques dessa característica por outro truque de Bruxo à sua escolha.\n\nAo atingir os níveis 4 e 10 de Bruxo, você aprende outro truque de Bruxo à sua escolha.\n\n**Espaços de Magia.** A tabela de Características do Bruxo mostra quantos espaços de magia você tem para conjurar suas magias de Bruxo de níveis 1 a 5. A tabela também mostra o círculo desses espaços, todos do mesmo círculo. Você recupera todos os espaços de Magia de Pacto gastos ao terminar um Descanso Curto ou Longo.\n\nPor exemplo, quando você é um Bruxo de nível 5, tem dois espaços de magia de círculo 3. Para conjurar a magia de círculo 1 *Encantar Pessoa*, você deve gastar um desses espaços, e a conjura como uma magia de círculo 3.\n\n**Magias Preparadas de Círculo 1+.** Você prepara a lista de magias de círculo 1+ disponíveis para conjurar com essa característica. Para começar, escolha duas magias de círculo 1 de Bruxo. *Encantar Pessoa* e *Maldição* são recomendadas.\n\nO número de magias em sua lista aumenta conforme você ganha níveis de Bruxo. As magias escolhidas devem ser de um círculo não superior ao mostrado na tabela para seu nível.\n\n**Trocando Suas Magias Preparadas.** Sempre que ganhar um nível de Bruxo, você pode trocar uma magia de sua lista por outra magia de Bruxo de um círculo elegível.\n\n**Habilidade de Conjuração.** Carisma é a habilidade de conjuração para suas magias de Bruxo.\n\n**Foco de Conjuração.** Você pode usar um Foco Arcano como Foco de Conjuração para suas magias de Bruxo."
+      }
+    ]
+  },
+  {
+    "key": "wizard",
+    "name_en": "Wizard",
+    "name_pt": "Mago",
+    "translated": true,
+    "hit_die": "D6",
+    "saves_pt": [
+      "Inteligência",
+      "Sabedoria"
+    ],
+    "caster_type_pt": "Conjurador completo",
+    "has_spellcasting": true,
+    "level1_features": [
+      {
+        "name_en": "Arcane Recovery",
+        "name_pt": "Recuperação Arcana",
+        "desc_en": "You can regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level equal to no more than half your Wizard level (round up), and none of the slots can be level 6 or higher. For example, if you're a level 4 Wizard, you can recover up to two levels' worth of spell slots, regaining either one level 2 spell slot or two level 1 spell slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest.",
+        "desc_pt": "Você pode recuperar parte de sua energia mágica estudando seu grimório. Ao terminar um Descanso Curto, você pode escolher espaços de magia gastos para recuperar. Os espaços recuperados podem ter um círculo combinado não superior à metade do seu nível de Mago (arredondado para cima), e nenhum pode ser de círculo 6 ou superior.\n\nDepois de usar essa característica, você não pode fazê-lo novamente até terminar um Descanso Longo."
+      },
+      {
+        "name_en": "Ritual Adept",
+        "name_pt": "Adepto de Rituais",
+        "desc_en": "You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way.",
+        "desc_pt": "Você pode conjurar qualquer magia como Ritual se ela tiver a marca de Ritual e estiver em seu grimório. Você não precisa tê-la preparada, mas deve ler do grimório para conjurá-la dessa forma."
+      }
+    ]
+  }
+]
