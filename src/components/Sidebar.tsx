@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n'
-import { BookOpen, Users, Contact, Skull, Printer, Image as ImageIcon, ExternalLink } from 'lucide-react'
+import { BookOpen, Users, Contact, Skull, Printer, Image as ImageIcon, ExternalLink, ClipboardList } from 'lucide-react'
 
 const SRD_5ETOOLS_URL = 'https://5e.tools/spells.html#filter=source%3AXPHB%2CXDMG%2CXMM'
 
@@ -14,6 +14,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
       items: [
         { to: '/', label: t('nav.lore'), icon: BookOpen, end: true },
         { to: '/personagens', label: t('nav.characters'), icon: Users },
+        { to: '/fichas', label: t('nav.sheets'), icon: ClipboardList },
         { to: '/npcs', label: t('nav.npcs'), icon: Contact },
         { to: '/fotos', label: t('nav.photos'), icon: ImageIcon },
       ],
