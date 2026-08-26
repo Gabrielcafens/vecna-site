@@ -1,49 +1,15 @@
 import { useT } from '@/lib/i18n'
-
-const CARDS = [
-  {
-    key: 'kael',
-    name: 'Kael, Aprendiz de Thay',
-    level: 'ND 1',
-    stats: [
-      ['CA', '13'],
-      ['PV', '22 (5d8)'],
-      ['Deslocamento', '9m'],
-    ],
-    body: 'Conjurador de necromancia. Ataca com adaga (+4, 4 dano perfurante) ou Raio de Enfraquecimento (+5 à distância, 10 dano necrótico).',
-  },
-  {
-    key: 'reth',
-    name: 'Reth, Aprendiz de Thay',
-    level: 'ND 1',
-    stats: [
-      ['CA', '12'],
-      ['PV', '27 (6d8)'],
-      ['Deslocamento', '9m'],
-    ],
-    body: 'Sangue Sacrificial: ao cair a 0 HP, cura 10 HP do ritual em andamento. Ataca com cajado ou Mísseis Mágicos (3 dardos, 3 dano cada).',
-  },
-  {
-    key: 'dracolich',
-    name: 'Dracolich Enfraquecido',
-    level: 'ND 8',
-    stats: [
-      ['CA', '17'],
-      ['PV', '150 (20d12+20)'],
-      ['Deslocamento', '9m, voo 18m'],
-    ],
-    body: 'Mordida (+9, 17 dano perfurante). Sopro Necrótico Enfraquecido (recarga 5-6): cone de 9m, CD 15 Constituição, 27 dano necrótico (metade se sucesso).',
-  },
-]
+import { BESTIARY } from '@/lib/bestiary'
 
 export default function CardsPage() {
   const t = useT()
+  const sessions = [...new Set(BESTIARY.map((m) => m.session))].sort()
 
   return (
     <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-1 no-print">{t('cards.title')}</h1>
       <p className="text-sm text-[var(--muted)] mb-6 no-print">
-        Cartas do bestiário da Sessão 1 (Necrotério de Thay). Use Ctrl+P pra imprimir.
+        Cartas do bestiário, separadas por sessão. Use Ctrl+P pra imprimir.
       </p>
 
       <div className="flex gap-3 mb-4 no-print">
@@ -52,22 +18,35 @@ export default function CardsPage() {
         </button>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 gap-4">
-        {CARDS.map((c) => (
-          <div key={c.key} className="vecna-card relative print:break-inside-avoid">
-            <header className="vecna-card-header">
-              <h3 className="vecna-card-name">{c.name}</h3>
-              <span className="vecna-card-level">{c.level}</span>
-            </header>
-            <div className="vecna-card-stats">
-              {c.stats.map(([label, value]) => (
-                <div key={label}><span>{label}</span><strong>{value}</strong></div>
-              ))}
-            </div>
-            <p className="vecna-card-body">{c.body}</p>
+      {sessions.map((session) => (
+        <div key={session} className="mb-8">
+          <h2 className="font-display text-sm font-bold uppercase tracking-wider text-[var(--muted)] border-b border-[var(--border)] pb-1 mb-3 no-print">
+            Sessão {session}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 gap-4">
+            {BESTIARY.filter((m) => m.session === session).map((m) => (
+              <div key={m.name} className="vecna-card relative print:break-inside-avoid">
+                <header className="vecna-card-header">
+                  <h3 className="vecna-card-name">{m.name}</h3>
+                  <span className="vecna-card-level">ND {m.cr}</span>
+                </header>
+                <p className="vecna-card-subtitle">{m.subtitle}</p>
+                <div className="vecna-card-stats">
+                  <div><span>CA</span><strong>{m.ac}</strong></div>
+                  <div><span>PV</span><strong>{m.hp}</strong></div>
+                  <div><span>Desl.</span><strong>{m.speed}</strong></div>
+                </div>
+                {m.traits?.map((tr, idx) => (
+                  <p key={idx} className="vecna-card-body"><strong>{tr.name}.</strong> {tr.desc}</p>
+                ))}
+                {m.actions.slice(0, 2).map((a, idx) => (
+                  <p key={idx} className="vecna-card-body"><strong>{a.name}.</strong> {a.desc}</p>
+                ))}
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   )
 }

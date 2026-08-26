@@ -21,6 +21,7 @@ html {
   --eye: #dca06d;
   --danger: #7a2020;
   --ring: #a55b4b;
+  --accent-active-text: #6b2145;
 }
 
 .dark {
@@ -40,6 +41,7 @@ html {
   --eye: #dca06d;
   --danger: #c1483f;
   --ring: #dca06d;
+  --accent-active-text: var(--accent);
 }
 
 * {

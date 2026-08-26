@@ -57,7 +57,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
                     cn(
                       'group relative flex items-center gap-2.5 rounded-md px-3 py-2 text-sm transition-all duration-150',
                       isActive
-                        ? 'bg-[var(--accent)]/15 text-[var(--accent)] font-medium'
+                        ? 'bg-[var(--accent)]/15 text-[var(--accent-active-text)] font-medium'
                         : 'text-[var(--sidebar-foreground)]/75 hover:bg-[var(--border)]/40 hover:text-[var(--sidebar-foreground)]'
                     )
                   }

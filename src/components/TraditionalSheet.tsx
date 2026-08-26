@@ -33,7 +33,7 @@ export function TraditionalSheet({ character, onClose }: { character: Character;
           </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-5">
           <div className="rounded-lg border border-[var(--border)] p-3 text-center">
             <div className="text-[9px] uppercase font-bold text-[var(--muted)] tracking-wider">Classe de Armadura</div>
             <div className="text-2xl font-bold font-display text-[var(--accent)]">{d.ac}</div>
@@ -50,6 +50,10 @@ export function TraditionalSheet({ character, onClose }: { character: Character;
           <div className="rounded-lg border border-[var(--border)] p-3 text-center">
             <div className="text-[9px] uppercase font-bold text-[var(--muted)] tracking-wider">Percepção Passiva</div>
             <div className="text-2xl font-bold font-display text-[var(--accent)]">{d.passive_perception}</div>
+          </div>
+          <div className="rounded-lg border border-[var(--border)] p-3 text-center">
+            <div className="text-[9px] uppercase font-bold text-[var(--muted)] tracking-wider">Bônus de Proficiência</div>
+            <div className="text-2xl font-bold font-display text-[var(--accent)]">+{d.proficiency_bonus}</div>
           </div>
         </div>
 
@@ -107,9 +111,9 @@ export function TraditionalSheet({ character, onClose }: { character: Character;
         {d.features && d.features.length > 0 && (
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Talentos & Características</h3>
-            <div className="flex flex-wrap gap-1.5">
+            <div className="space-y-1.5">
               {d.features.map((f) => (
-                <span key={f} className="text-xs rounded-full border border-[var(--border)] px-2.5 py-1 bg-[var(--sidebar)]/50">{f}</span>
+                <p key={f.name} className="text-sm"><strong className="text-[var(--accent)]">{f.name}.</strong> <span className="text-[var(--muted)]">{f.desc}</span></p>
               ))}
             </div>
           </div>

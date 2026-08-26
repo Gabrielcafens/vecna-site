@@ -108,7 +108,7 @@ export interface CharacterSheetData {
   saving_throws?: string[]
   skills?: { name: string; bonus: number }[]
   weapons?: { name: string; bonus: string; damage: string }[]
-  features?: string[]
+  features?: { name: string; desc: string }[]
 }
 
 export interface Character {
@@ -125,6 +125,7 @@ export interface Character {
   feats?: string[]
   allies?: string
   allies_image?: string
+  class_link?: string
 }
 
 export interface DndClassLevel {

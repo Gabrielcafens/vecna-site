@@ -43,8 +43,8 @@ export default function SheetsPage() {
                     <span className="text-xs text-[var(--muted)]">{[c.race, c.class].filter(Boolean).join(' · ')} — Nível {c.level}</span>
                   </div>
                   {clickable && (
-                    <span className="flex items-center gap-1 text-[10px] font-medium text-[var(--accent)] opacity-70 group-hover:opacity-100 shrink-0">
-                      <ScrollText className="h-3.5 w-3.5" /> Ver ficha
+                    <span className="flex items-center gap-1.5 rounded-full bg-[var(--accent)]/10 px-3 py-1.5 text-sm font-semibold text-[var(--accent)] group-hover:bg-[var(--accent)] group-hover:text-[var(--accent-foreground)] transition-colors shrink-0">
+                      <ScrollText className="h-4 w-4" /> Ver ficha
                     </span>
                   )}
                 </div>

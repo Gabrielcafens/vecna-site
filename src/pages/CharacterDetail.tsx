@@ -5,7 +5,7 @@ import { useData } from '@/lib/useData'
 import { useT } from '@/lib/i18n'
 import { Badge } from '@/components/ui/badge'
 import { Spinner } from '@/components/ui/skeleton'
-import { ArrowLeft, User, Star, BookOpen, Users } from 'lucide-react'
+import { ArrowLeft, User, Star, BookOpen, Users, ExternalLink } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 export default function CharacterDetailPage() {
@@ -92,7 +92,19 @@ export default function CharacterDetailPage() {
 
         {c.sheet && (
           <div className="mt-4 rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/40 p-4">
-            <h2 className="font-display text-sm font-bold text-[var(--accent)] mb-2">Ficha resumida</h2>
+            <div className="flex items-center justify-between mb-2">
+              <h2 className="font-display text-sm font-bold text-[var(--accent)]">Ficha resumida</h2>
+              {c.class_link && (
+                <a
+                  href={c.class_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-xs font-medium text-[var(--accent)] hover:underline shrink-0"
+                >
+                  <ExternalLink className="h-3.5 w-3.5" /> Ver classe no 5eTools
+                </a>
+              )}
+            </div>
             <p className="text-sm whitespace-pre-line leading-relaxed text-[var(--muted)]">{c.sheet}</p>
           </div>
         )}
