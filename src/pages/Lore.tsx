@@ -67,6 +67,17 @@ export default function LorePage() {
             Epílogo de Tyranny of Dragons / Prólogo de Phandelver and Below: The Shattered Obelisk — D&amp;D 2024 (5.5ª edição). Sessão concluída, grupo subiu para o Nível 4.
           </p>
 
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Como tudo começou</h2>
+          <p className="text-sm leading-relaxed mb-3">
+            Faerûn finalmente respira em paz. A tirania do Culto do Dragão ruiu, a Rainha das Trevas foi banida e os grandes heróis do passado agora desfrutam de seu merecido descanso ou governam as grandes facções. Mas nas sombras dos reinos, uma nova ameaça começa a se mover.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            No isolado Cemitério de Oakhaven, vigias locais desapareceram e sussurros de magia profana ecoam vindos das criptas. A Aliança dos Lordes convocou um novo grupo de promissores aventureiros pra investigar o local antes que um mal antigo ganhasse força. A paz é frágil, e o destino dos reinos começou a cair nas mãos de Fabo, Phillipe e Eldris.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            Cada um chegou até a Torre de Xonthal por um motivo diferente — ouro e glória, vingança, ou o legado dos veteranos que vieram antes deles. No Gabinete de Guerra da Aliança, Foster, Vitu e Sildar entregaram a missão e mandaram o grupo pra Oakhaven.
+          </p>
+
           <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">O que aconteceu</h2>
           <p className="text-sm leading-relaxed mb-3">
             O grupo foi convocado à Torre de Xonthal — Farol da Esperança — pelos veteranos da guerra contra Tiamat. Foster, Vitu e Sildar passaram a missão: investigar o Cemitério de Oakhaven, onde Magos de Thay dissidentes estavam usando o Coração de Vidro de Tiamat para alimentar um ritual necromântico.
@@ -99,6 +110,7 @@ export default function LorePage() {
               <tr className="border-b border-[var(--border)]"><td className="py-1">215 PO</td><td>Fabo</td></tr>
               <tr className="border-b border-[var(--border)]"><td className="py-1">215 PO</td><td>Phillipe</td></tr>
               <tr className="border-b border-[var(--border)]"><td className="py-1">215 PO</td><td>Eldris</td></tr>
+              <tr className="border-b border-[var(--border)]"><td className="py-1">Capa de Proteção +1 (CA e Salvaguardas)</td><td>Provavelmente Eldris (a confirmar)</td></tr>
               <tr><td className="py-1">Diário de Reth (narrativo)</td><td>Grupo</td></tr>
             </tbody>
           </table>
