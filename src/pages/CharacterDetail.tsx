@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import type { Character } from '@/lib/types'
 import { useData } from '@/lib/useData'
@@ -5,11 +6,13 @@ import { useT } from '@/lib/i18n'
 import { Badge } from '@/components/ui/badge'
 import { Spinner } from '@/components/ui/skeleton'
 import { ArrowLeft, User, Star } from 'lucide-react'
+import { cn } from '@/lib/utils'
 
 export default function CharacterDetailPage() {
   const { name } = useParams()
   const t = useT()
   const { data: characters, loading } = useData<Character[]>('data/personagens.json')
+  const [tab, setTab] = useState<'lore' | 'allies'>('lore')
 
   if (loading) return <Spinner />
   const c = characters!.find((x) => x.name === decodeURIComponent(name || ''))
@@ -42,12 +45,42 @@ export default function CharacterDetailPage() {
                 {c.feats.map((f) => <Badge key={f}>{f}</Badge>)}
               </div>
             )}
-            <div className="flex flex-wrap gap-1 mb-3">
+            <div className="flex flex-wrap gap-1">
               {c.tags.map((tag) => <Badge key={tag}>{tag}</Badge>)}
             </div>
-            <p className="text-sm whitespace-pre-line leading-relaxed">{c.notes}</p>
           </div>
         </div>
+
+        {c.allies ? (
+          <div className="flex gap-1 border-b border-[var(--border)] mb-4">
+            <button
+              onClick={() => setTab('lore')}
+              className={cn(
+                'px-4 py-2 text-sm font-medium border-b-2 -mb-px transition-colors',
+                tab === 'lore' ? 'border-[var(--accent)] text-[var(--accent)]' : 'border-transparent text-[var(--muted)] hover:text-[var(--foreground)]'
+              )}
+            >
+              Lore
+            </button>
+            <button
+              onClick={() => setTab('allies')}
+              className={cn(
+                'px-4 py-2 text-sm font-medium border-b-2 -mb-px transition-colors',
+                tab === 'allies' ? 'border-[var(--accent)] text-[var(--accent)]' : 'border-transparent text-[var(--muted)] hover:text-[var(--foreground)]'
+              )}
+            >
+              Aliados & Patronos
+            </button>
+          </div>
+        ) : null}
+
+        {(!c.allies || tab === 'lore') && (
+          <p className="text-sm whitespace-pre-line leading-relaxed">{c.notes}</p>
+        )}
+        {c.allies && tab === 'allies' && (
+          <p className="text-sm whitespace-pre-line leading-relaxed">{c.allies}</p>
+        )}
+
         {c.sheet && (
           <div className="mt-4 rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/40 p-4">
             <h2 className="font-display text-sm font-bold text-[var(--accent)] mb-2">Ficha resumida</h2>

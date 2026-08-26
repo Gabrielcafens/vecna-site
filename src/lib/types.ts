@@ -108,6 +108,7 @@ export interface Character {
   image?: string
   sheet?: string
   feats?: string[]
+  allies?: string
 }
 
 export interface DndClassLevel {
