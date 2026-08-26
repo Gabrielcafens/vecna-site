@@ -64,7 +64,7 @@ export default function LorePage() {
             className="w-full max-w-md mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-4"
           />
           <p className="text-sm italic text-[var(--muted)] mb-6">
-            Epílogo de Tyranny of Dragons / Prólogo de Phandelver and Below: The Shattered Obelisk — D&amp;D 2024 (5.5ª edição). Sessão concluída, grupo subiu para o Nível 4.
+            Epílogo de Tyranny of Dragons / Prólogo de Phandelver and Below: The Shattered Obelisk — D&amp;D 2024 (5.5ª edição). Sessão concluída, grupo subiu para o Nível 6.
           </p>
 
           <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Como tudo começou</h2>
