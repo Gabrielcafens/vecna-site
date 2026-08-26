@@ -2,7 +2,6 @@ import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n'
 import { BookOpen, Users, Contact, Skull, Printer, Image as ImageIcon, Star, BookMarked, HeartCrack, ExternalLink } from 'lucide-react'
-import { GrimoireIcon } from '@/components/GrimoireIcon'
 
 const SRD_5ETOOLS_URL = 'https://5e.tools/spells.html#filter=source%3AXPHB%2CXDMG%2CXMM'
 
@@ -37,8 +36,8 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-[var(--border)] bg-[var(--sidebar)] text-[var(--sidebar-foreground)]">
       <div className="flex items-center gap-2 px-4 py-5 border-b border-[var(--border)]">
-        <div className="relative flex h-14 w-14 items-center justify-center rounded-lg bg-gradient-to-br from-[var(--accent)] to-[var(--accent)]/60 shadow-md shadow-[var(--accent)]/20 shrink-0">
-          <GrimoireIcon className="h-11 w-11" />
+        <div className="relative flex h-14 w-14 items-center justify-center overflow-hidden rounded-lg bg-white shadow-md shadow-[var(--accent)]/30 shrink-0 p-1">
+          <img src={`${import.meta.env.BASE_URL}logo-hand.png`} alt="Vecna" className="h-full w-full object-contain" />
         </div>
         <div>
           <div className="font-display text-lg font-bold tracking-[0.15em] leading-none">{t('app.title')}</div>
