@@ -8,6 +8,11 @@ export default function LorePage() {
           Sessão 1 — O Necrotério de Thay
         </summary>
         <div className="mt-4">
+          <img
+            src={`${import.meta.env.BASE_URL}lore-party-antiga.png`}
+            alt="O grupo original que derrotou Tiamat, com o mestre da campanha ao centro"
+            className="w-full max-w-2xl mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-4"
+          />
           <p className="text-sm italic text-[var(--muted)] mb-6">
             Epílogo de Tyranny of Dragons / Prólogo de Phandelver and Below: The Shattered Obelisk — D&amp;D 2024 (5.5ª edição). Sessão concluída, grupo subiu para o Nível 4.
           </p>

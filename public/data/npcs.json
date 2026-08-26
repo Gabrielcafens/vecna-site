@@ -3,25 +3,28 @@
     "name": "Foster",
     "role": "Gnomo Mago de Divinação, devoto de Gond",
     "session": 1,
+    "image": "npcs/foster.png",
     "notes": "Deu o golpe final em Tiamat com a Varinha de Mísseis Mágicos na primeira aventura de Phandalin. Vive na Torre de Xonthal — Farol da Esperança, nos arredores de Phandalin, com o Bob (Espectador verde). Está secretamente tentando prolongar a própria vida sem necromancia. Apresentou o Baralho das Muitas Coisas no encerramento da Sessão 1."
   },
   {
     "name": "Vitu",
     "role": "Dragonborn Paladino da Glória",
     "session": 1,
+    "image": "personagens/vitu.png",
     "notes": "Liderou o grupo que derrotou Tiamat. Vive numa casa simples ao lado do lago de Foster. Carrega a culpa pela destruição das tribos de Fabo enquanto estava em missão. Depois que Fabo puxou a carta O Carro no Baralho, o Vitu passou a ser jogado mecanicamente como o cavaleiro aliado ganho — personagem legado de nível 16."
   },
   {
     "name": "Sildar Hallwinter",
     "role": "Humano Guerreiro veterano",
     "session": 1,
+    "image": "npcs/sildar.png",
     "notes": "Patrono de Phandalin, cargo sênior na Aliança dos Lordes. Treinou Heidan, que treinou Phillipe. Quando Heidan morreu, assumiu Phillipe diretamente. É a âncora de Phillipe — o que Sildar pede, ele faz sem perguntar."
   },
   {
     "name": "Bob",
     "role": "Espectador verde",
     "session": 1,
-    "image": "npcs/bob.svg",
+    "image": "npcs/bob.png",
     "notes": "Companheiro do grupo original. Flutua entre a Torre de Xonthal e a casa de Vitu. Foster conduz experimentos discretos nele tentando torná-lo algo mais... jogável."
   },
   {
