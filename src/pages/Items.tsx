@@ -34,7 +34,7 @@ export default function ItemsPage() {
   const translatedCount = (items || []).filter((i) => i.translated).length
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
+    <div className="p-6 max-w-[1920px] mx-auto">
       <h1 className="text-2xl font-bold mb-1">{t('items.title')}</h1>
       <p className="text-sm text-[var(--muted)] mb-4">
         {loading ? t('loading') : `${translatedCount}/${items!.length} ${t('translated')} (${((translatedCount / items!.length) * 100).toFixed(1)}%)`}

@@ -38,7 +38,7 @@ export default function SpellsPage() {
   const translatedCount = (spells || []).filter((s) => s.translated).length
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
+    <div className="p-6 max-w-[1920px] mx-auto">
       <h1 className="text-2xl font-bold mb-1">{t('spells.title')}</h1>
       <p className="text-sm text-[var(--muted)] mb-4">
         {loading ? t('loading') : `${translatedCount}/${spells!.length} ${t('translated')} (${((translatedCount / spells!.length) * 100).toFixed(1)}%)`}

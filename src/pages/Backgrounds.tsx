@@ -24,7 +24,7 @@ export default function BackgroundsPage() {
   const { data: backgrounds, loading } = useData<Background[]>('data/backgrounds.json')
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">{lang === 'en' ? 'Backgrounds' : 'Antecedentes'}</h1>
       {loading ? (
         <CardGridSkeleton count={4} className="md:grid-cols-2" />

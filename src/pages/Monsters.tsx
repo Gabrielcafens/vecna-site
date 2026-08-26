@@ -43,7 +43,7 @@ export default function MonstersPage() {
     : { traits: 'Características', actions: 'Ações', bonus_actions: 'Ações Bônus', reactions: 'Reações', legendary_actions: 'Ações Lendárias' }
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
+    <div className="p-6 max-w-[1920px] mx-auto">
       <h1 className="text-2xl font-bold mb-1">{t('monsters.title')}</h1>
       <p className="text-sm text-[var(--muted)] mb-4">
         {loading ? t('loading') : `${translatedCount}/${monsters!.length} ${t('translated')} (${((translatedCount / monsters!.length) * 100).toFixed(1)}%) — ${t('monsters.switchHint')}`}

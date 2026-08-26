@@ -11,7 +11,7 @@ export default function ClassesPage() {
   const { data: classes, loading } = useData<DndClass[]>('data/classes.json')
 
   return (
-    <div className="p-6 max-w-6xl mx-auto">
+    <div className="p-6 max-w-[1920px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">{t('classes.title')}</h1>
       {loading ? (
         <CardGridSkeleton count={6} className="md:grid-cols-2 lg:grid-cols-3" />

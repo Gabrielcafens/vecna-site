@@ -19,7 +19,7 @@ export default function ClassDetailPage() {
   const extraCols = c.table_column_names || []
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <Link to="/classes" className="inline-flex items-center gap-1 text-sm text-[var(--muted)] hover:text-[var(--accent)] mb-4">
         <ArrowLeft className="h-4 w-4" /> {t('classes.title')}
       </Link>

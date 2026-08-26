@@ -120,4 +120,6 @@ export interface Npc {
   name: string
   role: string
   notes: string
+  image?: string
+  session?: number
 }

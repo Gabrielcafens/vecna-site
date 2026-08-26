@@ -4181,8 +4181,8 @@
   {
     "key": "baboon",
     "name_en": "Baboon",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Babuíno",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -4234,17 +4234,17 @@
     "traits": [
       {
         "name_en": "Pack Tactics",
-        "name_pt": null,
+        "name_pt": "Táticas em Grupo",
         "desc_en": "The baboon has Advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
-        "desc_pt": null
+        "desc_pt": "O babuíno tem Vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado estiver a até 1,5 m dela e não tiver a condição Incapacitado."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +1, reach 5 ft. 1 (1d4 - 1) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +1, alcance 1,5 m. 1 (1d4 - 1) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -4254,8 +4254,8 @@
   {
     "key": "badger",
     "name_en": "Badger",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Texugo",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -4318,9 +4318,9 @@
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -4850,8 +4850,8 @@
   {
     "key": "bat",
     "name_en": "Bat",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Morcego",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -4904,9 +4904,9 @@
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +4 to hit, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -6581,8 +6581,8 @@
   {
     "key": "cat",
     "name_en": "Cat",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Gato",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -6643,17 +6643,17 @@
     "traits": [
       {
         "name_en": "Jumper",
-        "name_pt": null,
+        "name_pt": "Saltador",
         "desc_en": "The cat's jump distance is determined using its Dexterity rather than its Strength.",
-        "desc_pt": null
+        "desc_pt": "A distância de salto do gato é determinada pela Destreza em vez da Força."
       }
     ],
     "actions": [
       {
         "name_en": "Scratch",
-        "name_pt": null,
+        "name_pt": "Arranhão",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. 1 Slashing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 1 de dano Cortante."
       }
     ],
     "bonus_actions": [],
@@ -7833,8 +7833,8 @@
   {
     "key": "crab",
     "name_en": "Crab",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Caranguejo",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -7891,17 +7891,17 @@
     "traits": [
       {
         "name_en": "Amphibious",
-        "name_pt": null,
+        "name_pt": "Anfíbio",
         "desc_en": "The crab can breathe air and water.",
-        "desc_pt": null
+        "desc_pt": "O caranguejo pode respirar ar e água."
       }
     ],
     "actions": [
       {
         "name_en": "Claw",
-        "name_pt": null,
+        "name_pt": "Garra",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 1 Bludgeoning damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 1 de dano de Concussão."
       }
     ],
     "bonus_actions": [],
@@ -8314,8 +8314,8 @@
   {
     "key": "deer",
     "name_en": "Deer",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Cervo",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Médio",
     "challenge_rating": 0,
@@ -8372,17 +8372,17 @@
     "traits": [
       {
         "name_en": "Agile",
-        "name_pt": null,
+        "name_pt": "Ágil",
         "desc_en": "The deer doesn't provoke an Opportunity Attack when it moves out of an enemy's reach.",
-        "desc_pt": null
+        "desc_pt": "O cervo não provoca Ataques de Oportunidade ao sair do alcance de um inimigo."
       }
     ],
     "actions": [
       {
         "name_en": "Ram",
-        "name_pt": null,
+        "name_pt": "Investida",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 2 (1d4) Bludgeoning damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 2 (1d4) de dano de Concussão."
       }
     ],
     "bonus_actions": [],
@@ -9492,8 +9492,8 @@
   {
     "key": "eagle",
     "name_en": "Eagle",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Águia",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -9551,9 +9551,9 @@
     "actions": [
       {
         "name_en": "Talons",
-        "name_pt": null,
+        "name_pt": "Garras",
         "desc_en": "Melee Attack Roll: +4, reach 5 feet. 4 (1d4 + 2) Slashing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 4 (1d4 + 2) de dano Cortante."
       }
     ],
     "bonus_actions": [],
@@ -9867,8 +9867,8 @@
   {
     "key": "elk",
     "name_en": "Elk",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Alce",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Grande",
     "challenge_rating": 0.25,
@@ -9926,9 +9926,9 @@
     "actions": [
       {
         "name_en": "Ram",
-        "name_pt": null,
+        "name_pt": "Investida",
         "desc_en": "Melee Attack Roll: +5, reach 5 ft. 6 (1d6 + 3) Bludgeoning damage. If the target is a Large or smaller creature and the elk moved 20+ feet straight toward it immediately before the hit, the target takes an extra 3 (1d6) Bludgeoning damage and has the Prone condition.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m. 6 (1d6 + 3) de dano de Concussão. Se o alvo for uma criatura Grande ou menor e o alce tiver se movido 6+ metros em linha reta na direção dele imediatamente antes do acerto, o alvo sofre 3 (1d6) de dano de Concussão extra e recebe a condição Caído."
       }
     ],
     "bonus_actions": [],
@@ -10711,8 +10711,8 @@
   {
     "key": "frog",
     "name_en": "Frog",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Sapo",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -10773,23 +10773,23 @@
     "traits": [
       {
         "name_en": "Amphibious",
-        "name_pt": null,
+        "name_pt": "Anfíbio",
         "desc_en": "The frog can breathe air and water.",
-        "desc_pt": null
+        "desc_pt": "O sapo pode respirar ar e água."
       },
       {
         "name_en": "Standing Leap",
-        "name_pt": null,
+        "name_pt": "Salto Firme",
         "desc_en": "The frog's Long Jump is up to 10 feet and its High Jump is up to 5 feet with or without a running start.",
-        "desc_pt": null
+        "desc_pt": "O Salto em Distância do sapo é de até 3 m e o Salto em Altura é de até 1,5 m, com ou sem corrida."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +3, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -12279,8 +12279,8 @@
   {
     "key": "giant-fire-beetle",
     "name_en": "Giant Fire Beetle",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Besouro de Fogo Gigante",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -12337,17 +12337,17 @@
     "traits": [
       {
         "name_en": "Illumination",
-        "name_pt": null,
+        "name_pt": "Iluminação",
         "desc_en": "The beetle sheds Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.",
-        "desc_pt": null
+        "desc_pt": "O besouro emite Luz Plena num raio de 3 m e Penumbra por mais 3 m."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +1, reach 5 ft. 1 Fire damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +1, alcance 1,5 m. 1 de dano de Fogo."
       }
     ],
     "bonus_actions": [],
@@ -12357,8 +12357,8 @@
   {
     "key": "giant-fly",
     "name_en": "Giant Fly",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Mosca Gigante",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Grande",
     "challenge_rating": 0,
@@ -14192,8 +14192,8 @@
   {
     "key": "goat",
     "name_en": "Goat",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Cabra",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Médio",
     "challenge_rating": 0,
@@ -14251,9 +14251,9 @@
     "actions": [
       {
         "name_en": "Ram",
-        "name_pt": null,
+        "name_pt": "Investida",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 1 Bludgeoning damage, or 2 (1d4) Bludgeoning damage if the goat moved 20+ feet straight toward the target immediately before the hit.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 1 de dano de Concussão, ou 2 (1d4) se a cabra tiver se movido 6+ metros em linha reta na direção do alvo imediatamente antes do acerto."
       }
     ],
     "bonus_actions": [],
@@ -15720,8 +15720,8 @@
   {
     "key": "hawk",
     "name_en": "Hawk",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Falcão",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -15779,9 +15779,9 @@
     "actions": [
       {
         "name_en": "Talons",
-        "name_pt": null,
+        "name_pt": "Garras",
         "desc_en": "Melee Attack Roll: +5, reach 5 ft. 1 Slashing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m. 1 de dano Cortante."
       }
     ],
     "bonus_actions": [],
@@ -16794,8 +16794,8 @@
   {
     "key": "hyena",
     "name_en": "Hyena",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Hiena",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Médio",
     "challenge_rating": 0,
@@ -16852,17 +16852,17 @@
     "traits": [
       {
         "name_en": "Pack Tactics",
-        "name_pt": null,
+        "name_pt": "Táticas em Grupo",
         "desc_en": "The hyena has Advantage on an attack roll against a creature if at least one of the hyena's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
-        "desc_pt": null
+        "desc_pt": "A hiena tem Vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado estiver a até 1,5 m dela e não tiver a condição Incapacitado."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 3 (1d6) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 3 (1d6) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -17638,8 +17638,8 @@
   {
     "key": "jackal",
     "name_en": "Jackal",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Chacal",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -17701,9 +17701,9 @@
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +1, reach 5 ft. 1 (1d4 - 1) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +1, alcance 1,5 m. 1 (1d4 - 1) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -18599,8 +18599,8 @@
   {
     "key": "lizard",
     "name_en": "Lizard",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Lagarto",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -18652,17 +18652,17 @@
     "traits": [
       {
         "name_en": "Spider Climb",
-        "name_pt": null,
+        "name_pt": "Escalada de Aranha",
         "desc_en": "The lizard can climb difficult surfaces, including along ceilings, without needing to make an ability check.",
-        "desc_pt": null
+        "desc_pt": "O lagarto pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar de teste de habilidade."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -20789,8 +20789,8 @@
   {
     "key": "octopus",
     "name_en": "Octopus",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Polvo",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -20851,23 +20851,23 @@
     "traits": [
       {
         "name_en": "Compression",
-        "name_pt": null,
+        "name_pt": "Compressão",
         "desc_en": "The octopus can move through a space as narrow as 1 inch without expending extra movement to do so.",
-        "desc_pt": null
+        "desc_pt": "O polvo pode se mover por um espaço de até 2,5 cm de largura sem gastar movimento extra."
       },
       {
         "name_en": "Water Breathing",
-        "name_pt": null,
+        "name_pt": "Respiração Aquática",
         "desc_en": "The octopus can breathe only underwater.",
-        "desc_pt": null
+        "desc_pt": "O polvo só pode respirar debaixo d'água."
       }
     ],
     "actions": [
       {
         "name_en": "Tentacles",
-        "name_pt": null,
+        "name_pt": "Tentáculos",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. Hit: 1 Bludgeoning damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 1 de dano de Concussão."
       }
     ],
     "bonus_actions": [],
@@ -21249,8 +21249,8 @@
   {
     "key": "owl",
     "name_en": "Owl",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Coruja",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -21311,17 +21311,17 @@
     "traits": [
       {
         "name_en": "Flyby",
-        "name_pt": null,
+        "name_pt": "Sobrevoo",
         "desc_en": "The owl doesn't provoke Opportunity Attacks when it flies out of an enemy's reach.",
-        "desc_pt": null
+        "desc_pt": "A coruja não provoca Ataques de Oportunidade ao voar pra fora do alcance de um inimigo."
       }
     ],
     "actions": [
       {
         "name_en": "Talons",
-        "name_pt": null,
+        "name_pt": "Garras",
         "desc_en": "Melee Attack Roll: +3, reach 5 ft. 1 Slashing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +3, alcance 1,5 m. 1 de dano Cortante."
       }
     ],
     "bonus_actions": [],
@@ -21664,8 +21664,8 @@
   {
     "key": "piranha",
     "name_en": "Piranha",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Piranha",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -21717,17 +21717,17 @@
     "traits": [
       {
         "name_en": "Water Breathing",
-        "name_pt": null,
+        "name_pt": "Respiração Aquática",
         "desc_en": "The piranha can breathe only underwater.",
-        "desc_pt": null
+        "desc_pt": "A piranha só pode respirar debaixo d'água."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +5 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5 (com Vantagem se o alvo não estiver com todos os PV), alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -23104,8 +23104,8 @@
   {
     "key": "rat",
     "name_en": "Rat",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Rato",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -23162,17 +23162,17 @@
     "traits": [
       {
         "name_en": "Agile",
-        "name_pt": null,
+        "name_pt": "Ágil",
         "desc_en": "The rat doesn't provoke Opportunity Attacks when it moves out of an enemy's reach.",
-        "desc_pt": null
+        "desc_pt": "O rato não provoca Ataques de Oportunidade ao sair do alcance de um inimigo."
       }
     ],
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -23182,8 +23182,8 @@
   {
     "key": "raven",
     "name_en": "Raven",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Corvo",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -23240,17 +23240,17 @@
     "traits": [
       {
         "name_en": "Mimicry",
-        "name_pt": null,
+        "name_pt": "Mimetismo",
         "desc_en": "The raven can mimic simple sounds it has heard, such as a whisper or chitter. A hearer can discern the sounds are imitations with a successful DC 10 Wisdom (Insight) check.",
-        "desc_pt": null
+        "desc_pt": "O corvo pode imitar sons simples que já ouviu, como um sussurro ou chilrear. Quem ouve pode perceber que é imitação com um teste de Sabedoria (Intuição) CD 10 bem-sucedido."
       }
     ],
     "actions": [
       {
         "name_en": "Beak",
-        "name_pt": null,
+        "name_pt": "Bico",
         "desc_en": "Melee Attack Roll: +4, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +4, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -24334,8 +24334,8 @@
   {
     "key": "scorpion",
     "name_en": "Scorpion",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Escorpião",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -24388,9 +24388,9 @@
     "actions": [
       {
         "name_en": "Sting",
-        "name_pt": null,
+        "name_pt": "Ferroada",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 1 Piercing damage plus 3 (1d6) Poison damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 1 de dano Perfurante mais 3 (1d6) de dano de Veneno."
       }
     ],
     "bonus_actions": [],
@@ -24586,8 +24586,8 @@
   {
     "key": "seahorse",
     "name_en": "Seahorse",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Cavalo-marinho",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -24648,17 +24648,17 @@
     "traits": [
       {
         "name_en": "Water Breathing",
-        "name_pt": null,
+        "name_pt": "Respiração Aquática",
         "desc_en": "The seahorse can breathe only underwater.",
-        "desc_pt": null
+        "desc_pt": "O cavalo-marinho só pode respirar debaixo d'água."
       }
     ],
     "actions": [
       {
         "name_en": "Bubble Dash",
-        "name_pt": null,
+        "name_pt": "Investida de Bolhas",
         "desc_en": "While underwater, the seahorse moves up to its Swim Speed without provoking Opportunity Attacks.",
-        "desc_pt": null
+        "desc_pt": "Debaixo d'água, o cavalo-marinho se move até seu Deslocamento de Nado sem provocar Ataques de Oportunidade."
       }
     ],
     "bonus_actions": [],
@@ -29257,8 +29257,8 @@
   {
     "key": "vulture",
     "name_en": "Vulture",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Abutre",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Médio",
     "challenge_rating": 0,
@@ -29315,17 +29315,17 @@
     "traits": [
       {
         "name_en": "Pack Tactics",
-        "name_pt": null,
+        "name_pt": "Táticas em Grupo",
         "desc_en": "The vulture has Advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.",
-        "desc_pt": null
+        "desc_pt": "O abutre tem Vantagem em uma jogada de ataque contra uma criatura se pelo menos um aliado estiver a até 1,5 m dela e não tiver a condição Incapacitado."
       }
     ],
     "actions": [
       {
         "name_en": "Beak",
-        "name_pt": null,
+        "name_pt": "Bico",
         "desc_en": "Melee Attack Roll: +2, reach 5 ft. 2 (1d4) Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +2, alcance 1,5 m. 2 (1d4) de dano Perfurante."
       }
     ],
     "bonus_actions": [],
@@ -29786,8 +29786,8 @@
   {
     "key": "weasel",
     "name_en": "Weasel",
-    "name_pt": null,
-    "translated": false,
+    "name_pt": "Doninha",
+    "translated": true,
     "type_pt": "Fera",
     "size_pt": "Pequeno",
     "challenge_rating": 0,
@@ -29853,9 +29853,9 @@
     "actions": [
       {
         "name_en": "Bite",
-        "name_pt": null,
+        "name_pt": "Mordida",
         "desc_en": "Melee Attack Roll: +5, reach 5 ft. 1 Piercing damage.",
-        "desc_pt": null
+        "desc_pt": "Jogada de Ataque Corpo a Corpo: +5, alcance 1,5 m. 1 de dano Perfurante."
       }
     ],
     "bonus_actions": [],

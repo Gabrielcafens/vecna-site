@@ -11,7 +11,7 @@ export default function CharactersPage() {
   const { data: characters, loading } = useData<Character[]>('data/personagens.json')
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">{t('characters.title')}</h1>
       {loading ? (
         <CardGridSkeleton count={3} className="md:grid-cols-3" />
@@ -25,7 +25,7 @@ export default function CharactersPage() {
             >
               <div className="flex items-center gap-3 mb-2">
                 {c.image ? (
-                  <img src={`${import.meta.env.BASE_URL}${c.image}`} alt={c.name} className="h-12 w-12 rounded-full object-cover border border-[var(--border)]" />
+                  <img src={`${import.meta.env.BASE_URL}${c.image}`} alt={c.name} className="h-12 w-12 rounded-full object-cover object-top border border-[var(--border)]" />
                 ) : (
                   <div className="h-12 w-12 rounded-full bg-[var(--sidebar)] border border-[var(--border)] flex items-center justify-center">
                     <User className="h-6 w-6 text-[var(--muted)]" />

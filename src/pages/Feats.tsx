@@ -18,7 +18,7 @@ export default function FeatsPage() {
   const { data: feats, loading } = useData<Feat[]>('data/feats.json')
 
   return (
-    <div className="p-6 max-w-5xl mx-auto">
+    <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">{lang === 'en' ? 'Feats' : 'Talentos'}</h1>
       {loading ? (
         <CardGridSkeleton count={6} className="md:grid-cols-2" />
