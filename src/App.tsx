@@ -7,6 +7,7 @@ import SheetsPage from '@/pages/Sheets'
 import NpcsPage from '@/pages/Npcs'
 import NpcDetailPage from '@/pages/NpcDetail'
 import MonstersPage from '@/pages/Monsters'
+import ItemsPage from '@/pages/Items'
 import PhotosPage from '@/pages/Photos'
 import CardsPage from '@/pages/Cards'
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/npcs" element={<NpcsPage />} />
         <Route path="/npcs/:name" element={<NpcDetailPage />} />
         <Route path="/monstros" element={<MonstersPage />} />
+        <Route path="/itens" element={<ItemsPage />} />
         <Route path="/fotos" element={<PhotosPage />} />
         <Route path="/cartas" element={<CardsPage />} />
       </Route>

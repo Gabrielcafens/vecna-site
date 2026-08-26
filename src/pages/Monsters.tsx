@@ -7,6 +7,7 @@ interface StatBlock {
   ac: number
   hp: string
   speed: string
+  image?: string
   stats: { label: string; score: number; mod: string }[]
   traits?: { name: string; desc: string }[]
   actions: { name: string; desc: string }[]
@@ -16,6 +17,7 @@ const BESTIARY: StatBlock[] = [
   {
     name: 'Kael, Aprendiz de Thay',
     subtitle: 'Humanoide médio (humano), leal maligno',
+    image: 'npcs/kael.png',
     cr: '1',
     ac: 13,
     hp: '22 (5d8)',
@@ -39,6 +41,7 @@ const BESTIARY: StatBlock[] = [
   {
     name: 'Reth, Aprendiz de Thay',
     subtitle: 'Humanoide médio (humano), leal maligno',
+    image: 'npcs/reth.png',
     cr: '1',
     ac: 12,
     hp: '27 (6d8)',
@@ -156,6 +159,7 @@ const BESTIARY: StatBlock[] = [
   {
     name: 'Dracolich Enfraquecido',
     subtitle: 'Morto-vivo grande, leal maligno',
+    image: 'npcs/dracolich.png',
     cr: '8',
     ac: 17,
     hp: '150 (20d12+20)',
@@ -182,10 +186,15 @@ const BESTIARY: StatBlock[] = [
 function MonsterCard({ m }: { m: StatBlock }) {
   return (
     <div className="rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm">
-      <div className="flex justify-between items-start mb-1">
-        <div>
-          <h3 className="font-semibold font-display">{m.name}</h3>
-          <p className="text-[11px] italic text-[var(--muted)]">{m.subtitle}</p>
+      <div className="flex justify-between items-start mb-1 gap-3">
+        <div className="flex items-center gap-3">
+          {m.image && (
+            <img src={`${import.meta.env.BASE_URL}${m.image}`} alt={m.name} className="h-12 w-12 rounded-full object-cover object-top border-2 border-[var(--accent)]/60 shrink-0" />
+          )}
+          <div>
+            <h3 className="font-semibold font-display">{m.name}</h3>
+            <p className="text-[11px] italic text-[var(--muted)]">{m.subtitle}</p>
+          </div>
         </div>
         <span className="text-xs font-bold text-[var(--accent)] shrink-0 ml-2">ND {m.cr}</span>
       </div>

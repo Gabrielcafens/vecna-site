@@ -3,18 +3,29 @@ export default function LorePage() {
     <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">Lore da Campanha</h1>
 
-      <div className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
-        <img
-          src={`${import.meta.env.BASE_URL}lore-party-antiga.png`}
-          alt="O grupo original que derrotou Tiamat em Tyranny of Dragons, com o mestre da campanha ao centro"
-          className="w-full max-w-2xl mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-3"
-        />
-        <p className="text-xs text-center italic text-[var(--muted)]">
-          O grupo original de Tyranny of Dragons, que derrotou Tiamat — o ponto de partida de toda a campanha.
-        </p>
-      </div>
-
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          Epílogo de Tyranny of Dragons
+        </summary>
+        <div className="mt-4">
+          <img
+            src={`${import.meta.env.BASE_URL}lore-party-antiga.png`}
+            alt="O grupo original que derrotou Tiamat em Tyranny of Dragons, com o mestre da campanha ao centro"
+            className="w-full max-w-2xl mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-4"
+          />
+          <p className="text-sm leading-relaxed mb-3">
+            Antes de tudo o que está nesse site, houve outra mesa: o grupo que enfrentou o Culto do Dragão e impediu o retorno de Tiamat ao mundo. Foster, Vitu e Sildar Hallwinter vinham dessa geração de heróis — e é a vitória deles que dá o pano de fundo pra essa nova campanha.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            Com Tiamat derrotada, o Culto do Dragão perdeu força e os grandes veteranos passaram a viver o descanso que ganharam — ou a assumir cargos de liderança na Aliança dos Lordes, guiando a próxima geração de aventureiros. Mas restos do culto continuaram espalhados pelos reinos, e foi um desses grupos dissidentes de Magos de Thay que puxou os eventos do Necrotério de Thay.
+          </p>
+          <p className="text-sm leading-relaxed">
+            Essa campanha é o que vem depois: uma nova geração de heróis herdando o mundo que os veteranos deixaram — e as sombras que eles não conseguiram apagar de vez.
+          </p>
+        </div>
+      </details>
+
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           Sessão 1 — O Necrotério de Thay
         </summary>

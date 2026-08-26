@@ -97,6 +97,20 @@ export interface DndClass {
   level1_features: ClassFeature[]
 }
 
+export interface CharacterSheetData {
+  abilities: { str: number; dex: number; con: number; int: number; wis: number; cha: number }
+  ac: number
+  hp: number
+  hit_dice: string
+  initiative: number
+  passive_perception: number
+  proficiency_bonus: number
+  saving_throws?: string[]
+  skills?: { name: string; bonus: number }[]
+  weapons?: { name: string; bonus: string; damage: string }[]
+  features?: string[]
+}
+
 export interface Character {
   name: string
   race: string
@@ -107,6 +121,7 @@ export interface Character {
   notes: string
   image?: string
   sheet?: string
+  sheet_data?: CharacterSheetData
   feats?: string[]
   allies?: string
 }
