@@ -28,7 +28,7 @@ export default function SheetsPage() {
                 key={c.name}
                 onClick={() => clickable && setSelected(c)}
                 disabled={!clickable}
-                className={`group text-left rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm transition-all duration-200 ${clickable ? 'cursor-pointer hover:shadow-lg hover:border-[var(--accent)]/50' : 'cursor-default opacity-90'}`}
+                className={`group flex flex-col text-left rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm transition-all duration-200 h-full ${clickable ? 'cursor-pointer hover:shadow-lg hover:border-[var(--accent)]/50' : 'cursor-default opacity-90'}`}
               >
                 <div className="flex items-center gap-3 mb-3 pb-3 border-b border-[var(--border)]">
                   {c.image ? (
@@ -57,7 +57,7 @@ export default function SheetsPage() {
                 )}
 
                 {c.sheet ? (
-                  <p className="text-sm whitespace-pre-line leading-relaxed text-[var(--muted)]">{c.sheet}</p>
+                  <p className="text-sm leading-relaxed text-[var(--muted)] line-clamp-3">{c.sheet.replace(/\n/g, ' ')}</p>
                 ) : (
                   <div className="flex items-center gap-2 text-sm text-[var(--muted)] italic">
                     <Clock className="h-4 w-4 shrink-0" />
