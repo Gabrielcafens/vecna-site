@@ -1,0 +1,58 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#7ecf6a" />
+      <stop offset="55%" stop-color="#3f9a3a" />
+      <stop offset="100%" stop-color="#1c5c1a" />
+    </radialGradient>
+    <radialGradient id="eyeGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fff6d9" />
+      <stop offset="45%" stop-color="#f2c94c" />
+      <stop offset="100%" stop-color="#8a5a12" />
+    </radialGradient>
+    <radialGradient id="smallEyeGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ffe9a8" />
+      <stop offset="60%" stop-color="#e0a233" />
+      <stop offset="100%" stop-color="#6e4410" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="100" cy="185" rx="55" ry="8" fill="black" opacity="0.15" />
+
+  <!-- Corpo esférico -->
+  <circle cx="100" cy="100" r="72" fill="url(#bodyGrad)" stroke="#123d10" stroke-width="3" />
+
+  <!-- Textura de manchas -->
+  <circle cx="60" cy="60" r="7" fill="#2a7a26" opacity="0.5" />
+  <circle cx="145" cy="70" r="5" fill="#2a7a26" opacity="0.5" />
+  <circle cx="140" cy="140" r="8" fill="#2a7a26" opacity="0.5" />
+  <circle cx="55" cy="135" r="6" fill="#2a7a26" opacity="0.5" />
+
+  <!-- Quatro olhos pequenos flutuantes ao redor -->
+  <g>
+    <circle cx="35" cy="55" r="9" fill="url(#smallEyeGrad)" stroke="#123d10" stroke-width="1.5" />
+    <circle cx="35" cy="55" r="3.2" fill="#1a1006" />
+  </g>
+  <g>
+    <circle cx="165" cy="55" r="9" fill="url(#smallEyeGrad)" stroke="#123d10" stroke-width="1.5" />
+    <circle cx="165" cy="55" r="3.2" fill="#1a1006" />
+  </g>
+  <g>
+    <circle cx="30" cy="105" r="7" fill="url(#smallEyeGrad)" stroke="#123d10" stroke-width="1.5" />
+    <circle cx="30" cy="105" r="2.6" fill="#1a1006" />
+  </g>
+  <g>
+    <circle cx="170" cy="105" r="7" fill="url(#smallEyeGrad)" stroke="#123d10" stroke-width="1.5" />
+    <circle cx="170" cy="105" r="2.6" fill="#1a1006" />
+  </g>
+
+  <!-- Boca com dentes -->
+  <path d="M70 140q30 18 60 0" stroke="#123d10" stroke-width="3" fill="#0c2e0a" />
+  <path d="M76 141l4 8M86 143l3 9M96 144l0 9M106 143l-3 9M116 141l-4 8" stroke="#e8f4f8" stroke-width="2" fill="none" />
+
+  <!-- Olho central grande -->
+  <circle cx="100" cy="92" r="26" fill="#0c2e0a" stroke="#123d10" stroke-width="2" />
+  <circle cx="100" cy="92" r="21" fill="url(#eyeGrad)" />
+  <circle cx="100" cy="92" r="8" fill="#1a1006" />
+  <circle cx="93" cy="85" r="3.5" fill="#fffef2" opacity="0.85" />
+</svg>

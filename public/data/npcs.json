@@ -3,7 +3,7 @@
     "name": "Foster",
     "role": "Gnomo Mago de Divinação, devoto de Gond",
     "session": 1,
-    "notes": "Deu o golpe final em Tiamat com a Varinha de Mísseis Mágicos na primeira aventura de Phandalin. Vive na Torre de Xonthal — Farol da Esperança, nos arredores de Phandalin, com o Bob (Espectador azul). Está secretamente tentando prolongar a própria vida sem necromancia. Apresentou o Baralho das Muitas Coisas no encerramento da Sessão 1."
+    "notes": "Deu o golpe final em Tiamat com a Varinha de Mísseis Mágicos na primeira aventura de Phandalin. Vive na Torre de Xonthal — Farol da Esperança, nos arredores de Phandalin, com o Bob (Espectador verde). Está secretamente tentando prolongar a própria vida sem necromancia. Apresentou o Baralho das Muitas Coisas no encerramento da Sessão 1."
   },
   {
     "name": "Vitu",
@@ -19,8 +19,9 @@
   },
   {
     "name": "Bob",
-    "role": "Espectador azul",
+    "role": "Espectador verde",
     "session": 1,
+    "image": "npcs/bob.svg",
     "notes": "Companheiro do grupo original. Flutua entre a Torre de Xonthal e a casa de Vitu. Foster conduz experimentos discretos nele tentando torná-lo algo mais... jogável."
   },
   {

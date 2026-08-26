@@ -2,21 +2,18 @@ import { useEffect, useMemo, useState } from 'react'
 import { Command } from 'cmdk'
 import { useNavigate } from 'react-router-dom'
 import { Search } from 'lucide-react'
-import { useLanguage, pick } from '@/lib/language'
 import { useT } from '@/lib/i18n'
 import { useData } from '@/lib/useData'
-import type { Spell, ItemEntry, Monster } from '@/lib/types'
+import type { Character, Npc } from '@/lib/types'
 
 export function CommandSearch() {
   const [open, setOpen] = useState(false)
   const [query, setQuery] = useState('')
   const navigate = useNavigate()
-  const { lang } = useLanguage()
   const t = useT()
 
-  const { data: spells } = useData<Spell[]>('data/spells.json')
-  const { data: items } = useData<ItemEntry[]>('data/items.json')
-  const { data: monsters } = useData<Monster[]>('data/monsters.json')
+  const { data: characters } = useData<Character[]>('data/personagens.json')
+  const { data: npcs } = useData<Npc[]>('data/npcs.json')
 
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -30,15 +27,14 @@ export function CommandSearch() {
   }, [])
 
   const results = useMemo(() => {
-    if (!query.trim()) return { spells: [], items: [], monsters: [] }
+    if (!query.trim()) return { characters: [], npcs: [] }
     const q = query.toLowerCase()
     const match = (name: string) => name.toLowerCase().includes(q)
     return {
-      spells: (spells || []).filter((s) => match(pick(lang, s.name_pt, s.name_en))).slice(0, 8),
-      items: (items || []).filter((i) => match(pick(lang, i.name_pt, i.name_en))).slice(0, 8),
-      monsters: (monsters || []).filter((m) => match(pick(lang, m.name_pt, m.name_en))).slice(0, 8),
+      characters: (characters || []).filter((c) => match(c.name)).slice(0, 8),
+      npcs: (npcs || []).filter((n) => match(n.name)).slice(0, 8),
     }
-  }, [query, lang, spells, items, monsters])
+  }, [query, characters, npcs])
 
   function go(path: string) {
     setOpen(false)
@@ -79,47 +75,33 @@ export function CommandSearch() {
           {query.trim() === '' && (
             <div className="p-4 text-sm text-[var(--muted)]">{t('search.hint')}</div>
           )}
-          {query.trim() !== '' && results.spells.length === 0 && results.items.length === 0 && results.monsters.length === 0 && (
+          {query.trim() !== '' && results.characters.length === 0 && results.npcs.length === 0 && (
             <Command.Empty className="p-4 text-sm text-[var(--muted)]">{t('search.empty')}</Command.Empty>
           )}
-          {results.spells.length > 0 && (
-            <Command.Group heading={t('nav.spells')} className="text-xs text-[var(--muted)] px-2 py-1 [&_[cmdk-group-heading]]:mb-1">
-              {results.spells.map((s) => (
+          {results.characters.length > 0 && (
+            <Command.Group heading={t('nav.characters')} className="text-xs text-[var(--muted)] px-2 py-1 [&_[cmdk-group-heading]]:mb-1">
+              {results.characters.map((c) => (
                 <Command.Item
-                  key={s.key}
-                  value={s.key}
-                  onSelect={() => go(`/magias?q=${encodeURIComponent(pick(lang, s.name_pt, s.name_en))}`)}
+                  key={c.name}
+                  value={c.name}
+                  onSelect={() => go(`/personagens/${encodeURIComponent(c.name)}`)}
                   className="cursor-pointer rounded px-2 py-1.5 text-sm text-[var(--foreground)] data-[selected=true]:bg-[var(--accent)]/15"
                 >
-                  {pick(lang, s.name_pt, s.name_en)}
+                  {c.name}
                 </Command.Item>
               ))}
             </Command.Group>
           )}
-          {results.items.length > 0 && (
-            <Command.Group heading={t('nav.items')} className="text-xs text-[var(--muted)] px-2 py-1 [&_[cmdk-group-heading]]:mb-1">
-              {results.items.map((i) => (
+          {results.npcs.length > 0 && (
+            <Command.Group heading={t('nav.npcs')} className="text-xs text-[var(--muted)] px-2 py-1 [&_[cmdk-group-heading]]:mb-1">
+              {results.npcs.map((n) => (
                 <Command.Item
-                  key={i.key}
-                  value={i.key}
-                  onSelect={() => go(`/itens?q=${encodeURIComponent(pick(lang, i.name_pt, i.name_en))}`)}
+                  key={n.name}
+                  value={n.name}
+                  onSelect={() => go(`/npcs/${encodeURIComponent(n.name)}`)}
                   className="cursor-pointer rounded px-2 py-1.5 text-sm text-[var(--foreground)] data-[selected=true]:bg-[var(--accent)]/15"
                 >
-                  {pick(lang, i.name_pt, i.name_en)}
-                </Command.Item>
-              ))}
-            </Command.Group>
-          )}
-          {results.monsters.length > 0 && (
-            <Command.Group heading={t('nav.monsters')} className="text-xs text-[var(--muted)] px-2 py-1 [&_[cmdk-group-heading]]:mb-1">
-              {results.monsters.map((m) => (
-                <Command.Item
-                  key={m.key}
-                  value={m.key}
-                  onSelect={() => go(`/monstros?q=${encodeURIComponent(pick(lang, m.name_pt, m.name_en))}`)}
-                  className="cursor-pointer rounded px-2 py-1.5 text-sm text-[var(--foreground)] data-[selected=true]:bg-[var(--accent)]/15"
-                >
-                  {pick(lang, m.name_pt, m.name_en)}
+                  {n.name}
                 </Command.Item>
               ))}
             </Command.Group>

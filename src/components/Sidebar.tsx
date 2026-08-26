@@ -1,8 +1,10 @@
 import { NavLink } from 'react-router-dom'
 import { cn } from '@/lib/utils'
 import { useT } from '@/lib/i18n'
-import { BookOpen, Users, Contact, Sparkles, Swords, Skull, GraduationCap, Printer, Image as ImageIcon, Star, ScrollText, BookMarked, HeartCrack, Fingerprint } from 'lucide-react'
+import { BookOpen, Users, Contact, Skull, Printer, Image as ImageIcon, Star, BookMarked, HeartCrack, ExternalLink } from 'lucide-react'
 import { GrimoireIcon } from '@/components/GrimoireIcon'
+
+const SRD_5ETOOLS_URL = 'https://5e.tools/spells.html#filter=source%3AXPHB%2CXDMG%2CXMM'
 
 export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   const t = useT()
@@ -20,15 +22,10 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
     {
       label: t('nav.group.rules'),
       items: [
-        { to: '/magias', label: t('nav.spells'), icon: Sparkles },
-        { to: '/itens', label: t('nav.items'), icon: Swords },
         { to: '/monstros', label: t('nav.monsters'), icon: Skull },
-        { to: '/classes', label: t('nav.classes'), icon: GraduationCap },
         { to: '/talentos', label: t('nav.feats'), icon: Star },
-        { to: '/antecedentes', label: t('nav.backgrounds'), icon: ScrollText },
         { to: '/regras', label: t('nav.rules'), icon: BookMarked },
         { to: '/condicoes', label: t('nav.conditions'), icon: HeartCrack },
-        { to: '/racas', label: t('nav.species'), icon: Fingerprint },
       ],
     },
     {
@@ -84,6 +81,20 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
             </div>
           </div>
         ))}
+        <div>
+          <div className="px-3 mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-[var(--muted)]">
+            SRD Completo
+          </div>
+          <a
+            href={SRD_5ETOOLS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative flex items-center gap-2.5 rounded-md px-3 py-2 text-sm text-[var(--sidebar-foreground)]/75 hover:bg-[var(--border)]/40 hover:text-[var(--sidebar-foreground)] transition-all duration-150"
+          >
+            <ExternalLink className="h-4 w-4 shrink-0" />
+            <span className="truncate">{t('nav.srd')}</span>
+          </a>
+        </div>
       </nav>
       <div className="p-3 text-[10px] text-[var(--muted)] border-t border-[var(--border)]">
         {t('footer.license')}
