@@ -33,15 +33,15 @@ export default function CharactersPage() {
                     <User className="h-7 w-7 text-[var(--muted)]" />
                   </div>
                 )}
-                <div>
+                <div className="min-w-0">
                   <h3 className="font-display font-bold text-[var(--accent)] leading-tight">{c.name}</h3>
-                  <span className="text-[11px] text-[var(--muted)]">Nível {c.level}</span>
+                  <span className="text-xs text-[var(--muted)] italic truncate block">
+                    Nível {c.level} · {[c.race, c.class, c.background].filter(Boolean).join(' · ')}
+                  </span>
                 </div>
               </div>
 
               <div className="p-4 pt-3 flex-1 flex flex-col">
-                <p className="text-[11px] italic text-[var(--muted)] mb-3">{[c.race, c.class, c.background].filter(Boolean).join(' · ')}</p>
-
                 {c.feats && c.feats.length > 0 && (
                   <div className="mb-3">
                     <div className="text-[9px] font-bold uppercase tracking-wider text-[var(--muted)] mb-1">Talentos</div>
