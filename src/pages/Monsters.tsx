@@ -59,15 +59,6 @@ export default function MonstersPage() {
 
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
-          Sessão 1 — O Necrotério de Thay
-        </summary>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
-          {BESTIARY.filter((m) => m.session === 1).map((m) => <MonsterCard key={m.name} m={m} />)}
-        </div>
-      </details>
-
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
-        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           🌟 Sessão 2 — O Ninho do Olho Eldritch
         </summary>
         {BESTIARY.some((m) => m.session === 2) ? (
@@ -79,6 +70,15 @@ export default function MonstersPage() {
             Ainda não jogada — o bestiário desta sessão entra aqui depois.
           </div>
         )}
+      </details>
+
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          Sessão 1 — O Necrotério de Thay
+        </summary>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
+          {BESTIARY.filter((m) => m.session === 1).map((m) => <MonsterCard key={m.name} m={m} />)}
+        </div>
       </details>
     </div>
   )

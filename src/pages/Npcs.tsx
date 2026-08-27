@@ -20,36 +20,6 @@ export default function NpcsPage() {
 
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
-          Sessão 1 — O Necrotério de Thay
-        </summary>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
-          {session1.map((n) => (
-            <Link
-              key={n.name}
-              to={`/npcs/${encodeURIComponent(n.name)}`}
-              className="rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm hover:shadow-lg hover:border-[var(--accent)]/50 transition-all duration-200"
-            >
-              <div className="flex items-center gap-3 mb-2">
-                {n.image ? (
-                  <img src={`${import.meta.env.BASE_URL}${n.image}`} alt={n.name} className="h-12 w-12 rounded-full object-cover object-top border border-[var(--border)]" />
-                ) : (
-                  <div className="h-12 w-12 rounded-full bg-[var(--sidebar)] border border-[var(--border)] flex items-center justify-center shrink-0">
-                    <User className="h-6 w-6 text-[var(--muted)]" />
-                  </div>
-                )}
-                <div>
-                  <h3 className="font-semibold text-[var(--accent)]">{n.name}</h3>
-                  <p className="text-[11px] italic text-[var(--muted)]">{n.role}</p>
-                </div>
-              </div>
-              <p className="text-sm line-clamp-3">{n.notes}</p>
-            </Link>
-          ))}
-        </div>
-      </details>
-
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
-        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           🌟 Sessão 2 — O Ninho do Olho Eldritch
         </summary>
         {session2.length > 0 ? (
@@ -82,6 +52,36 @@ export default function NpcsPage() {
             Ainda não jogada — os NPCs desta sessão entram aqui depois.
           </div>
         )}
+      </details>
+
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          Sessão 1 — O Necrotério de Thay
+        </summary>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+          {session1.map((n) => (
+            <Link
+              key={n.name}
+              to={`/npcs/${encodeURIComponent(n.name)}`}
+              className="rounded-xl border border-[var(--border)] bg-[var(--card)] p-4 shadow-sm hover:shadow-lg hover:border-[var(--accent)]/50 transition-all duration-200"
+            >
+              <div className="flex items-center gap-3 mb-2">
+                {n.image ? (
+                  <img src={`${import.meta.env.BASE_URL}${n.image}`} alt={n.name} className="h-12 w-12 rounded-full object-cover object-top border border-[var(--border)]" />
+                ) : (
+                  <div className="h-12 w-12 rounded-full bg-[var(--sidebar)] border border-[var(--border)] flex items-center justify-center shrink-0">
+                    <User className="h-6 w-6 text-[var(--muted)]" />
+                  </div>
+                )}
+                <div>
+                  <h3 className="font-semibold text-[var(--accent)]">{n.name}</h3>
+                  <p className="text-[11px] italic text-[var(--muted)]">{n.role}</p>
+                </div>
+              </div>
+              <p className="text-sm line-clamp-3">{n.notes}</p>
+            </Link>
+          ))}
+        </div>
       </details>
     </div>
   )

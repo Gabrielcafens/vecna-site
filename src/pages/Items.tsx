@@ -32,6 +32,15 @@ export default function ItemsPage() {
 
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          🌟 Sessão 2 — O Ninho do Olho Eldritch
+        </summary>
+        <div className="mt-4 text-sm text-[var(--muted)] italic">
+          Ainda não jogada — os itens desta sessão entram aqui depois.
+        </div>
+      </details>
+
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
           Sessão 1 — O Necrotério de Thay
         </summary>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -43,15 +52,6 @@ export default function ItemsPage() {
               {item.owner && <p className="text-xs text-[var(--accent)] font-medium mt-2">{item.owner}</p>}
             </div>
           ))}
-        </div>
-      </details>
-
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
-        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
-          🌟 Sessão 2 — O Ninho do Olho Eldritch
-        </summary>
-        <div className="mt-4 text-sm text-[var(--muted)] italic">
-          Ainda não jogada — os itens desta sessão entram aqui depois.
         </div>
       </details>
     </div>

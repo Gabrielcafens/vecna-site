@@ -3,7 +3,7 @@ import { BESTIARY } from '@/lib/bestiary'
 
 export default function CardsPage() {
   const t = useT()
-  const sessions = [...new Set(BESTIARY.map((m) => m.session))].sort()
+  const sessions = [...new Set(BESTIARY.map((m) => m.session))].sort((a, b) => b - a)
 
   return (
     <div className="p-6 max-w-[1600px] mx-auto">
