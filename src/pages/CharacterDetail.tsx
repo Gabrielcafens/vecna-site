@@ -84,7 +84,9 @@ export default function CharacterDetailPage() {
         {c.allies && tab === 'allies' && (
           <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
             {c.allies_image && (
-              <img src={`${import.meta.env.BASE_URL}${c.allies_image}`} alt="Emblema" className="w-48 h-auto shrink-0 mx-auto" />
+              <div className="w-40 h-40 sm:w-48 sm:h-48 rounded-lg bg-[var(--sidebar)] border-2 border-[var(--accent)] shadow-lg shrink-0 mx-auto flex items-center justify-center overflow-hidden">
+                <img src={`${import.meta.env.BASE_URL}${c.allies_image}`} alt="Emblema" className="w-full h-full object-contain p-2" />
+              </div>
             )}
             <p className="text-sm whitespace-pre-line leading-relaxed flex-1">{c.allies}</p>
           </div>
