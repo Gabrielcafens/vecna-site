@@ -82,9 +82,9 @@ export default function CharacterDetailPage() {
           <p className="text-sm whitespace-pre-line leading-relaxed">{c.notes}</p>
         )}
         {c.allies && tab === 'allies' && (
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
             {c.allies_image && (
-              <img src={`${import.meta.env.BASE_URL}${c.allies_image}`} alt="Emblema" className="w-20 h-auto shrink-0 mx-auto sm:mx-0" />
+              <img src={`${import.meta.env.BASE_URL}${c.allies_image}`} alt="Emblema" className="w-48 h-auto shrink-0 mx-auto" />
             )}
             <p className="text-sm whitespace-pre-line leading-relaxed flex-1">{c.allies}</p>
           </div>
