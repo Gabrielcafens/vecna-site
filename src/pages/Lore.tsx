@@ -8,6 +8,11 @@ export default function LorePage() {
           🌟 Sessão 2 — O Ninho do Olho Eldritch (convite)
         </summary>
         <div className="mt-4">
+          <img
+            src={`${import.meta.env.BASE_URL}ninhodoolho.png`}
+            alt="Sessão 2: Ninho do Olho — arte de capa"
+            className="w-full max-w-md mx-auto rounded-lg border border-[var(--border)] shadow-lg mb-4"
+          />
           <p className="text-sm leading-relaxed mb-3">
             Faerûn respira em paz — mas em Phandalin, alguém acabou de morrer sem explicação. Um vigia encontrado nas ruínas antigas sob a cidade, com marcas que ninguém consegue identificar, e um único detalhe perturbador: o corpo foi encontrado bem no momento em que os Obeliscos Partidos sob Phandalin "acordaram", pulsando com uma luz verde fraca que ninguém via há anos.
           </p>
