@@ -9,13 +9,16 @@ export default function LorePage() {
         </summary>
         <div className="mt-4">
           <p className="text-sm leading-relaxed mb-3">
-            Faerûn respira em paz — mas nas sombras dos reinos, algo se move de novo. Sildar entregou o contrato oficial da Aliança dos Lordes: confirmar e neutralizar a atividade cultista ligada ao Coração de Vidro destruído em Oakhaven. Foster complementa — os Obeliscos Partidos sob Phandalin "acordaram" no exato momento em que o Coração se partiu. Algo respondeu ao sinal.
+            Faerûn respira em paz — mas em Phandalin, alguém acabou de morrer sem explicação. Um vigia encontrado nas ruínas antigas sob a cidade, com marcas que ninguém consegue identificar, e um único detalhe perturbador: o corpo foi encontrado bem no momento em que os Obeliscos Partidos sob Phandalin "acordaram", pulsando com uma luz verde fraca que ninguém via há anos.
           </p>
           <p className="text-sm leading-relaxed mb-3">
-            Vitu entra junto desde o início dessa missão, e não vai deixar Fabo entrar sozinho num lugar assim.
+            Sildar entregou o contrato oficial da Aliança dos Lordes: investigar a morte, descobrir o que despertou os Obeliscos e confirmar se há ligação com a atividade cultista que o grupo já cruzou em Oakhaven. Foster tem uma suspeita que não gosta de dizer em voz alta — o sinal do Coração de Vidro, destruído na Sessão 1, pode ter acordado algo que estava esperando havia muito mais tempo do que qualquer um imagina.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            Vitu entra junto desde o início dessa investigação, e não vai deixar Fabo descer sozinho num lugar assim.
           </p>
           <blockquote className="border-l-4 border-[var(--danger)] pl-4 italic text-[var(--muted)] mb-4">
-            "Há algo terrível, aberrante e antigo acordando lá embaixo."
+            "Há algo terrível, aberrante e antigo acordando lá embaixo — e já matou alguém pra provar."
           </blockquote>
           <p className="text-sm leading-relaxed mb-3">
             Nível de entrada: <strong>6</strong>.
