@@ -109,13 +109,43 @@ export function TraditionalSheet({ character, onClose }: { character: Character;
         )}
 
         {d.features && d.features.length > 0 && (
-          <div>
+          <div className="mb-5">
             <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Talentos & Características</h3>
             <div className="space-y-1.5">
               {d.features.map((f) => (
                 <p key={f.name} className="text-sm"><strong className="text-[var(--accent)]">{f.name}.</strong> <span className="text-[var(--muted)]">{f.desc}</span></p>
               ))}
             </div>
+          </div>
+        )}
+
+        {d.spellcasting && (
+          <div>
+            <h3 className="text-xs font-bold uppercase tracking-wider text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Magias</h3>
+            <div className="flex flex-wrap gap-4 mb-3 text-sm">
+              <span><span className="text-[var(--muted)]">Habilidade:</span> <strong className="text-[var(--accent)]">{d.spellcasting.ability}</strong></span>
+              <span><span className="text-[var(--muted)]">CD:</span> <strong className="text-[var(--accent)]">{d.spellcasting.dc}</strong></span>
+              <span><span className="text-[var(--muted)]">Ataque de magia:</span> <strong className="text-[var(--accent)]">+{d.spellcasting.attack_bonus}</strong></span>
+              {d.spellcasting.slots && <span><span className="text-[var(--muted)]">Espaços:</span> <strong className="text-[var(--accent)]">{d.spellcasting.slots}</strong></span>}
+            </div>
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="text-left text-[var(--muted)] text-xs">
+                  <th className="font-normal pb-1">Magia</th>
+                  <th className="font-normal pb-1">Círculo</th>
+                  <th className="font-normal pb-1">Efeito</th>
+                </tr>
+              </thead>
+              <tbody>
+                {d.spellcasting.spells.map((s) => (
+                  <tr key={s.name} className="border-t border-[var(--border)] align-top">
+                    <td className="py-1.5 font-semibold text-[var(--accent)] whitespace-nowrap">{s.name}</td>
+                    <td className="py-1.5 text-[var(--muted)] whitespace-nowrap">{s.level}</td>
+                    <td className="py-1.5">{s.effect}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         )}
       </div>

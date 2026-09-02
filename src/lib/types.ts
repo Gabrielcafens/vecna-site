@@ -109,6 +109,13 @@ export interface CharacterSheetData {
   skills?: { name: string; bonus: number }[]
   weapons?: { name: string; bonus: string; damage: string }[]
   features?: { name: string; desc: string }[]
+  spellcasting?: {
+    ability: string
+    dc: number
+    attack_bonus: number
+    slots?: string
+    spells: { name: string; level: string; effect: string }[]
+  }
 }
 
 export interface Character {

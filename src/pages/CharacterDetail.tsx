@@ -78,9 +78,7 @@ export default function CharacterDetailPage() {
           </div>
         ) : null}
 
-        {(!c.allies || tab === 'lore') && (
-          <p className="text-sm whitespace-pre-line leading-relaxed">{c.notes}</p>
-        )}
+        {(!c.allies || tab === 'lore') && <LoreText text={c.notes} />}
         {c.allies && tab === 'allies' && (
           <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
             {c.allies_image && (
@@ -115,6 +113,59 @@ export default function CharacterDetailPage() {
           </div>
         )}
       </div>
+    </div>
+  )
+}
+
+function LoreBody({ body }: { body: string }) {
+  const chunks = body.split(/\n(?=!\[)/g)
+  return (
+    <>
+      {chunks.map((chunk, i) => {
+        const imgMatch = chunk.match(/^!\[(.*?)\]\((.*?)\)\n?([\s\S]*)$/)
+        if (imgMatch) {
+          const [, alt, src, rest] = imgMatch
+          return (
+            <figure key={i} className="my-4">
+              <img
+                src={`${import.meta.env.BASE_URL}${src}`}
+                alt={alt}
+                className="w-full max-w-md mx-auto rounded-lg border border-[var(--border)] shadow-md"
+              />
+              {alt && <figcaption className="text-xs text-center text-[var(--muted)] mt-1.5 italic">{alt}</figcaption>}
+              {rest.trim() && <p className="text-sm whitespace-pre-line leading-relaxed mt-3">{rest.trim()}</p>}
+            </figure>
+          )
+        }
+        return <p key={i} className="text-sm whitespace-pre-line leading-relaxed">{chunk}</p>
+      })}
+    </>
+  )
+}
+
+function LoreText({ text }: { text: string }) {
+  const parts = text.split(/\n(?=## )/g)
+  const hasSections = parts.length > 1 || parts[0]?.startsWith('## ')
+
+  if (!hasSections) {
+    return <LoreBody body={text} />
+  }
+
+  return (
+    <div className="space-y-5">
+      {parts.map((part, i) => {
+        const match = part.match(/^## (.+)\n?([\s\S]*)$/)
+        if (!match) return <LoreBody key={i} body={part} />
+        const [, heading, body] = match
+        return (
+          <div key={i}>
+            <h3 className="font-display text-sm font-bold uppercase tracking-wider text-[var(--accent)] border-b border-[var(--accent)]/30 pb-1 mb-2">
+              {heading}
+            </h3>
+            <LoreBody body={body.trim()} />
+          </div>
+        )
+      })}
     </div>
   )
 }
