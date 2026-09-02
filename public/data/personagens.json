@@ -61,36 +61,41 @@
     "level": 6,
     "image": "personagens/phillipe.jpeg",
     "tags": ["XV - O Diabo (Flames)"],
-    "feats": ["Atacante Selvagem"],
-    "feats_en": ["Savage Attacker"],
-    "sheet": "Atributos: Força 18 (+4) · Destreza 12 (+1) · Constituição 14 (+2) · Inteligência 15 (+2) · Sabedoria 10 (+0) · Carisma 10 (+0)\nCA 18 (Cota de Malha + Escudo) · Iniciativa +1 · PV 26 · Percepção Passiva 11\nCaracterísticas de Eldritch Knight: Duelismo (+2 de dano com arma de uma mão), Minar (Espírito), Afligir (vantagem no próximo ataque), Surto de Ação, Recuperar o Fôlego (1d10+3)\nTalentos: Atacante Selvagem (1x por turno, rola o dado de dano duas vezes e usa o maior)\nArmas: Arco Curto 1d6+3, Espada Longa 1d8/1d10+6, Maiolas +4\n(Ficha física de nível 3 — personagem já está nível 6, atualização de talentos/PV pendente)",
-    "sheet_en": "Abilities: Strength 18 (+4) · Dexterity 12 (+1) · Constitution 14 (+2) · Intelligence 15 (+2) · Wisdom 10 (+0) · Charisma 10 (+0)\nAC 18 (Chain Mail + Shield) · Initiative +1 · HP 26 · Passive Perception 11\nEldritch Knight features: Weapon Bond (+2 damage with a one-handed weapon), Sap (reserve on hit, affects the next attack before the start of the next turn), Afflict (advantage on next attack), Action Surge, Second Wind (1d10+3)\nFeats: Savage Attacker (1x per turn, roll weapon damage dice twice and use either)\nWeapons: Shortbow 1d6+3, Longsword 1d8/1d10+6, Maul +4\n(Level 3 physical sheet — character is already level 6, feat/HP update pending)",
+    "feats": ["Atacante Selvagem", "Iniciado em Magia"],
+    "feats_en": ["Savage Attacker", "Magic Initiate"],
+    "sheet": "Atributos: Força 20 (+5) · Destreza 12 (+1) · Constituição 14 (+2) · Inteligência 17 (+3) · Sabedoria 12 (+1) · Carisma 10 (+0)\nCA 16 (espada em duas mãos) ou 18 (escudo equipado) · Bônus de Proficiência +3 · Iniciativa +1 · PV 50 (6d10) · Percepção Passiva 14\nCaracterísticas: Ataque Extra, Mudança Tática, Maestria em Armas (4 armas: Minar/Espada Longa, Afligir/Arco Curto, Derrubar/Machado de Batalha, Lentidão/Azagaia), Surto de Ação, Mente Tática, Vínculo de Guerra, Retomar o Fôlego (1d10+6, 3 usos)\nConjuração (Cavaleiro Místico): CD 14, ataque de magia +6, 3 espaços de 1º círculo — Escudo, Absorver Elementos, Mãos Flamejantes, Mísseis Mágicos\nTalentos: Atacante Selvagem, Iniciado em Magia (Proteção contra o Bem e o Mal)\nArmas: Espada Longa +8 (1d10+5 ou 1d8+7 c/ escudo), Machado de Batalha +8 (1d10+5), Azagaia +8 (1d6+5), Arco Curto +4 (1d6+1)",
+    "sheet_en": "Abilities: Strength 20 (+5) · Dexterity 12 (+1) · Constitution 14 (+2) · Intelligence 17 (+3) · Wisdom 12 (+1) · Charisma 10 (+0)\nAC 16 (two-handed sword) or 18 (shield equipped) · Proficiency Bonus +3 · Initiative +1 · HP 50 (6d10) · Passive Perception 14\nFeatures: Extra Attack, Tactical Shift, Weapon Mastery (4 weapons: Sap/Longsword, Vex/Shortbow, Topple/Battleaxe, Slow/Javelin), Action Surge, Tactical Mind, War Bond, Second Wind (1d10+6, 3 uses)\nSpellcasting (Eldritch Knight): DC 14, spell attack +6, 3 first-level slots — Shield, Absorb Elements, Burning Hands, Magic Missile\nFeats: Savage Attacker, Magic Initiate (Protection from Evil and Good)\nWeapons: Longsword +8 (1d10+5 or 1d8+7 w/ shield), Battleaxe +8 (1d10+5), Javelin +8 (1d6+5), Shortbow +4 (1d6+1)",
     "sheet_data": {
-      "abilities": { "str": 18, "dex": 12, "con": 14, "int": 15, "wis": 10, "cha": 10 },
+      "abilities": { "str": 20, "dex": 12, "con": 14, "int": 17, "wis": 12, "cha": 10 },
       "ac": 18,
-      "hp": 26,
-      "hit_dice": "3d10",
+      "hp": 50,
+      "hit_dice": "6d10",
       "initiative": 1,
-      "passive_perception": 11,
-      "proficiency_bonus": 2,
+      "passive_perception": 14,
+      "proficiency_bonus": 3,
+      "saving_throws": ["str", "con"],
       "skills": [
-        { "name": "Atletismo", "bonus": 6 },
-        { "name": "Investigação", "bonus": 4 },
-        { "name": "Percepção", "bonus": 2 },
-        { "name": "Intimidação", "bonus": 2 }
+        { "name": "Atletismo", "bonus": 8 },
+        { "name": "Arcanismo", "bonus": 6 },
+        { "name": "História", "bonus": 6 },
+        { "name": "Percepção", "bonus": 4 },
+        { "name": "Intimidação", "bonus": 3 }
       ],
       "weapons": [
-        { "name": "Arco Curto", "bonus": "+3", "damage": "1d6+3" },
-        { "name": "Espada Longa", "bonus": "+6", "damage": "1d8/1d10+6" },
-        { "name": "Maiolas", "bonus": "+4", "damage": "—" }
+        { "name": "Espada Longa (duas mãos)", "bonus": "+8", "damage": "1d10+5" },
+        { "name": "Espada Longa (uma mão + escudo)", "bonus": "+8", "damage": "1d8+7" },
+        { "name": "Machado de Batalha", "bonus": "+8", "damage": "1d10+5" },
+        { "name": "Azagaia", "bonus": "+8", "damage": "1d6+5" },
+        { "name": "Arco Curto", "bonus": "+4", "damage": "1d6+1" }
       ],
       "features": [
-        { "name": "Duelismo", "desc": "Enquanto empunha uma arma corpo a corpo numa mão e nenhuma outra arma, causa +2 de dano com ela." },
-        { "name": "Minar (Espírito)", "desc": "Ao acertar um ataque, reserva parte do efeito pra afetar o próximo ataque antes do início do seu próximo turno." },
-        { "name": "Afligir", "desc": "Concede vantagem no próximo ataque contra o alvo afetado." },
-        { "name": "Surto de Ação", "desc": "Pode realizar uma ação adicional no seu turno." },
-        { "name": "Recuperar o Fôlego", "desc": "Como Ação Bônus, recupera 1d10+3 Pontos de Vida." },
-        { "name": "Atacante Selvagem", "desc": "1x por turno, ao acertar com uma arma, rola o dado de dano duas vezes e usa o maior resultado." }
+        { "name": "Ataque Extra", "desc": "Ataca duas vezes sempre que usar a ação de Atacar no seu turno." },
+        { "name": "Maestria em Armas", "desc": "Usa a propriedade de maestria de 4 armas: Minar (Espada Longa), Afligir (Arco Curto), Derrubar (Machado de Batalha) e Lentidão (Azagaia)." },
+        { "name": "Surto de Ação", "desc": "Uma ação adicional no seu turno, 1x por descanso curto ou longo." },
+        { "name": "Mudança Tática", "desc": "Ao usar Retomar o Fôlego como Ação Bônus, pode se mover até metade do deslocamento sem provocar Ataques de Oportunidade." },
+        { "name": "Vínculo de Guerra", "desc": "Invoca uma arma vinculada (Espada Longa ou Arco Curto) como Ação Bônus; não pode ser desarmado dela." },
+        { "name": "Retomar o Fôlego", "desc": "Como Ação Bônus, recupera 1d10+6 Pontos de Vida. 3 usos, 1 volta em descanso curto." },
+        { "name": "Conjuração (Cavaleiro Místico)", "desc": "CD de magia 14, ataque de magia +6, 3 espaços de 1º círculo: Escudo, Absorver Elementos, Mãos Flamejantes, Mísseis Mágicos." }
       ]
     },
     "class_link": "https://5e.tools/classes.html#fighter_xphb,state:feature=s4-1~sub_eldritch%20knight_xphb=b1",
