@@ -152,18 +152,24 @@ function LoreText({ text }: { text: string }) {
   }
 
   return (
-    <div className="space-y-5">
+    <div className="space-y-3">
       {parts.map((part, i) => {
         const match = part.match(/^## (.+)\n?([\s\S]*)$/)
         if (!match) return <LoreBody key={i} body={part} />
         const [, heading, body] = match
         return (
-          <div key={i}>
-            <h3 className="font-display text-sm font-bold uppercase tracking-wider text-[var(--accent)] border-b border-[var(--accent)]/30 pb-1 mb-2">
+          <details
+            key={i}
+            open={i === 0}
+            className="rounded-lg border border-[var(--border)] bg-[var(--sidebar)]/30 p-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40"
+          >
+            <summary className="cursor-pointer font-display text-sm font-bold uppercase tracking-wider text-[var(--accent)]">
               {heading}
-            </h3>
-            <LoreBody body={body.trim()} />
-          </div>
+            </summary>
+            <div className="mt-3">
+              <LoreBody body={body.trim()} />
+            </div>
+          </details>
         )
       })}
     </div>
