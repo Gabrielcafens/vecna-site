@@ -174,8 +174,8 @@
     "level": 15,
     "image": "personagens/vitu.png",
     "tags": ["Personagem legado — ganho via carta O Carro (Knight)"],
-    "feats": ["Habilidoso (origem)", "Vários Aprimoramentos de Valor de Habilidade"],
-    "sheet": "Atributos: Força 22 (+6) · Destreza 14 (+2) · Constituição 14 (+2) · Inteligência 11 (+0) · Sabedoria 11 (+0) · Carisma 16 (+3)\nCA 21 (Full Plate +3) · PV 139 · Iniciativa +2 · Bônus de Proficiência +5 · Deslocamento 12m\nSalvaguardas: Força, Constituição, Sabedoria, Carisma (proficientes)\nPerícias: Atletismo +11, Lidar com Animais +5, Sobrevivência +5\nAtaques: Alabarda +12 (1d10+7), Espada Longa +11 (1d8+6/2 mãos 2d8), Baforada de Draconato Azul (4d6 relâmpago, CD 14, 1x/descanso curto)\nConjuração de Paladino (CD 16, +6): até 4º círculo — Curar Ferimentos, Bênção, Dissipar Magia, Reviver Amigos, Liberdade de Movimento, entre outras\nLay on Hands: 60 pontos · Auras (Proteção, Coragem, Vivacidade) a 9m · Defesa Gloriosa 2x/dia · Máscara de Gelo (item mágico com Fúria do Inverno)",
+    "feats": ["Atleta (origem)", "Vários Aprimoramentos de Valor de Habilidade"],
+    "sheet": "Atributos: Força 22 (+6) · Destreza 14 (+2) · Constituição 14 (+2) · Inteligência 11 (+0) · Sabedoria 11 (+0) · Carisma 16 (+3)\nCA 21 (Full Plate +3) · PV 139 · Iniciativa +2 · Bônus de Proficiência +5 · Deslocamento 12m\nSalvaguardas: Força, Constituição, Sabedoria, Carisma (proficientes)\nPerícias: Atletismo +11, Lidar com Animais +5, Sobrevivência +5\nAtaques: Alabarda +12 (1d10+7), Espada Longa +11 (1d8+6/2 mãos 2d8), Baforada de Draconato Azul (4d6 relâmpago, CD 14, 1x/descanso curto)\nConjuração de Paladino (CD 16, +6): até 4º círculo — Curar Ferimentos, Bênção, Dissipar Magia, Reviver Amigos, Liberdade de Movimento, entre outras\nOath of Glory: Peerless Athlete e Inspiring Smite (Canal de Divindade), Aura of Alacrity, Glorious Defense 2x/dia\nLay on Hands: 60 pontos · Auras (Proteção, Coragem, Alacridade) a 9m · Máscara de Gelo (item de Tyranny of Dragons, Fúria do Inverno)",
     "sheet_data": {
       "abilities": { "str": 22, "dex": 14, "con": 14, "int": 11, "wis": 11, "cha": 16 },
       "ac": 21,
@@ -197,12 +197,16 @@
       ],
       "features": [
         { "name": "Baforada (Draconato Azul)", "desc": "1x por descanso curto, TR CD 14, 4d6 de dano de relâmpago em linha." },
+        { "name": "Ataque Extra", "desc": "Ataca duas vezes ao usar a ação de Atacar." },
         { "name": "Lay on Hands", "desc": "Pool de 60 pontos de cura pra distribuir." },
+        { "name": "Cleansing Touch", "desc": "Ação: encerra uma magia em você ou numa criatura disposta a até 1,5m. Usos por descanso longo = modificador de Carisma." },
+        { "name": "Peerless Athlete (Canal de Divindade)", "desc": "Ação bônus, 10 minutos: vantagem em Força e Destreza, carrega o dobro do peso, salto aumentado." },
+        { "name": "Inspiring Smite (Canal de Divindade)", "desc": "Depois de conjurar um Smite, ação bônus distribui PV temporários (2d8 + nível do espaço usado) entre você e aliados a até 9m." },
+        { "name": "Aura of Alacrity", "desc": "Seu deslocamento aumenta 3m; no início dos seus turnos, aliados a até 9m também podem aumentar o deslocamento em 3m." },
         { "name": "Aura de Proteção", "desc": "9m: soma o modificador de Carisma nas Salvaguardas de você e dos aliados no alcance." },
         { "name": "Aura de Coragem", "desc": "9m: ninguém no alcance pode ficar Amedrontado." },
-        { "name": "Aura da Vivacidade", "desc": "9m: vantagem em Salvaguardas contra certos efeitos de dado (ver ficha física)." },
-        { "name": "Defesa Gloriosa", "desc": "2x/dia, reação: quando um aliado a até 9m é atingido, ele ganha bônus de CA igual ao seu Carisma; se isso fizer o ataque errar, você pode atacar de volta." },
-        { "name": "Máscara de Gelo", "desc": "Item mágico: Fúria do Inverno (1d8 de gelo + explosão em área CD 16), visão no escuro, vê invisíveis, vantagem contra Dragões Brancos — recarrega 1x/dia." }
+        { "name": "Glorious Defense", "desc": "2x/dia, reação: quando você ou um aliado a até 9m é atingido, o alvo ganha bônus de CA igual ao seu Carisma; se isso fizer o ataque errar, você pode atacar de volta de graça." },
+        { "name": "Máscara de Gelo", "desc": "Item mágico de Tyranny of Dragons: Fúria do Inverno (1d8 de gelo + explosão em área CD 16), visão no escuro, vê invisíveis, vantagem contra Dragões Brancos — recarrega 1x/dia." }
       ]
     },
     "class_link": "https://5e.tools/classes.html#paladin_xphb,state:feature=s4-1",
