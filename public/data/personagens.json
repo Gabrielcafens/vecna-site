@@ -175,7 +175,7 @@
     "image": "personagens/vitu.png",
     "tags": ["Personagem legado — ganho via carta O Carro (Knight)"],
     "feats": ["Atleta (origem)", "Vários Aprimoramentos de Valor de Habilidade"],
-    "sheet": "Atributos: Força 22 (+6) · Destreza 14 (+2) · Constituição 14 (+2) · Inteligência 11 (+0) · Sabedoria 11 (+0) · Carisma 16 (+3)\nCA 21 (Full Plate +3) · PV 139 · Iniciativa +2 · Bônus de Proficiência +5 · Deslocamento 12m\nSalvaguardas: Força, Constituição, Sabedoria, Carisma (proficientes)\nPerícias: Atletismo +11, Lidar com Animais +5, Sobrevivência +5\nAtaques: Alabarda +12 (1d10+7), Espada Longa +11 (1d8+6/2 mãos 2d8), Baforada de Draconato Azul (4d6 relâmpago, CD 14, 1x/descanso curto)\nConjuração de Paladino (CD 16, +6): até 4º círculo — Curar Ferimentos, Bênção, Dissipar Magia, Reviver Amigos, Liberdade de Movimento, entre outras\nOath of Glory: Peerless Athlete e Inspiring Smite (Canal de Divindade), Aura of Alacrity, Glorious Defense 2x/dia\nLay on Hands: 60 pontos · Auras (Proteção, Coragem, Alacridade) a 9m · Máscara de Gelo (item de Tyranny of Dragons, Fúria do Inverno)",
+    "sheet": "Atributos: Força 22 (+6) · Destreza 14 (+2) · Constituição 14 (+2) · Inteligência 11 (+0) · Sabedoria 11 (+0) · Carisma 16 (+3)\nCA 21 (Full Plate +3) · PV 139 · Iniciativa +2 · Bônus de Proficiência +5 · Deslocamento 12m\nSalvaguardas: Força, Constituição, Sabedoria, Carisma (proficientes)\nPerícias: Atletismo +11, Lidar com Animais +5, Sobrevivência +5\nAtaques (some +1d8 radiante de Radiant Strikes, nível 11): Alabarda +12 (1d10+7+1d8 radiante), Espada Longa +11 (1d8+6+1d8 radiante, 2 mãos 2d8+1d8), Baforada de Draconato Azul (4d6 relâmpago, CD 14, 1x/descanso curto)\nEspaços de magia (nível 15): 1º x4 · 2º x3 · 3º x3 · 4º x2 — Divine Smite: 2d8 (1º) até 5d8 (4º) radiante ao acertar corpo a corpo, +1d8 extra contra Morto-Vivo/Corruptor (vale pra quase tudo nesta masmorra: Zombies, Shadows, Banshee, Beholder Zumbi)\nConjuração de Paladino (CD 16, +6): até 4º círculo — Curar Ferimentos, Bênção, Dissipar Magia, Reviver Amigos, Liberdade de Movimento, entre outras\nOath of Glory: Peerless Athlete e Inspiring Smite (Canal de Divindade), Aura of Alacrity, Glorious Defense 2x/dia\nLay on Hands: 60 pontos (Restoring Touch: +5 pontos encerra uma condição) · Abjure Foes (nível 9) · Auras (Proteção +3 CAR em Salvaguardas, Coragem — imune a Amedrontado, Alacridade +3m deslocamento) a 9m · Máscara de Gelo (item de Tyranny of Dragons, Fúria do Inverno)\n(Fighting Style, Weapon Mastery e possível montaria via Find Steed não constavam na ficha física — a confirmar com o jogador)",
     "sheet_data": {
       "abilities": { "str": 22, "dex": 14, "con": 14, "int": 11, "wis": 11, "cha": 16 },
       "ac": 21,
@@ -191,15 +191,19 @@
         { "name": "Sobrevivência", "bonus": 5 }
       ],
       "weapons": [
-        { "name": "Alabarda", "bonus": "+12", "damage": "1d10+7" },
-        { "name": "Espada Longa", "bonus": "+11", "damage": "1d8+6 (2d8 duas mãos)" },
-        { "name": "Javelin", "bonus": "+10", "damage": "1d6+5" }
+        { "name": "Alabarda", "bonus": "+12", "damage": "1d10+7 + 1d8 radiante" },
+        { "name": "Espada Longa", "bonus": "+11", "damage": "1d8+6 + 1d8 radiante (2 mãos 2d8+1d8)" },
+        { "name": "Javelin", "bonus": "+10", "damage": "1d6+5 + 1d8 radiante" }
       ],
       "features": [
         { "name": "Baforada (Draconato Azul)", "desc": "1x por descanso curto, TR CD 14, 4d6 de dano de relâmpago em linha." },
         { "name": "Ataque Extra", "desc": "Ataca duas vezes ao usar a ação de Atacar." },
         { "name": "Lay on Hands", "desc": "Pool de 60 pontos de cura pra distribuir." },
         { "name": "Cleansing Touch", "desc": "Ação: encerra uma magia em você ou numa criatura disposta a até 1,5m. Usos por descanso longo = modificador de Carisma." },
+        { "name": "Radiant Strikes", "desc": "Seus ataques com arma causam +1d8 de dano radiante extra (já incluído nos ataques acima)." },
+        { "name": "Abjure Foes", "desc": "Ação: até 3 criaturas visíveis a até 18m fazem TR Sabedoria ou ficam com deslocamento 0 e desvantagem em ataques contra qualquer um exceto você até o fim do seu próximo turno." },
+        { "name": "Restoring Touch", "desc": "Ao usar Lay on Hands, pode gastar 5 pontos extra do pool pra também encerrar uma condição (Amedrontado, Atordoado, Cego, Enfeitiçado, Envenenado ou Paralisado)." },
+{ "name": "Divine Smite", "desc": "Ao acertar um ataque corpo a corpo com arma, pode gastar um espaço de magia: 2d8 radiante (1º círculo) até 5d8 (4º círculo). +1d8 extra se o alvo for Morto-Vivo ou Corruptor — vale muito nesta masmorra: Ogre Zombies, Shadows, a Banshee e o Beholder Zumbi são todos Mortos-Vivos." },
         { "name": "Peerless Athlete (Canal de Divindade)", "desc": "Ação bônus, 10 minutos: vantagem em Força e Destreza, carrega o dobro do peso, salto aumentado." },
         { "name": "Inspiring Smite (Canal de Divindade)", "desc": "Depois de conjurar um Smite, ação bônus distribui PV temporários (2d8 + nível do espaço usado) entre você e aliados a até 9m." },
         { "name": "Aura of Alacrity", "desc": "Seu deslocamento aumenta 3m; no início dos seus turnos, aliados a até 9m também podem aumentar o deslocamento em 3m." },
@@ -207,7 +211,34 @@
         { "name": "Aura de Coragem", "desc": "9m: ninguém no alcance pode ficar Amedrontado." },
         { "name": "Glorious Defense", "desc": "2x/dia, reação: quando você ou um aliado a até 9m é atingido, o alvo ganha bônus de CA igual ao seu Carisma; se isso fizer o ataque errar, você pode atacar de volta de graça." },
         { "name": "Máscara de Gelo", "desc": "Item mágico de Tyranny of Dragons: Fúria do Inverno (1d8 de gelo + explosão em área CD 16), visão no escuro, vê invisíveis, vantagem contra Dragões Brancos — recarrega 1x/dia." }
-      ]
+      ],
+      "spellcasting": {
+        "ability": "Carisma",
+        "dc": 16,
+        "attack_bonus": 6,
+        "slots": "1º x4 · 2º x3 · 3º x3 · 4º x2 (nível 15, meio-conjurador)",
+        "spells": [
+          { "name": "Curar Ferimentos", "level": "1º", "effect": "Toque, restaura 1d8 + modificador de Carisma em PV." },
+          { "name": "Raio Guia", "level": "1º", "effect": "Ataque de magia à distância, 4d6 radiante; próximo ataque contra o alvo tem vantagem." },
+          { "name": "Proteção contra o Bem e o Mal", "level": "1º", "effect": "Desvantagem nos ataques de certos tipos de criatura contra o alvo tocado; proteção extra contra controle/invocação delas." },
+          { "name": "Bênção", "level": "1º (concentração)", "effect": "Até 3 criaturas somam 1d4 em ataques e salvaguardas." },
+          { "name": "Escudo da Fé", "level": "1º (concentração)", "effect": "+2 de CA pra uma criatura por 10 minutos." },
+          { "name": "Heroísmo", "level": "1º (concentração)", "effect": "Imunidade a Amedrontado + PV temporários no início de cada turno pra uma criatura." },
+          { "name": "Auxílio Divino", "level": "1º", "effect": "PV temporários e um dentre Vantagem em ataques, +1d4 em testes/salvaguardas, ou resistência a um tipo de dano." },
+          { "name": "Ajuda", "level": "2º", "effect": "Até 3 criaturas ganham 5 PV temporários; pode substituir um pra dar Vantagem no próximo ataque/teste/salvaguarda dela." },
+          { "name": "Proteção contra Veneno", "level": "2º", "effect": "Neutraliza veneno/dá Vantagem contra veneno por 1h ao alvo tocado." },
+          { "name": "Zona da Verdade", "level": "2º (concentração)", "effect": "Área onde criaturas que falharem TR Carisma não conseguem mentir conscientemente." },
+          { "name": "Arma Mágica", "level": "2º (concentração)", "effect": "Uma arma tocada vira +1 (ataque e dano) por 1 hora." },
+          { "name": "Dissipar Magia", "level": "3º", "effect": "Encerra uma magia ativa em uma criatura, objeto ou efeito." },
+          { "name": "Velocidade", "level": "3º (concentração)", "effect": "Dobra o deslocamento do alvo, +2 de CA, Vantagem em TR Destreza, ação extra." },
+          { "name": "Energia Curativa", "level": "3º", "effect": "Toque, restaura 2d8 + Carisma em PV (mais 1d8 por círculo acima do 3º)." },
+          { "name": "Reviver Amigos (Revivify)", "level": "3º", "effect": "Traz de volta uma criatura morta há até 1 minuto, com 1 PV." },
+          { "name": "Proteção de Energia", "level": "3º (concentração)", "effect": "Resistência a um tipo de dano escolhido por 8 horas." },
+          { "name": "Ataque Mordente", "level": "3º", "effect": "Um ataque com arma some 3d6 de dano do mesmo tipo da arma." },
+          { "name": "Liberdade de Movimento", "level": "4º", "effect": "O alvo ignora terreno difícil e não pode ser Agarrado/Paralisado/Restringido por 1 hora." },
+          { "name": "Compulsão", "level": "4º (concentração)", "effect": "Força criaturas que falharem TR Sabedoria a se mover na direção que você apontar quando tentarem agir." }
+        ]
+      }
     },
     "class_link": "https://5e.tools/classes.html#paladin_xphb,state:feature=s4-1",
     "notes": "Vitu não é um personagem novo — é um presente do Baralho das Muitas Coisas. Quando Fabo puxou O Carro (Knight), ganhou um cavaleiro NPC fiel como aliado, e a mesa decidiu que esse cavaleiro seria o próprio Vitu: o Dragonborn Paladino da Glória que liderou o grupo original contra Tiamat, agora jogável como personagem legado de nível 16, ao lado do jogador do Fabo.\n\nLiderou o grupo que derrotou Tiamat. Vive numa casa simples ao lado do lago de Foster. Carrega a culpa pela destruição das tribos de Fabo enquanto estava em missão — quando Vitu voltou, voltou como herói cantado pelos bardos; Fabo voltou como fantasma. Vitu sabe do peso que carrega, mas saber e consertar são coisas diferentes.\n\nA mensagem que mandou pra Fabo — \"Tenho pistas de quem massacrou as tribos. Venha à Torre de Xonthal ao amanhecer\" — foi a primeira vez em toda a vida dos dois que Vitu pediu algo a ele. Presente do início ao fim na Sessão 1, e vai continuar presente na próxima aventura."
