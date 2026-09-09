@@ -130,32 +130,36 @@
     "tags": ["VIII - A Força (Comet)", "XVIII - A Lua (Moon)", "XVII - A Estrela (Star)"],
     "feats": ["Alerta (origem)", "Iniciado em Magia — Druida (origem)"],
     "notes": "O posto de observação do Enclave Esmeralda não tinha nome oficial. Era uma cabana de pedra numa clareira de floresta fechada, três dias de caminhada de qualquer cidade. Eldris foi designado lá com oito anos — jovem demais, mas o Enclave viu algo nele. Observar anomalias mágicas, registrar, reportar. Trabalho solitário pra uma criança solitária. Combinava.\n\nNuma noite sem lua, a clareira começou a brilhar. Não foi violento. Foi bonito, da forma que coisas perigosas às vezes são bonitas. As árvores ficaram prateadas. O ar ficou mais leve. O posto desapareceu — pedra, registros, tudo — engolido pelo Feérico. Não existe mais.\n\nEldris ficou no Plano Feérico por doze anos. O corpo não envelheceu. O mundo passou uma década sem ele. A Guerra de Tiamat aconteceu e terminou sem ele. Quando voltou, tinha vinte anos — o mesmo rosto, o mesmo corpo do menino que desapareceu. Seus pais são agricultores camponeses em Phandalin. Pessoas simples, de mãos calejadas. Perderam o filho aos oito anos numa tarde comum, sem explicação, sem corpo, sem despedida. E um dia ele simplesmente voltou à porta, com vinte anos e folhas prateadas no cabelo, pedindo pra entrar.\n\nTitânia se apresentou não como divindade mas como anfitriã — a Rainha do Verão Eterno num jardim sem fim. Eldris sabia o nome dela antes de chegar. Qualquer membro do Enclave saberia. Mas saber o nome de Titânia e estar na presença de Titânia são coisas completamente diferentes. Ela ensinava em camadas — cada resposta abria três perguntas novas, cada verdade vinha embrulhada em meias palavras. O pacto foi feito nas condições dela. Os termos, Eldris guarda pra si. Quem ela realmente é, o que ela realmente quer — isso vai se revelando aos poucos, como camadas de um jardim que nunca tem fim.\n\nEle ainda tinha muito a aprender quando ela o acordou com urgência — não em sonho, mas como uma voz dentro do osso, funda demais pra ser ignorada. \"Você ainda não está pronto. Mas não há mais tempo. Procure o Enclave Esmeralda em Phandalin. Mostre o emblema. Eles te levarão a um gnomo chamado Foster. Lá sua jornada começa.\" Nada mais. Nenhuma explicação. Nenhuma promessa.\n\nEldris foi ao posto do Enclave em Phandalin. Os membros novos reconheceram a ficha, trataram-no com a cordialidade reservada a estranhos educados — até ele mostrar o emblema. Então trocaram um olhar entre si, sem perguntar nada, e o levaram até a margem do lago. A torre estava lá. O lago ao redor não existia em nenhum mapa que Eldris conhecia.\n\nSeus pais ainda estão em Phandalin. Eldris entrou na torre porque Titânia mandou. E porque a torre, de alguma forma que ele não consegue explicar, cheirava ao jardim dela.\n\n—\n\nNo Baralho das Muitas Coisas puxou três cartas: A Força (Comet — Vantagem em testes de morte por 1 ano, condicionada a abater sozinho o inimigo escolhido no próximo combate), A Lua (Moon — pode lançar Wish 1d3 vezes, rolou 3) e A Estrela (Star — +2 permanente em um atributo à escolha, máx. 24).",
-    "sheet": "Atributos: Força 8 (-1) · Destreza 14 (+2) · Constituição 10 (+0) · Inteligência 14 (+2) · Sabedoria 16 (+3) · Carisma 18 (+4)\nCA 15 (Couro Batido + Destreza) · Iniciativa +4 · Percepção Passiva 15 · CD de Magia 14\nPerícias: Persuasão +6, Percepção +5, Medicina +5, Sobrevivência +5, Arcanismo +4\nTalentos: Alerta, Iniciado em Magia (Druida)\nInvocações Élficas: Rajada Agonizante, Rajada Repulsora, Pacto do Tomo\n(Ficha de nível 3 — personagem já está nível 6, atualização de espaços de magia/talentos pendente)",
+    "sheet": "Atributos: Força 8 (-1) · Destreza 14 (+2) · Constituição 10 (+0) · Inteligência 14 (+2) · Sabedoria 16 (+3) · Carisma 20 (+5)\nCA 14 (Couro Batido + Destreza) · PV 37 (6d8) · Iniciativa +5 · Percepção Passiva 16 · Bônus de Proficiência +3 · CD de Magia 16\nPerícias: Persuasão +7, Percepção +6, Medicina +6, Sobrevivência +5, Arcanismo +4\nTalentos: Alerta (Histórico), Iniciado em Magia — Druida (Humano)\nInvocações Eldritch: Rajada Agonizante, Rajada Repulsora, Pacto do Tomo, Mente Mística, Máscara de Muitas Faces\nMagia de Pacto: 2 espaços de 2º Círculo (Crescimento de Espinhos, Bruxaria, Repreensão Infernal, Imobilizar Pessoa, Bola de Fogo, Contramágica, Padrão Hipnótico) + Passo Nevoeiro 2x/dia de graça (Disappearing/Dreadful Step)",
     "sheet_data": {
-      "abilities": { "str": 8, "dex": 14, "con": 10, "int": 14, "wis": 16, "cha": 18 },
-      "ac": 15,
-      "hp": 30,
-      "hit_dice": "3d8",
-      "initiative": 4,
-      "passive_perception": 15,
-      "proficiency_bonus": 2,
+      "abilities": { "str": 8, "dex": 14, "con": 10, "int": 14, "wis": 16, "cha": 20 },
+      "ac": 14,
+      "hp": 37,
+      "hit_dice": "6d8",
+      "initiative": 5,
+      "passive_perception": 16,
+      "proficiency_bonus": 3,
       "skills": [
         { "name": "Arcanismo", "bonus": 4 },
-        { "name": "Medicina", "bonus": 5 },
-        { "name": "Percepção", "bonus": 5 },
+        { "name": "Medicina", "bonus": 6 },
+        { "name": "Percepção", "bonus": 6 },
         { "name": "Sobrevivência", "bonus": 5 },
-        { "name": "Persuasão", "bonus": 6 }
+        { "name": "Persuasão", "bonus": 7 }
       ],
       "weapons": [
         { "name": "Adaga", "bonus": "+2", "damage": "1d4" },
-        { "name": "Raio Místico", "bonus": "+6", "damage": "1d10+4" }
+        { "name": "Rajada Mística", "bonus": "+8", "damage": "1d10+5" }
       ],
       "features": [
-        { "name": "Alerta", "desc": "Soma o Bônus de Proficiência às jogadas de Iniciativa; pode trocar sua Iniciativa pela de um aliado voluntário." },
-        { "name": "Iniciado em Magia (Druida)", "desc": "Conhece dois truques e uma magia de círculo 1 da lista de Druida, conjurável uma vez por Descanso Longo sem gastar espaço de magia." },
-        { "name": "Pacto do Tomo", "desc": "Possui um grimório místico (o Livro das Sombras) com truques adicionais sempre disponíveis." },
-        { "name": "Rajada Agonizante", "desc": "Invocação Élfica: soma o modificador de Carisma ao dano de Raio Místico." },
-        { "name": "Rajada Repulsora", "desc": "Invocação Élfica: ao acertar com Raio Místico, pode empurrar o alvo até 3m para longe." }
+        { "name": "Alerta", "desc": "Soma o Bônus de Proficiência (+3) às jogadas de Iniciativa; pode trocar sua Iniciativa pela de um aliado voluntário." },
+        { "name": "Iniciado em Magia (Druida)", "desc": "Concede truques e magias da lista do druida usando Carisma." },
+        { "name": "Pacto do Tomo", "desc": "Grimório místico com 3 truques e 2 rituais de 1º nível sempre disponíveis." },
+        { "name": "Rajada Agonizante", "desc": "Soma o modificador de Carisma (+5) ao dano da Rajada Mística." },
+        { "name": "Rajada Repulsora", "desc": "Ao acertar com Rajada Mística, pode empurrar o alvo até 3m para longe." },
+        { "name": "Mente Mística", "desc": "Vantagem em testes de resistência de Constituição pra manter Concentração." },
+        { "name": "Máscara de Muitas Faces", "desc": "Conjura Disfarçar-se à vontade, sem gastar espaço de magia." },
+        { "name": "Presença Fey", "desc": "Ação: força criaturas num cubo de 3m a um TR Sabedoria CD 14 ou ficam Enfeitiçadas/Aterrorizadas até o fim do próximo turno dele. 1x por descanso curto ou longo." },
+        { "name": "Magia de Pacto", "desc": "2 espaços de 2º Círculo, sempre conjurados no nível máximo; recuperam com descanso curto (1h)." }
       ]
     },
     "class_link": "https://5e.tools/classes.html#warlock_xphb,state:feature=s4-1~sub_archfey_xphb=b1",
