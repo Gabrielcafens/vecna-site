@@ -9,6 +9,24 @@ function mod(score: number) {
   return m >= 0 ? `+${m}` : `${m}`
 }
 
+function levelGroupKey(level: string): { key: string; label: string; order: number } {
+  const isCantrip = /truque/i.test(level)
+  if (isCantrip) return { key: 'cantrip', label: 'Truques', order: 0 }
+  const digit = level.match(/\d+/)
+  const n = digit ? parseInt(digit[0], 10) : 99
+  return { key: `lvl-${n}`, label: `${n}º Círculo`, order: n }
+}
+
+function groupSpellsByLevel(spells: { name: string; level: string; effect: string }[]) {
+  const groups = new Map<string, { label: string; order: number; spells: typeof spells }>()
+  for (const s of spells) {
+    const { key, label, order } = levelGroupKey(s.level)
+    if (!groups.has(key)) groups.set(key, { label, order, spells: [] })
+    groups.get(key)!.spells.push(s)
+  }
+  return [...groups.values()].sort((a, b) => a.order - b.order)
+}
+
 export function TraditionalSheet({ character, onClose }: { character: Character; onClose: () => void }) {
   const d = character.sheet_data
   if (!d) return null
@@ -128,24 +146,29 @@ export function TraditionalSheet({ character, onClose }: { character: Character;
               <span><span className="text-[var(--muted)]">Ataque de magia:</span> <strong className="text-[var(--accent)]">+{d.spellcasting.attack_bonus}</strong></span>
               {d.spellcasting.slots && <span><span className="text-[var(--muted)]">Espaços:</span> <strong className="text-[var(--accent)]">{d.spellcasting.slots}</strong></span>}
             </div>
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="text-left text-[var(--muted)] text-xs">
-                  <th className="font-normal pb-1">Magia</th>
-                  <th className="font-normal pb-1">Círculo</th>
-                  <th className="font-normal pb-1">Efeito</th>
-                </tr>
-              </thead>
-              <tbody>
-                {d.spellcasting.spells.map((s) => (
-                  <tr key={s.name} className="border-t border-[var(--border)] align-top">
-                    <td className="py-1.5 font-semibold text-[var(--accent)] whitespace-nowrap">{s.name}</td>
-                    <td className="py-1.5 text-[var(--muted)] whitespace-nowrap">{s.level}</td>
-                    <td className="py-1.5">{s.effect}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <div className="space-y-3">
+              {groupSpellsByLevel(d.spellcasting.spells).map((group) => (
+                <div key={group.label}>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 border-[var(--accent)] text-[10px] font-bold text-[var(--accent)]">
+                      {group.order === 0 ? '0' : group.order}
+                    </span>
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-[var(--accent)]">{group.label}</h4>
+                    <div className="flex-1 border-t border-dashed border-[var(--border)]" />
+                  </div>
+                  <table className="w-full text-sm">
+                    <tbody>
+                      {group.spells.map((s) => (
+                        <tr key={s.name} className="border-t border-[var(--border)] align-top">
+                          <td className="py-1.5 pl-7 font-semibold text-[var(--accent)] whitespace-nowrap w-1/3">{s.name}</td>
+                          <td className="py-1.5">{s.effect}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ))}
+            </div>
           </div>
         )}
       </div>

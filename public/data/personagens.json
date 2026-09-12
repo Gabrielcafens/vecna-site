@@ -9,45 +9,107 @@
     "background_en": "Clan Soldier",
     "level": 6,
     "image": "personagens/fabo.jpeg",
-    "tags": ["XIV - A Temperança (Talons)", "VII - O Carro (Knight)"],
-    "feats": ["Atleta", "Mestre em Armas Grandes"],
-    "feats_en": ["Athlete", "Great Weapon Master"],
+    "tags": [
+      "XIV - A Temperança (Talons)",
+      "VII - O Carro (Knight)"
+    ],
+    "feats": [
+      "Atleta",
+      "Mestre em Armas Grandes"
+    ],
+    "feats_en": [
+      "Athlete",
+      "Great Weapon Master"
+    ],
     "sheet": "Atributos: Força 20 (+5) · Destreza 15 (+2) · Constituição 15 (+2) · Inteligência 10 (+0) · Sabedoria 15 (+2) · Carisma 14 (+2)\nCA 16 (Cota de Malha) · Bônus de Proficiência +3 · PV 57\nSalvaguardas: Força +8, Constituição +5\nPerícias: Atletismo +8, Percepção +5, Sobrevivência +5, Intimidação +5\nEstilo de Luta (Feder): ao acertar um oponente, atinge outro a 1,5m sem o modificador de dano (1x por turno)\nAtaque Extra · Ajuste Tático (mover metade do deslocamento sem provocar Ataques de Oportunidade ao usar Recuperar o Fôlego)\nMestre em Armas Grandes: dano extra igual ao Bônus de Proficiência com armas Pesadas; Cortar (ataque bônus extra ao tirar crítico ou reduzir a 0 PV)\nAtleta: Deslocamento de Escalada igual ao Deslocamento; levanta-se e salta gastando só 1,5m de movimento\nArmas: Machado Grande, Besta Pesada, Espada Longa, Alabarda",
     "sheet_en": "Abilities: Strength 20 (+5) · Dexterity 15 (+2) · Constitution 15 (+2) · Intelligence 10 (+0) · Wisdom 15 (+2) · Charisma 14 (+2)\nAC 16 (Chain Mail) · Proficiency Bonus +3 · HP 57\nSaves: Strength +8, Constitution +5\nSkills: Athletics +8, Perception +5, Survival +5, Intimidation +5\nFighting Style (Interception): when you hit a target, you can hit another within 1.5m without your damage modifier (1x per turn)\nExtra Attack · Tactical Shift (move half your Speed without provoking Opportunity Attacks when using Second Wind)\nGreat Weapon Master: extra damage equal to Proficiency Bonus with Heavy weapons; Cleave (extra bonus-action attack on a critical hit or reducing a creature to 0 HP)\nAthlete: Climbing Speed equal to your Speed; stand up or jump using only 1.5m of movement\nWeapons: Greataxe, Heavy Crossbow, Longsword, Halberd",
     "sheet_data": {
-      "abilities": { "str": 20, "dex": 15, "con": 15, "int": 10, "wis": 15, "cha": 14 },
+      "abilities": {
+        "str": 20,
+        "dex": 15,
+        "con": 15,
+        "int": 10,
+        "wis": 15,
+        "cha": 14
+      },
       "ac": 16,
       "hp": 57,
       "hit_dice": "6d10",
       "initiative": 2,
       "passive_perception": 15,
       "proficiency_bonus": 3,
-      "saving_throws": ["str", "con"],
+      "saving_throws": [
+        "str",
+        "con"
+      ],
       "skills": [
-        { "name": "Atletismo", "bonus": 8 },
-        { "name": "Percepção", "bonus": 5 },
-        { "name": "Sobrevivência", "bonus": 5 },
-        { "name": "Intimidação", "bonus": 5 }
+        {
+          "name": "Atletismo",
+          "bonus": 8
+        },
+        {
+          "name": "Percepção",
+          "bonus": 5
+        },
+        {
+          "name": "Sobrevivência",
+          "bonus": 5
+        },
+        {
+          "name": "Intimidação",
+          "bonus": 5
+        }
       ],
       "weapons": [
-        { "name": "Machado Grande", "bonus": "+8", "damage": "1d12+5" },
-        { "name": "Besta Pesada", "bonus": "+5", "damage": "1d10+2" },
-        { "name": "Espada Longa", "bonus": "+8", "damage": "1d8+5 (1d10 duas mãos)" },
-        { "name": "Alabarda", "bonus": "+8", "damage": "1d10+5" }
+        {
+          "name": "Machado Grande",
+          "bonus": "+8",
+          "damage": "1d12+5"
+        },
+        {
+          "name": "Besta Pesada",
+          "bonus": "+5",
+          "damage": "1d10+2"
+        },
+        {
+          "name": "Espada Longa",
+          "bonus": "+8",
+          "damage": "1d8+5 (1d10 duas mãos)"
+        },
+        {
+          "name": "Alabarda",
+          "bonus": "+8",
+          "damage": "1d10+5"
+        }
       ],
       "features": [
-        { "name": "Estilo de Luta: Feder", "desc": "Ao acertar um oponente com um ataque, pode atingir um segundo alvo a até 1,5m sem somar o modificador de dano — 1x por turno." },
-        { "name": "Ataque Extra", "desc": "Pode atacar duas vezes sempre que usar a ação Atacar no seu turno." },
-        { "name": "Ajuste Tático", "desc": "Ao usar Recuperar o Fôlego como Ação Bônus, pode se mover até metade do deslocamento sem provocar Ataques de Oportunidade." },
-        { "name": "Mestre em Armas Grandes", "desc": "Causa dano extra igual ao Bônus de Proficiência ao acertar com arma Pesada; Cortar permite um ataque bônus extra ao tirar crítico ou reduzir alguém a 0 PV." },
-        { "name": "Atleta", "desc": "Ganha Deslocamento de Escalada igual ao Deslocamento normal; levanta-se do chão ou salta gastando só 1,5m de movimento." }
+        {
+          "name": "Estilo de Luta: Feder",
+          "desc": "Ao acertar um oponente com um ataque, pode atingir um segundo alvo a até 1,5m sem somar o modificador de dano — 1x por turno."
+        },
+        {
+          "name": "Ataque Extra",
+          "desc": "Pode atacar duas vezes sempre que usar a ação Atacar no seu turno."
+        },
+        {
+          "name": "Ajuste Tático",
+          "desc": "Ao usar Recuperar o Fôlego como Ação Bônus, pode se mover até metade do deslocamento sem provocar Ataques de Oportunidade."
+        },
+        {
+          "name": "Mestre em Armas Grandes",
+          "desc": "Causa dano extra igual ao Bônus de Proficiência ao acertar com arma Pesada; Cortar permite um ataque bônus extra ao tirar crítico ou reduzir alguém a 0 PV."
+        },
+        {
+          "name": "Atleta",
+          "desc": "Ganha Deslocamento de Escalada igual ao Deslocamento normal; levanta-se do chão ou salta gastando só 1,5m de movimento."
+        }
       ]
     },
     "class_link": "https://5e.tools/classes.html#fighter_xphb,state:feature=s4-1~sub_champion_xphb=b1",
     "allies_image": "factions/alianca-dos-lordes.png",
     "allies": "Aliança dos Lordes\nFabo não é membro oficial, mas orbita a Aliança por causa de Vitu e do que aconteceu na Torre de Xonthal. A Aliança dos Lordes é uma coalizão de cidades e líderes da Costa da Espada (Waterdeep, Nesme, Portas de Baldur, entre outras) formada pra proteger rotas de comércio e conter ameaças que nenhuma cidade sozinha resolveria — dragões, cultos, monstros de fronteira. Não tem exército próprio; depende de agentes e aventureiros pra agir em seu nome. Fabo lida com essa estrutura com desconfiança — pra ele, foi a guerra da Aliança contra Tiamat que custou a tribo dele.",
     "allies_en": "Lords' Alliance\nFabo isn't an official member, but he orbits the Alliance because of Vitu and what happened at Xonthal's Tower. The Lords' Alliance is a coalition of Sword Coast cities and leaders (Waterdeep, Nesme, Baldur's Gate, among others) formed to protect trade routes and contain threats no single city could handle alone — dragons, cults, border monsters. It has no standing army of its own; it relies on agents and adventurers to act in its name. Fabo treats the whole structure with distrust — to him, it was the Alliance's war against Tiamat that cost his tribe everything.",
-    "notes": "## Sessão 1 — Necrotério de Thay\nFabo não nasceu num exército. Nasceu numa tribo.\n\nNão havia patentes, medalhas ou estandartes. Havia sangue, lealdade e o som dos tambores antes da batalha. O clã Meio-Orc vivia nas fronteiras de uma região sem nome em nenhum mapa de Waterdeep — terras duras, invernos longos, e uma paz frágil mantida pela presença da tribo vizinha de Draconatos, liderada por um jovem paladino chamado Vitu.\n\nFabo e Vitu nunca foram amigos. Eram vizinhos no sentido que tribos vizinhas são vizinhas — respeito mútuo, território respeitado, e uma competição silenciosa que nenhum dos dois precisava verbalizar. Vitu protegia a região. Fabo protegia o clã. Era um equilíbrio que funcionava.\n\nEntão Vitu partiu pra missão. A guerra contra Tiamat chamou o paladino Draconato pra longe — primeiro pra Costa da Espada, depois pro mundo inteiro. Fabo ficou. Continuou protegendo o clã, continuou mantendo o território, continuou sendo o guerreiro que ninguém cantava em verso. E enquanto Vitu salvava o mundo, o Culto do Dragão varreu as tribos como dano colateral — exércitos em marcha, rituais que precisavam de terras vazias, fronteiras que deixaram de importar quando dragões cruzavam o céu.\n\nA tribo Meio-Orc de Fabo foi destruída. A tribo Draconata de Vitu foi dispersada.\n\nQuando Vitu voltou vitorioso, voltou pra ruínas. Fabo também voltou. Encontrou o mesmo. A diferença é que Vitu voltou como herói — carregando a culpa em silêncio, mas carregando também o nome que os bardos cantavam. E Fabo voltou como fantasma. O homem que ficou, que lutou, que sangrou nas mesmas fronteiras que Vitu havia abandonado — e que não tem ninguém pra testemunhar isso.\n\nVitu sabe. Carrega esse peso. Mas saber e consertar são coisas diferentes — e Fabo não quer conserto. Quer algo mais difícil: quer ser impossível de ignorar.\n\nVeio pra Phandalin de propósito, sabendo que era o berço da lenda do rival. Entrou numa taverna, ouviu os bardos cantando sobre o Dragonborn Azul, esperou até o fim, deixou moedas na mesa e saiu.\n\nTrês dias depois, uma mensagem com a letra inconfundível de um Draconato: \"Tenho pistas de quem massacrou as tribos. Venha à Torre de Xonthal — Farol da Esperança — ao amanhecer. — Vitu\"\n\nFabo foi. Não pela missão. Não pela Aliança. Mas porque Vitu, pela primeira vez em toda a vida deles, estava pedindo algo a ele. E isso mudava tudo.\n\n—\n\nNo Baralho das Muitas Coisas puxou A Temperança (Talons — todos os itens mágicos carregados se desintegram) e O Carro (Knight — ganhou um cavaleiro NPC fiel como aliado, que se tornou o Vitu, jogado como personagem legado de nível 16).\n\n## Entre as Sessões — As Oito Semanas\nO treino em Phandalin não podia ter sido normal. Bom, não quando a dupla envolvida era um Orc focado em virar uma máquina de guerra e um Draconato parceiro de caos.\n\nO cheiro de carne queimada e graxa barata infestava o quintal da estalagem. Enquanto o resto do bairro tentava digerir a insanidade do Baralho das Muitas Coisas e as bravatas soltas pelo Valdris no Necrotério de Thay, Fabo decidiu que a melhor resposta psicológica para o trauma era o trabalho braçal estúpido. Se o destino podia ser decidido num sorteio de cartas, o Machado Grande dele pelo menos decidia as coisas no impacto.\n\n![Fabo salta sobre fardos em chamas com Vitu agarrado nas costas, gritando ordens](lore/fabo_treino_vitu.png)\n\nO método de treino inventado por Vitu era puro suco de demência. Em vez de usar sacos de pancada de palha como um guerreiro são, Fabo passou quatro semanas saltando por cima de fardos de feno em chamas e escalando as paredes de pedra do posto de mineração dos anões, carregando o amigo nas costas. Vitu, deitado confortavelmente, nos ombros do Orc, ficava gritando instruções absurdamente inúteis: \"Se tu cair agora, Fabo, eu uso teu cadáver de colchão e saio ileso, ouviu? Vai, salta essa porra, parece uma gazela obesa!\"\n\nFoi desse lindo sadomasoquismo recreativo que nasceu a técnica. Bastou Fabo gastar apenas um metro e meio de impulso pra saltar uma vala inteira de dejetos com Vitu agarrado no pescoço dele como um parasita estridente. Fabo notou que seus joelhos tinham virado molas de ferro.\n\nReerguer-se do chão virou reflexo rápido; a gravidade que se dane.\n\nNas quatro semanas seguintes, o foco virou a brutalidade pura. Fabo queria extrair até a última gota de dano do Machado. O \"treino de precisão\" consistia em Vitu amarrar galinhas mortas (e às vezes algumas bem vivas) em pedaços de madeira e soltá-las de cima de um telhado. Quando Fabo descentralizava o golpe, a proficiência entrava na força do impacto: a lâmina pesada cortava o ar com um assobio de apito tenebroso, reduzindo a carcaça a uma névoa vermelha instantânea que sujava a fachada das casas vizinhas.\n\n\"Oh filho da mãe, essa merda de galinha bateu na minha cara!\" rosnava Vitu emputecido, limpando o sangue do olho.\n\n\"Mas o golpe foi do caralho! Faz de novo.\"\n\nNos dias de folga, quando Fabo recuperava fôlego pra curar dores musculares e as queimaduras de terceiro grau do treino, Vitu aproveitava o momento de fraqueza do Orc pra testar reflexos de esquiva: jogava pedras de amolar, chifres, cimento, alho, facão, caixa d'água e tudo que ele visse pela frente. Fabo, num instinto puro de preservação e mobilidade tática, simplesmente dava um rolamento lateral cobrindo metade do pátio sem dar margem pra nenhum \"ataque de oportunidade\" vindo do parceiro psicopata.\n\nAo fim das oito semanas, Phandalin não ganhou dois heróis descansados. Ganhou um Orc ridiculamente mais forte, que salta muros como um ladrão desgraçado, desce o machado com a violência de um madeireiro ilegal na floresta e corre de lado como quem tem algo valioso demais pra perder.\n\nVitu olhou para o rastro de destruição, deu uma puxada de ar pesada e decretou: \"É, Fabo. Se a gente não morrer pro próximo demônio, a gente morre de tétano. Bora, que quem tem medo de porrada é pai de família. Tamo pronto.\"",
+    "notes": "## Sessão 1 — Necrotério de Thay\nFabo não nasceu num exército. Nasceu numa tribo.\n\nNão havia patentes, medalhas ou estandartes. Havia sangue, lealdade e o som dos tambores antes da batalha. O clã Meio-Orc vivia nas fronteiras de uma região sem nome em nenhum mapa de Waterdeep — terras duras, invernos longos, e uma paz frágil mantida pela presença da tribo vizinha de Draconatos, liderada por um jovem paladino chamado Vitu.\n\nFabo e Vitu nunca foram amigos. Eram vizinhos no sentido que tribos vizinhas são vizinhas — respeito mútuo, território respeitado, e uma competição silenciosa que nenhum dos dois precisava verbalizar. Vitu protegia a região. Fabo protegia o clã. Era um equilíbrio que funcionava.\n\nEntão Vitu partiu pra missão. A guerra contra Tiamat chamou o paladino Draconato pra longe — primeiro pra Costa da Espada, depois pro mundo inteiro. Fabo ficou. Continuou protegendo o clã, continuou mantendo o território, continuou sendo o guerreiro que ninguém cantava em verso. E enquanto Vitu salvava o mundo, o Culto do Dragão varreu as tribos como dano colateral — exércitos em marcha, rituais que precisavam de terras vazias, fronteiras que deixaram de importar quando dragões cruzavam o céu.\n\nA tribo Meio-Orc de Fabo foi destruída. A tribo Draconata de Vitu foi dispersada.\n\nQuando Vitu voltou vitorioso, voltou pra ruínas. Fabo também voltou. Encontrou o mesmo. A diferença é que Vitu voltou como herói — carregando a culpa em silêncio, mas carregando também o nome que os bardos cantavam. E Fabo voltou como fantasma. O homem que ficou, que lutou, que sangrou nas mesmas fronteiras que Vitu havia abandonado — e que não tem ninguém pra testemunhar isso.\n\nVitu sabe. Carrega esse peso. Mas saber e consertar são coisas diferentes — e Fabo não quer conserto. Quer algo mais difícil: quer ser impossível de ignorar.\n\nVeio pra Phandalin de propósito, sabendo que era o berço da lenda do rival. Entrou numa taverna, ouviu os bardos cantando sobre o Dragonborn Azul, esperou até o fim, deixou moedas na mesa e saiu.\n\nTrês dias depois, uma mensagem com a letra inconfundível de um Draconato: \"Tenho pistas de quem massacrou as tribos. Venha à Torre de Xonthal — Farol da Esperança — ao amanhecer. — Vitu\"\n\nFabo foi. Não pela missão. Não pela Aliança. Mas porque Vitu, pela primeira vez em toda a vida deles, estava pedindo algo a ele. E isso mudava tudo.\n\n—\n\nNo Baralho das Muitas Coisas puxou A Temperança (Talons — todos os itens mágicos carregados se desintegram) e O Carro (Knight — ganhou um cavaleiro NPC fiel como aliado, que se tornou o Vitu, jogado como personagem legado de nível 16).\n\n## Entre as Sessões — As Oito Semanas\nO treino em Phandalin não podia ter sido normal. Bom, não quando a dupla envolvida era um Orc focado em virar uma máquina de guerra e um Draconato parceiro de caos.\n\nO cheiro de carne queimada e graxa barata infestava o quintal da estalagem. Enquanto o resto do bairro tentava digerir a insanidade do Baralho das Muitas Coisas e as bravatas soltas pelo Valdris no Necrotério de Thay, Fabo decidiu que a melhor resposta psicológica para o trauma era o trabalho braçal estúpido. Se o destino podia ser decidido num sorteio de cartas, o Machado Grande dele pelo menos decidia as coisas no impacto.\n\n![Fabo salta sobre fardos em chamas com Vitu agarrado nas costas, gritando ordens](lore/fabo_treino_vitu.png)\n\nO método de treino inventado por Vitu era puro suco de demência. Em vez de usar sacos de pancada de palha como um guerreiro são, Fabo passou quatro semanas saltando por cima de fardos de feno em chamas e escalando as paredes de pedra do posto de mineração dos anões, carregando o amigo nas costas. Vitu, deitado confortavelmente, nos ombros do Orc, ficava gritando instruções absurdamente inúteis: \"Se tu cair agora, Fabo, eu uso teu cadáver de colchão e saio ileso, ouviu? Vai, salta essa porra, parece uma gazela obesa!\"\n\nFoi desse lindo sadomasoquismo recreativo que nasceu a técnica. Bastou Fabo gastar apenas um metro e meio de impulso pra saltar uma vala inteira de dejetos com Vitu agarrado no pescoço dele como um parasita estridente. Fabo notou que seus joelhos tinham virado molas de ferro.\n\nReerguer-se do chão virou reflexo rápido; a gravidade que se dane.\n\nNas quatro semanas seguintes, o foco virou a brutalidade pura. Fabo queria extrair até a última gota de dano do Machado. O \"treino de precisão\" consistia em Vitu amarrar galinhas mortas (e às vezes algumas bem vivas) em pedaços de madeira e soltá-las de cima de um telhado. Quando Fabo descentralizava o golpe, a proficiência entrava na força do impacto: a lâmina pesada cortava o ar com um assobio de apito tenebroso, reduzindo a carcaça a uma névoa vermelha instantânea que sujava a fachada das casas vizinhas.\n\n\"Oh filho da mãe, essa merda de galinha bateu na minha cara!\" rosnava Vitu emputecido, limpando o sangue do olho.\n\n\"Mas o golpe foi do caralho! Faz de novo.\"\n\nNos dias de folga, quando Fabo recuperava fôlego pra curar dores musculares e as queimaduras de terceiro grau do treino, Vitu aproveitava o momento de fraqueza do Orc pra testar reflexos de esquiva: jogava pedras de amolar, chifres, cimento, alho, facão, caixa d'água e tudo que ele visse pela frente. Fabo, num instinto puro de preservação e mobilidade tática, simplesmente dava um rolamento lateral cobrindo metade do pátio sem dar margem pra nenhum \"ataque de oportunidade\" vindo do parceiro psicopata.\n\nAo fim das oito semanas, Phandalin não ganhou dois heróis descansados. Ganhou um Orc ridiculamente mais forte, que salta muros como um ladrão desgraçado, desce o machado com a violência de um madeireiro ilegal na floresta e corre de lado como quem tem algo valioso demais pra perder.\n\nVitu olhou para o rastro de destruição, deu uma puxada de ar pesada e decretou: \"É, Fabo. Se a gente não morrer pro próximo demônio, a gente morre de tétano. Bora, que quem tem medo de porrada é pai de família. Tamo pronto.\"\n\n## Sessão 2 — O Ninho do Olho Eldritch\n*(Resumo completo pendente — nota rápida por enquanto: no clímax contra a projeção de Vecna, na Câmara Ritual, Fabo aceitou a dádiva oferecida e recebeu o Charm of the Eldritch Eye — conjura Clarividência como ação, de graça, sem gastar espaço de magia, por 3 usos antes de desaparecer.)*",
     "notes_en": "Fabo wasn't born into an army. He was born into a tribe.\n\nThere were no ranks, medals, or banners. There was blood, loyalty, and the sound of drums before battle. The Half-Orc clan lived on the borders of a region that appears on no map of Waterdeep — hard land, long winters, and a fragile peace kept by the presence of the neighboring Dragonborn tribe, led by a young paladin named Vitu.\n\nFabo and Vitu were never friends. They were neighbors in the way neighboring tribes are neighbors — mutual respect, respected territory, and a silent competition neither needed to put into words. Vitu protected the region. Fabo protected the clan. It was a balance that worked.\n\nThen Vitu left for the mission. The war against Tiamat called the Dragonborn paladin far away — first to the Sword Coast, then to the whole world. Fabo stayed. He kept protecting the clan, kept holding the territory, kept being the warrior nobody sang songs about. And while Vitu was saving the world, the Cult of the Dragon swept through the tribes as collateral damage — marching armies, rituals that needed empty land, borders that stopped mattering once dragons crossed the sky.\n\nFabo's Half-Orc tribe was destroyed. Vitu's Dragonborn tribe was scattered.\n\nWhen Vitu came back victorious, he came back to ruins. Fabo came back too. He found the same thing. The difference is that Vitu came back a hero — carrying the guilt in silence, but also carrying the name the bards sang. Fabo came back a ghost. The man who stayed, who fought, who bled on the same borders Vitu had left behind — and who has no one to bear witness to any of it.\n\nVitu knows. He carries that weight. But knowing and fixing are different things — and Fabo doesn't want it fixed. He wants something harder: he wants to be impossible to ignore.\n\nHe came to Phandalin on purpose, knowing it was the birthplace of his rival's legend. He walked into a tavern, listened to the bards sing about the Blue Dragonborn, waited until the end, left coins on the table, and left.\n\nThree days later, a message in unmistakable Dragonborn handwriting: \"I have leads on who massacred the tribes. Come to Xonthal's Tower — the Beacon of Hope — at dawn. — Vitu\"\n\nFabo went. Not for the mission. Not for the Alliance. But because Vitu, for the first time in both their lives, was asking him for something. And that changed everything.\n\n—\n\nFrom the Deck of Many Things he drew Temperance (Talons — all magic items currently carried disintegrate) and The Chariot (Knight — gained a loyal NPC knight as an ally, who became Vitu, now played as a level 16 legacy character)."
   },
   {
@@ -60,42 +122,116 @@
     "background_en": "Soldier / Knight of the Lords' Alliance",
     "level": 6,
     "image": "personagens/phillipe.jpeg",
-    "tags": ["XV - O Diabo (Flames)"],
-    "feats": ["Atacante Selvagem", "Iniciado em Magia"],
-    "feats_en": ["Savage Attacker", "Magic Initiate"],
+    "tags": [
+      "XV - O Diabo (Flames)"
+    ],
+    "feats": [
+      "Atacante Selvagem",
+      "Iniciado em Magia"
+    ],
+    "feats_en": [
+      "Savage Attacker",
+      "Magic Initiate"
+    ],
     "sheet": "Atributos: Força 20 (+5) · Destreza 12 (+1) · Constituição 14 (+2) · Inteligência 17 (+3) · Sabedoria 12 (+1) · Carisma 10 (+0)\nCA 16 (espada em duas mãos) ou 18 (escudo equipado) · Bônus de Proficiência +3 · Iniciativa +1 · PV 50 (6d10) · Percepção Passiva 14\nCaracterísticas: Ataque Extra, Mudança Tática, Maestria em Armas (4 armas: Minar/Espada Longa, Afligir/Arco Curto, Derrubar/Machado de Batalha, Lentidão/Azagaia), Surto de Ação, Mente Tática, Vínculo de Guerra, Retomar o Fôlego (1d10+6, 3 usos)\nConjuração (Cavaleiro Místico): CD 14, ataque de magia +6, 3 espaços de 1º círculo — Escudo, Absorver Elementos, Mãos Flamejantes, Mísseis Mágicos\nTalentos: Atacante Selvagem, Iniciado em Magia (Proteção contra o Bem e o Mal)\nArmas: Espada Longa +8 (1d10+5 ou 1d8+7 c/ escudo), Machado de Batalha +8 (1d10+5), Azagaia +8 (1d6+5), Arco Curto +4 (1d6+1)",
     "sheet_en": "Abilities: Strength 20 (+5) · Dexterity 12 (+1) · Constitution 14 (+2) · Intelligence 17 (+3) · Wisdom 12 (+1) · Charisma 10 (+0)\nAC 16 (two-handed sword) or 18 (shield equipped) · Proficiency Bonus +3 · Initiative +1 · HP 50 (6d10) · Passive Perception 14\nFeatures: Extra Attack, Tactical Shift, Weapon Mastery (4 weapons: Sap/Longsword, Vex/Shortbow, Topple/Battleaxe, Slow/Javelin), Action Surge, Tactical Mind, War Bond, Second Wind (1d10+6, 3 uses)\nSpellcasting (Eldritch Knight): DC 14, spell attack +6, 3 first-level slots — Shield, Absorb Elements, Burning Hands, Magic Missile\nFeats: Savage Attacker, Magic Initiate (Protection from Evil and Good)\nWeapons: Longsword +8 (1d10+5 or 1d8+7 w/ shield), Battleaxe +8 (1d10+5), Javelin +8 (1d6+5), Shortbow +4 (1d6+1)",
     "sheet_data": {
-      "abilities": { "str": 20, "dex": 12, "con": 14, "int": 17, "wis": 12, "cha": 10 },
+      "abilities": {
+        "str": 20,
+        "dex": 12,
+        "con": 14,
+        "int": 17,
+        "wis": 12,
+        "cha": 10
+      },
       "ac": 18,
       "hp": 50,
       "hit_dice": "6d10",
       "initiative": 1,
       "passive_perception": 14,
       "proficiency_bonus": 3,
-      "saving_throws": ["str", "con"],
+      "saving_throws": [
+        "str",
+        "con"
+      ],
       "skills": [
-        { "name": "Atletismo", "bonus": 8 },
-        { "name": "Arcanismo", "bonus": 6 },
-        { "name": "História", "bonus": 6 },
-        { "name": "Percepção", "bonus": 4 },
-        { "name": "Intimidação", "bonus": 3 }
+        {
+          "name": "Atletismo",
+          "bonus": 8
+        },
+        {
+          "name": "Arcanismo",
+          "bonus": 6
+        },
+        {
+          "name": "História",
+          "bonus": 6
+        },
+        {
+          "name": "Percepção",
+          "bonus": 4
+        },
+        {
+          "name": "Intimidação",
+          "bonus": 3
+        }
       ],
       "weapons": [
-        { "name": "Espada Longa (duas mãos)", "bonus": "+8", "damage": "1d10+5" },
-        { "name": "Espada Longa (uma mão + escudo)", "bonus": "+8", "damage": "1d8+7" },
-        { "name": "Machado de Batalha", "bonus": "+8", "damage": "1d10+5" },
-        { "name": "Azagaia", "bonus": "+8", "damage": "1d6+5" },
-        { "name": "Arco Curto", "bonus": "+4", "damage": "1d6+1" }
+        {
+          "name": "Espada Longa (duas mãos)",
+          "bonus": "+8",
+          "damage": "1d10+5"
+        },
+        {
+          "name": "Espada Longa (uma mão + escudo)",
+          "bonus": "+8",
+          "damage": "1d8+7"
+        },
+        {
+          "name": "Machado de Batalha",
+          "bonus": "+8",
+          "damage": "1d10+5"
+        },
+        {
+          "name": "Azagaia",
+          "bonus": "+8",
+          "damage": "1d6+5"
+        },
+        {
+          "name": "Arco Curto",
+          "bonus": "+4",
+          "damage": "1d6+1"
+        }
       ],
       "features": [
-        { "name": "Ataque Extra", "desc": "Ataca duas vezes sempre que usar a ação de Atacar no seu turno." },
-        { "name": "Maestria em Armas", "desc": "Usa a propriedade de maestria de 4 armas: Minar (Espada Longa), Afligir (Arco Curto), Derrubar (Machado de Batalha) e Lentidão (Azagaia)." },
-        { "name": "Surto de Ação", "desc": "Uma ação adicional no seu turno, 1x por descanso curto ou longo." },
-        { "name": "Mudança Tática", "desc": "Ao usar Retomar o Fôlego como Ação Bônus, pode se mover até metade do deslocamento sem provocar Ataques de Oportunidade." },
-        { "name": "Vínculo de Guerra", "desc": "Invoca uma arma vinculada (Espada Longa ou Arco Curto) como Ação Bônus; não pode ser desarmado dela." },
-        { "name": "Retomar o Fôlego", "desc": "Como Ação Bônus, recupera 1d10+6 Pontos de Vida. 3 usos, 1 volta em descanso curto." },
-        { "name": "Conjuração (Cavaleiro Místico)", "desc": "CD de magia 14, ataque de magia +6, 3 espaços de 1º círculo: Escudo, Absorver Elementos, Mãos Flamejantes, Mísseis Mágicos." }
+        {
+          "name": "Ataque Extra",
+          "desc": "Ataca duas vezes sempre que usar a ação de Atacar no seu turno."
+        },
+        {
+          "name": "Maestria em Armas",
+          "desc": "Usa a propriedade de maestria de 4 armas: Minar (Espada Longa), Afligir (Arco Curto), Derrubar (Machado de Batalha) e Lentidão (Azagaia)."
+        },
+        {
+          "name": "Surto de Ação",
+          "desc": "Uma ação adicional no seu turno, 1x por descanso curto ou longo."
+        },
+        {
+          "name": "Mudança Tática",
+          "desc": "Ao usar Retomar o Fôlego como Ação Bônus, pode se mover até metade do deslocamento sem provocar Ataques de Oportunidade."
+        },
+        {
+          "name": "Vínculo de Guerra",
+          "desc": "Invoca uma arma vinculada (Espada Longa ou Arco Curto) como Ação Bônus; não pode ser desarmado dela."
+        },
+        {
+          "name": "Retomar o Fôlego",
+          "desc": "Como Ação Bônus, recupera 1d10+6 Pontos de Vida. 3 usos, 1 volta em descanso curto."
+        },
+        {
+          "name": "Conjuração (Cavaleiro Místico)",
+          "desc": "CD de magia 14, ataque de magia +6, 3 espaços de 1º círculo: Escudo, Absorver Elementos, Mãos Flamejantes, Mísseis Mágicos."
+        }
       ],
       "spellcasting": {
         "ability": "Inteligência",
@@ -103,15 +239,51 @@
         "attack_bonus": 6,
         "slots": "3 de 1º círculo",
         "spells": [
-          { "name": "Raio de Fogo", "level": "Truque", "effect": "Ataque +6 à distância, 2d10 fogo." },
-          { "name": "Raio de Gelo", "level": "Truque", "effect": "Ataque +6 à distância, 2d8 frio, desloc. -3m." },
-          { "name": "Toque Chocante", "level": "Truque", "effect": "Ataque +6 corpo a corpo, 2d8 elétrico, bloqueia Ataque de Oportunidade." },
-          { "name": "Trovejar", "level": "Truque", "effect": "Salv. CON 14, 2d6 trovejante em 1,5m ao redor (afeta aliados também)." },
-          { "name": "Escudo", "level": "1º (reação)", "effect": "+5 de CA até o início do próximo turno, inclusive contra o ataque que disparou." },
-          { "name": "Absorver Elementos", "level": "1º (reação)", "effect": "Resistência ao dano elemental sofrido; próximo ataque corpo a corpo causa +1d6 do mesmo tipo." },
-          { "name": "Mãos Flamejantes", "level": "1º", "effect": "Salv. DES 14, 3d6 fogo em cone de 4,5m." },
-          { "name": "Mísseis Mágicos", "level": "1º", "effect": "3 dardos de 1d4+1 força, acerto automático." },
-          { "name": "Proteção c/ o Bem e o Mal", "level": "1º (Iniciado em Magia)", "effect": "Desvantagem nos ataques de Aberrações/Celestiais/Elementais/Fadas/Corruptores/Mortos-vivos contra o alvo tocado." }
+          {
+            "name": "Raio de Fogo",
+            "level": "Truque",
+            "effect": "Ataque +6 à distância, 2d10 fogo."
+          },
+          {
+            "name": "Raio de Gelo",
+            "level": "Truque",
+            "effect": "Ataque +6 à distância, 2d8 frio, desloc. -3m."
+          },
+          {
+            "name": "Toque Chocante",
+            "level": "Truque",
+            "effect": "Ataque +6 corpo a corpo, 2d8 elétrico, bloqueia Ataque de Oportunidade."
+          },
+          {
+            "name": "Trovejar",
+            "level": "Truque",
+            "effect": "Salv. CON 14, 2d6 trovejante em 1,5m ao redor (afeta aliados também)."
+          },
+          {
+            "name": "Escudo",
+            "level": "1º (reação)",
+            "effect": "+5 de CA até o início do próximo turno, inclusive contra o ataque que disparou."
+          },
+          {
+            "name": "Absorver Elementos",
+            "level": "1º (reação)",
+            "effect": "Resistência ao dano elemental sofrido; próximo ataque corpo a corpo causa +1d6 do mesmo tipo."
+          },
+          {
+            "name": "Mãos Flamejantes",
+            "level": "1º",
+            "effect": "Salv. DES 14, 3d6 fogo em cone de 4,5m."
+          },
+          {
+            "name": "Mísseis Mágicos",
+            "level": "1º",
+            "effect": "3 dardos de 1d4+1 força, acerto automático."
+          },
+          {
+            "name": "Proteção c/ o Bem e o Mal",
+            "level": "1º (Iniciado em Magia)",
+            "effect": "Desvantagem nos ataques de Aberrações/Celestiais/Elementais/Fadas/Corruptores/Mortos-vivos contra o alvo tocado."
+          }
         ]
       }
     },
@@ -127,12 +299,26 @@
     "background": "Eremita (Enclave Esmeralda)",
     "level": 6,
     "image": "personagens/eldris.jpeg",
-    "tags": ["VIII - A Força (Comet)", "XVIII - A Lua (Moon)", "XVII - A Estrela (Star)"],
-    "feats": ["Alerta (origem)", "Iniciado em Magia — Druida (origem)"],
+    "tags": [
+      "VIII - A Força (Comet)",
+      "XVIII - A Lua (Moon)",
+      "XVII - A Estrela (Star)"
+    ],
+    "feats": [
+      "Alerta (origem)",
+      "Iniciado em Magia — Druida (origem)"
+    ],
     "notes": "## Sessão 1 — Necrotério de Thay\nO posto de observação do Enclave Esmeralda não tinha nome oficial. Era uma cabana de pedra numa clareira de floresta fechada, três dias de caminhada de qualquer cidade. Eldris foi designado lá com oito anos — jovem demais, mas o Enclave viu algo nele. Observar anomalias mágicas, registrar, reportar. Trabalho solitário pra uma criança solitária. Combinava.\n\nNuma noite sem lua, a clareira começou a brilhar. Não foi violento. Foi bonito, da forma que coisas perigosas às vezes são bonitas. As árvores ficaram prateadas. O ar ficou mais leve. O posto desapareceu — pedra, registros, tudo — engolido pelo Feérico. Não existe mais.\n\nEldris ficou no Plano Feérico por doze anos. O corpo não envelheceu. O mundo passou uma década sem ele. A Guerra de Tiamat aconteceu e terminou sem ele. Quando voltou, tinha vinte anos — o mesmo rosto, o mesmo corpo do menino que desapareceu. Seus pais são agricultores camponeses em Phandalin. Pessoas simples, de mãos calejadas. Perderam o filho aos oito anos numa tarde comum, sem explicação, sem corpo, sem despedida. E um dia ele simplesmente voltou à porta, com vinte anos e folhas prateadas no cabelo, pedindo pra entrar.\n\nTitânia se apresentou não como divindade mas como anfitriã — a Rainha do Verão Eterno num jardim sem fim. Eldris sabia o nome dela antes de chegar. Qualquer membro do Enclave saberia. Mas saber o nome de Titânia e estar na presença de Titânia são coisas completamente diferentes. Ela ensinava em camadas — cada resposta abria três perguntas novas, cada verdade vinha embrulhada em meias palavras. O pacto foi feito nas condições dela. Os termos, Eldris guarda pra si. Quem ela realmente é, o que ela realmente quer — isso vai se revelando aos poucos, como camadas de um jardim que nunca tem fim.\n\nEle ainda tinha muito a aprender quando ela o acordou com urgência — não em sonho, mas como uma voz dentro do osso, funda demais pra ser ignorada. \"Você ainda não está pronto. Mas não há mais tempo. Procure o Enclave Esmeralda em Phandalin. Mostre o emblema. Eles te levarão a um gnomo chamado Foster. Lá sua jornada começa.\" Nada mais. Nenhuma explicação. Nenhuma promessa.\n\nEldris foi ao posto do Enclave em Phandalin. Os membros novos reconheceram a ficha, trataram-no com a cordialidade reservada a estranhos educados — até ele mostrar o emblema. Então trocaram um olhar entre si, sem perguntar nada, e o levaram até a margem do lago. A torre estava lá. O lago ao redor não existia em nenhum mapa que Eldris conhecia.\n\nSeus pais ainda estão em Phandalin. Eldris entrou na torre porque Titânia mandou. E porque a torre, de alguma forma que ele não consegue explicar, cheirava ao jardim dela.\n\n—\n\nNo Baralho das Muitas Coisas puxou três cartas: A Força (Comet — Vantagem em testes de morte por 1 ano, condicionada a abater sozinho o inimigo escolhido no próximo combate), A Lua (Moon — pode lançar Wish 1d3 vezes, rolou 3) e A Estrela (Star — +2 permanente em um atributo à escolha, máx. 24).\n\n## Entre as Sessões — As Oito Semanas\n*(Eldris ainda não contou o que fez nesse intervalo — assim que ele mandar, entra aqui.)*",
     "sheet": "Atributos: Força 8 (-1) · Destreza 14 (+2) · Constituição 10 (+0) · Inteligência 14 (+2) · Sabedoria 16 (+3) · Carisma 20 (+5)\nCA 14 (Couro Batido + Destreza) · PV 37 (6d8) · Iniciativa +5 · Percepção Passiva 16 · Bônus de Proficiência +3 · CD de Magia 16\nPerícias: Persuasão +7, Percepção +6, Medicina +6, Sobrevivência +5, Arcanismo +4\nTalentos: Alerta (Histórico), Iniciado em Magia — Druida (Humano)\nInvocações Eldritch: Rajada Agonizante, Rajada Repulsora, Pacto do Tomo, Mente Mística, Máscara de Muitas Faces\nMagia de Pacto: 2 espaços de 2º Círculo (Crescimento de Espinhos, Bruxaria, Repreensão Infernal, Imobilizar Pessoa, Bola de Fogo, Contramágica, Padrão Hipnótico) + Passo Nevoeiro 2x/dia de graça (Disappearing/Dreadful Step)",
     "sheet_data": {
-      "abilities": { "str": 8, "dex": 14, "con": 10, "int": 14, "wis": 16, "cha": 20 },
+      "abilities": {
+        "str": 8,
+        "dex": 14,
+        "con": 10,
+        "int": 14,
+        "wis": 16,
+        "cha": 20
+      },
       "ac": 14,
       "hp": 37,
       "hit_dice": "6d8",
@@ -140,26 +326,76 @@
       "passive_perception": 16,
       "proficiency_bonus": 3,
       "skills": [
-        { "name": "Arcanismo", "bonus": 4 },
-        { "name": "Medicina", "bonus": 6 },
-        { "name": "Percepção", "bonus": 6 },
-        { "name": "Sobrevivência", "bonus": 5 },
-        { "name": "Persuasão", "bonus": 7 }
+        {
+          "name": "Arcanismo",
+          "bonus": 4
+        },
+        {
+          "name": "Medicina",
+          "bonus": 6
+        },
+        {
+          "name": "Percepção",
+          "bonus": 6
+        },
+        {
+          "name": "Sobrevivência",
+          "bonus": 5
+        },
+        {
+          "name": "Persuasão",
+          "bonus": 7
+        }
       ],
       "weapons": [
-        { "name": "Adaga", "bonus": "+2", "damage": "1d4" },
-        { "name": "Rajada Mística", "bonus": "+8", "damage": "1d10+5" }
+        {
+          "name": "Adaga",
+          "bonus": "+2",
+          "damage": "1d4"
+        },
+        {
+          "name": "Rajada Mística",
+          "bonus": "+8",
+          "damage": "1d10+5"
+        }
       ],
       "features": [
-        { "name": "Alerta", "desc": "Soma o Bônus de Proficiência (+3) às jogadas de Iniciativa; pode trocar sua Iniciativa pela de um aliado voluntário." },
-        { "name": "Iniciado em Magia (Druida)", "desc": "Concede truques e magias da lista do druida usando Carisma." },
-        { "name": "Pacto do Tomo", "desc": "Grimório místico com 3 truques e 2 rituais de 1º nível sempre disponíveis." },
-        { "name": "Rajada Agonizante", "desc": "Soma o modificador de Carisma (+5) ao dano da Rajada Mística." },
-        { "name": "Rajada Repulsora", "desc": "Ao acertar com Rajada Mística, pode empurrar o alvo até 3m para longe." },
-        { "name": "Mente Mística", "desc": "Vantagem em testes de resistência de Constituição pra manter Concentração." },
-        { "name": "Máscara de Muitas Faces", "desc": "Conjura Disfarçar-se à vontade, sem gastar espaço de magia." },
-        { "name": "Presença Fey", "desc": "Ação: força criaturas num cubo de 3m a um TR Sabedoria CD 14 ou ficam Enfeitiçadas/Aterrorizadas até o fim do próximo turno dele. 1x por descanso curto ou longo." },
-        { "name": "Magia de Pacto", "desc": "2 espaços de 2º Círculo, sempre conjurados no nível máximo; recuperam com descanso curto (1h)." }
+        {
+          "name": "Alerta",
+          "desc": "Soma o Bônus de Proficiência (+3) às jogadas de Iniciativa; pode trocar sua Iniciativa pela de um aliado voluntário."
+        },
+        {
+          "name": "Iniciado em Magia (Druida)",
+          "desc": "Concede truques e magias da lista do druida usando Carisma."
+        },
+        {
+          "name": "Pacto do Tomo",
+          "desc": "Grimório místico com 3 truques e 2 rituais de 1º nível sempre disponíveis."
+        },
+        {
+          "name": "Rajada Agonizante",
+          "desc": "Soma o modificador de Carisma (+5) ao dano da Rajada Mística."
+        },
+        {
+          "name": "Rajada Repulsora",
+          "desc": "Ao acertar com Rajada Mística, pode empurrar o alvo até 3m para longe."
+        },
+        {
+          "name": "Mente Mística",
+          "desc": "Vantagem em testes de resistência de Constituição pra manter Concentração."
+        },
+        {
+          "name": "Máscara de Muitas Faces",
+          "desc": "Conjura Disfarçar-se à vontade, sem gastar espaço de magia."
+        },
+        {
+          "name": "Presença Fey",
+          "desc": "Ação: força criaturas num cubo de 3m a um TR Sabedoria CD 14 ou ficam Enfeitiçadas/Aterrorizadas até o fim do próximo turno dele. 1x por descanso curto ou longo."
+        },
+        {
+          "name": "Magia de Pacto",
+          "desc": "2 espaços de 2º Círculo, sempre conjurados no nível máximo; recuperam com descanso curto (1h)."
+        }
       ]
     },
     "class_link": "https://5e.tools/classes.html#warlock_xphb,state:feature=s4-1~sub_archfey_xphb=b1",
@@ -173,44 +409,127 @@
     "background": "Soldado",
     "level": 15,
     "image": "personagens/vitu.png",
-    "tags": ["Personagem legado — ganho via carta O Carro (Knight)"],
-    "feats": ["Atleta (origem)", "Vários Aprimoramentos de Valor de Habilidade"],
+    "tags": [
+      "Personagem legado — ganho via carta O Carro (Knight)"
+    ],
+    "feats": [
+      "Atleta (origem)",
+      "Vários Aprimoramentos de Valor de Habilidade"
+    ],
     "sheet": "Atributos: Força 22 (+6) · Destreza 14 (+2) · Constituição 14 (+2) · Inteligência 11 (+0) · Sabedoria 11 (+0) · Carisma 16 (+3)\nCA 21 (Full Plate +3) · PV 139 · Iniciativa +2 · Bônus de Proficiência +5 · Deslocamento 12m\nSalvaguardas: Força, Constituição, Sabedoria, Carisma (proficientes)\nPerícias: Atletismo +11, Lidar com Animais +5, Sobrevivência +5\nAtaques (some +1d8 radiante de Radiant Strikes, nível 11): Alabarda +12 (1d10+7+1d8 radiante), Espada Longa +11 (1d8+6+1d8 radiante, 2 mãos 2d8+1d8), Baforada de Draconato Azul (4d6 relâmpago, CD 14, 1x/descanso curto)\nEspaços de magia (nível 15): 1º x4 · 2º x3 · 3º x3 · 4º x2 — Divine Smite: 2d8 (1º) até 5d8 (4º) radiante ao acertar corpo a corpo, +1d8 extra contra Morto-Vivo/Corruptor (vale pra quase tudo nesta masmorra: Zombies, Shadows, Banshee, Beholder Zumbi)\nConjuração de Paladino (CD 16, +6): até 4º círculo — Curar Ferimentos, Bênção, Dissipar Magia, Reviver Amigos, Liberdade de Movimento, entre outras\nOath of Glory: Peerless Athlete e Inspiring Smite (Canal de Divindade), Aura of Alacrity, Glorious Defense 2x/dia\nLay on Hands: 60 pontos (Restoring Touch: +5 pontos encerra uma condição) · Abjure Foes (nível 9) · Auras (Proteção +3 CAR em Salvaguardas, Coragem — imune a Amedrontado, Alacridade +3m deslocamento) a 9m · Máscara de Gelo (item de Tyranny of Dragons, Fúria do Inverno)\n(Fighting Style, Weapon Mastery e possível montaria via Find Steed não constavam na ficha física — a confirmar com o jogador)",
     "sheet_data": {
-      "abilities": { "str": 22, "dex": 14, "con": 14, "int": 11, "wis": 11, "cha": 16 },
+      "abilities": {
+        "str": 22,
+        "dex": 14,
+        "con": 14,
+        "int": 11,
+        "wis": 11,
+        "cha": 16
+      },
       "ac": 21,
       "hp": 139,
       "hit_dice": "12d10",
       "initiative": 2,
       "passive_perception": 10,
       "proficiency_bonus": 5,
-      "saving_throws": ["str", "con", "wis", "cha"],
+      "saving_throws": [
+        "str",
+        "con",
+        "wis",
+        "cha"
+      ],
       "skills": [
-        { "name": "Atletismo", "bonus": 11 },
-        { "name": "Lidar com Animais", "bonus": 5 },
-        { "name": "Sobrevivência", "bonus": 5 }
+        {
+          "name": "Atletismo",
+          "bonus": 11
+        },
+        {
+          "name": "Lidar com Animais",
+          "bonus": 5
+        },
+        {
+          "name": "Sobrevivência",
+          "bonus": 5
+        }
       ],
       "weapons": [
-        { "name": "Alabarda", "bonus": "+12", "damage": "1d10+7 + 1d8 radiante" },
-        { "name": "Espada Longa", "bonus": "+11", "damage": "1d8+6 + 1d8 radiante (2 mãos 2d8+1d8)" },
-        { "name": "Javelin", "bonus": "+10", "damage": "1d6+5 + 1d8 radiante" }
+        {
+          "name": "Alabarda",
+          "bonus": "+12",
+          "damage": "1d10+7 + 1d8 radiante"
+        },
+        {
+          "name": "Espada Longa",
+          "bonus": "+11",
+          "damage": "1d8+6 + 1d8 radiante (2 mãos 2d8+1d8)"
+        },
+        {
+          "name": "Javelin",
+          "bonus": "+10",
+          "damage": "1d6+5 + 1d8 radiante"
+        }
       ],
       "features": [
-        { "name": "Baforada (Draconato Azul)", "desc": "1x por descanso curto, TR CD 14, 4d6 de dano de relâmpago em linha." },
-        { "name": "Ataque Extra", "desc": "Ataca duas vezes ao usar a ação de Atacar." },
-        { "name": "Lay on Hands", "desc": "Pool de 60 pontos de cura pra distribuir." },
-        { "name": "Cleansing Touch", "desc": "Ação: encerra uma magia em você ou numa criatura disposta a até 1,5m. Usos por descanso longo = modificador de Carisma." },
-        { "name": "Radiant Strikes", "desc": "Seus ataques com arma causam +1d8 de dano radiante extra (já incluído nos ataques acima)." },
-        { "name": "Abjure Foes", "desc": "Ação: até 3 criaturas visíveis a até 18m fazem TR Sabedoria ou ficam com deslocamento 0 e desvantagem em ataques contra qualquer um exceto você até o fim do seu próximo turno." },
-        { "name": "Restoring Touch", "desc": "Ao usar Lay on Hands, pode gastar 5 pontos extra do pool pra também encerrar uma condição (Amedrontado, Atordoado, Cego, Enfeitiçado, Envenenado ou Paralisado)." },
-{ "name": "Divine Smite", "desc": "Ao acertar um ataque corpo a corpo com arma, pode gastar um espaço de magia: 2d8 radiante (1º círculo) até 5d8 (4º círculo). +1d8 extra se o alvo for Morto-Vivo ou Corruptor — vale muito nesta masmorra: Ogre Zombies, Shadows, a Banshee e o Beholder Zumbi são todos Mortos-Vivos." },
-        { "name": "Peerless Athlete (Canal de Divindade)", "desc": "Ação bônus, 10 minutos: vantagem em Força e Destreza, carrega o dobro do peso, salto aumentado." },
-        { "name": "Inspiring Smite (Canal de Divindade)", "desc": "Depois de conjurar um Smite, ação bônus distribui PV temporários (2d8 + nível do espaço usado) entre você e aliados a até 9m." },
-        { "name": "Aura of Alacrity", "desc": "Seu deslocamento aumenta 3m; no início dos seus turnos, aliados a até 9m também podem aumentar o deslocamento em 3m." },
-        { "name": "Aura de Proteção", "desc": "9m: soma o modificador de Carisma nas Salvaguardas de você e dos aliados no alcance." },
-        { "name": "Aura de Coragem", "desc": "9m: ninguém no alcance pode ficar Amedrontado." },
-        { "name": "Glorious Defense", "desc": "2x/dia, reação: quando você ou um aliado a até 9m é atingido, o alvo ganha bônus de CA igual ao seu Carisma; se isso fizer o ataque errar, você pode atacar de volta de graça." },
-        { "name": "Máscara de Gelo", "desc": "Item mágico de Tyranny of Dragons: Fúria do Inverno (1d8 de gelo + explosão em área CD 16), visão no escuro, vê invisíveis, vantagem contra Dragões Brancos — recarrega 1x/dia." }
+        {
+          "name": "Baforada (Draconato Azul)",
+          "desc": "1x por descanso curto, TR CD 14, 4d6 de dano de relâmpago em linha."
+        },
+        {
+          "name": "Ataque Extra",
+          "desc": "Ataca duas vezes ao usar a ação de Atacar."
+        },
+        {
+          "name": "Lay on Hands",
+          "desc": "Pool de 60 pontos de cura pra distribuir."
+        },
+        {
+          "name": "Cleansing Touch",
+          "desc": "Ação: encerra uma magia em você ou numa criatura disposta a até 1,5m. Usos por descanso longo = modificador de Carisma."
+        },
+        {
+          "name": "Radiant Strikes",
+          "desc": "Seus ataques com arma causam +1d8 de dano radiante extra (já incluído nos ataques acima)."
+        },
+        {
+          "name": "Abjure Foes",
+          "desc": "Ação: até 3 criaturas visíveis a até 18m fazem TR Sabedoria ou ficam com deslocamento 0 e desvantagem em ataques contra qualquer um exceto você até o fim do seu próximo turno."
+        },
+        {
+          "name": "Restoring Touch",
+          "desc": "Ao usar Lay on Hands, pode gastar 5 pontos extra do pool pra também encerrar uma condição (Amedrontado, Atordoado, Cego, Enfeitiçado, Envenenado ou Paralisado)."
+        },
+        {
+          "name": "Divine Smite",
+          "desc": "Ao acertar um ataque corpo a corpo com arma, pode gastar um espaço de magia: 2d8 radiante (1º círculo) até 5d8 (4º círculo). +1d8 extra se o alvo for Morto-Vivo ou Corruptor — vale muito nesta masmorra: Ogre Zombies, Shadows, a Banshee e o Beholder Zumbi são todos Mortos-Vivos."
+        },
+        {
+          "name": "Peerless Athlete (Canal de Divindade)",
+          "desc": "Ação bônus, 10 minutos: vantagem em Força e Destreza, carrega o dobro do peso, salto aumentado."
+        },
+        {
+          "name": "Inspiring Smite (Canal de Divindade)",
+          "desc": "Depois de conjurar um Smite, ação bônus distribui PV temporários (2d8 + nível do espaço usado) entre você e aliados a até 9m."
+        },
+        {
+          "name": "Aura of Alacrity",
+          "desc": "Seu deslocamento aumenta 3m; no início dos seus turnos, aliados a até 9m também podem aumentar o deslocamento em 3m."
+        },
+        {
+          "name": "Aura de Proteção",
+          "desc": "9m: soma o modificador de Carisma nas Salvaguardas de você e dos aliados no alcance."
+        },
+        {
+          "name": "Aura de Coragem",
+          "desc": "9m: ninguém no alcance pode ficar Amedrontado."
+        },
+        {
+          "name": "Glorious Defense",
+          "desc": "2x/dia, reação: quando você ou um aliado a até 9m é atingido, o alvo ganha bônus de CA igual ao seu Carisma; se isso fizer o ataque errar, você pode atacar de volta de graça."
+        },
+        {
+          "name": "Máscara de Gelo",
+          "desc": "Item mágico de Tyranny of Dragons: Fúria do Inverno (1d8 de gelo + explosão em área CD 16), visão no escuro, vê invisíveis, vantagem contra Dragões Brancos — recarrega 1x/dia."
+        }
       ],
       "spellcasting": {
         "ability": "Carisma",
@@ -218,25 +537,101 @@
         "attack_bonus": 6,
         "slots": "1º x4 · 2º x3 · 3º x3 · 4º x2 (nível 15, meio-conjurador)",
         "spells": [
-          { "name": "Curar Ferimentos", "level": "1º", "effect": "Toque, restaura 1d8 + modificador de Carisma em PV." },
-          { "name": "Raio Guia", "level": "1º", "effect": "Ataque de magia à distância, 4d6 radiante; próximo ataque contra o alvo tem vantagem." },
-          { "name": "Proteção contra o Bem e o Mal", "level": "1º", "effect": "Desvantagem nos ataques de certos tipos de criatura contra o alvo tocado; proteção extra contra controle/invocação delas." },
-          { "name": "Bênção", "level": "1º (concentração)", "effect": "Até 3 criaturas somam 1d4 em ataques e salvaguardas." },
-          { "name": "Escudo da Fé", "level": "1º (concentração)", "effect": "+2 de CA pra uma criatura por 10 minutos." },
-          { "name": "Heroísmo", "level": "1º (concentração)", "effect": "Imunidade a Amedrontado + PV temporários no início de cada turno pra uma criatura." },
-          { "name": "Auxílio Divino", "level": "1º", "effect": "PV temporários e um dentre Vantagem em ataques, +1d4 em testes/salvaguardas, ou resistência a um tipo de dano." },
-          { "name": "Ajuda", "level": "2º", "effect": "Até 3 criaturas ganham 5 PV temporários; pode substituir um pra dar Vantagem no próximo ataque/teste/salvaguarda dela." },
-          { "name": "Proteção contra Veneno", "level": "2º", "effect": "Neutraliza veneno/dá Vantagem contra veneno por 1h ao alvo tocado." },
-          { "name": "Zona da Verdade", "level": "2º (concentração)", "effect": "Área onde criaturas que falharem TR Carisma não conseguem mentir conscientemente." },
-          { "name": "Arma Mágica", "level": "2º (concentração)", "effect": "Uma arma tocada vira +1 (ataque e dano) por 1 hora." },
-          { "name": "Dissipar Magia", "level": "3º", "effect": "Encerra uma magia ativa em uma criatura, objeto ou efeito." },
-          { "name": "Velocidade", "level": "3º (concentração)", "effect": "Dobra o deslocamento do alvo, +2 de CA, Vantagem em TR Destreza, ação extra." },
-          { "name": "Energia Curativa", "level": "3º", "effect": "Toque, restaura 2d8 + Carisma em PV (mais 1d8 por círculo acima do 3º)." },
-          { "name": "Reviver Amigos (Revivify)", "level": "3º", "effect": "Traz de volta uma criatura morta há até 1 minuto, com 1 PV." },
-          { "name": "Proteção de Energia", "level": "3º (concentração)", "effect": "Resistência a um tipo de dano escolhido por 8 horas." },
-          { "name": "Ataque Mordente", "level": "3º", "effect": "Um ataque com arma some 3d6 de dano do mesmo tipo da arma." },
-          { "name": "Liberdade de Movimento", "level": "4º", "effect": "O alvo ignora terreno difícil e não pode ser Agarrado/Paralisado/Restringido por 1 hora." },
-          { "name": "Compulsão", "level": "4º (concentração)", "effect": "Força criaturas que falharem TR Sabedoria a se mover na direção que você apontar quando tentarem agir." }
+          {
+            "name": "Curar Ferimentos",
+            "level": "1º",
+            "effect": "Toque, restaura 1d8 + modificador de Carisma em PV."
+          },
+          {
+            "name": "Raio Guia",
+            "level": "1º",
+            "effect": "Ataque de magia à distância, 4d6 radiante; próximo ataque contra o alvo tem vantagem."
+          },
+          {
+            "name": "Proteção contra o Bem e o Mal",
+            "level": "1º",
+            "effect": "Desvantagem nos ataques de certos tipos de criatura contra o alvo tocado; proteção extra contra controle/invocação delas."
+          },
+          {
+            "name": "Bênção",
+            "level": "1º (concentração)",
+            "effect": "Até 3 criaturas somam 1d4 em ataques e salvaguardas."
+          },
+          {
+            "name": "Escudo da Fé",
+            "level": "1º (concentração)",
+            "effect": "+2 de CA pra uma criatura por 10 minutos."
+          },
+          {
+            "name": "Heroísmo",
+            "level": "1º (concentração)",
+            "effect": "Imunidade a Amedrontado + PV temporários no início de cada turno pra uma criatura."
+          },
+          {
+            "name": "Auxílio Divino",
+            "level": "1º",
+            "effect": "PV temporários e um dentre Vantagem em ataques, +1d4 em testes/salvaguardas, ou resistência a um tipo de dano."
+          },
+          {
+            "name": "Ajuda",
+            "level": "2º",
+            "effect": "Até 3 criaturas ganham 5 PV temporários; pode substituir um pra dar Vantagem no próximo ataque/teste/salvaguarda dela."
+          },
+          {
+            "name": "Proteção contra Veneno",
+            "level": "2º",
+            "effect": "Neutraliza veneno/dá Vantagem contra veneno por 1h ao alvo tocado."
+          },
+          {
+            "name": "Zona da Verdade",
+            "level": "2º (concentração)",
+            "effect": "Área onde criaturas que falharem TR Carisma não conseguem mentir conscientemente."
+          },
+          {
+            "name": "Arma Mágica",
+            "level": "2º (concentração)",
+            "effect": "Uma arma tocada vira +1 (ataque e dano) por 1 hora."
+          },
+          {
+            "name": "Dissipar Magia",
+            "level": "3º",
+            "effect": "Encerra uma magia ativa em uma criatura, objeto ou efeito."
+          },
+          {
+            "name": "Velocidade",
+            "level": "3º (concentração)",
+            "effect": "Dobra o deslocamento do alvo, +2 de CA, Vantagem em TR Destreza, ação extra."
+          },
+          {
+            "name": "Energia Curativa",
+            "level": "3º",
+            "effect": "Toque, restaura 2d8 + Carisma em PV (mais 1d8 por círculo acima do 3º)."
+          },
+          {
+            "name": "Reviver Amigos (Revivify)",
+            "level": "3º",
+            "effect": "Traz de volta uma criatura morta há até 1 minuto, com 1 PV."
+          },
+          {
+            "name": "Proteção de Energia",
+            "level": "3º (concentração)",
+            "effect": "Resistência a um tipo de dano escolhido por 8 horas."
+          },
+          {
+            "name": "Ataque Mordente",
+            "level": "3º",
+            "effect": "Um ataque com arma some 3d6 de dano do mesmo tipo da arma."
+          },
+          {
+            "name": "Liberdade de Movimento",
+            "level": "4º",
+            "effect": "O alvo ignora terreno difícil e não pode ser Agarrado/Paralisado/Restringido por 1 hora."
+          },
+          {
+            "name": "Compulsão",
+            "level": "4º (concentração)",
+            "effect": "Força criaturas que falharem TR Sabedoria a se mover na direção que você apontar quando tentarem agir."
+          }
         ]
       }
     },
