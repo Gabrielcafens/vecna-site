@@ -8,7 +8,7 @@ import NpcsPage from '@/pages/Npcs'
 import NpcDetailPage from '@/pages/NpcDetail'
 import MonstersPage from '@/pages/Monsters'
 import ItemsPage from '@/pages/Items'
-import CardsPage from '@/pages/Cards'
+import GrimoirePage from '@/pages/Grimoire'
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Route path="/npcs/:name" element={<NpcDetailPage />} />
         <Route path="/monstros" element={<MonstersPage />} />
         <Route path="/itens" element={<ItemsPage />} />
-        <Route path="/cartas" element={<CardsPage />} />
+        <Route path="/grimorio" element={<GrimoirePage />} />
       </Route>
     </Routes>
   )

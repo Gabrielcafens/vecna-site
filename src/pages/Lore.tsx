@@ -8,12 +8,35 @@ export default function LorePage() {
           🔮 Sessão 3 — em construção
         </summary>
         <div className="mt-4">
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Um perigo maior que uma masmorra</h2>
           <p className="text-sm leading-relaxed mb-3">
-            Vecna já se mostrou. O grupo sai da masmorra sabendo o nome de quem está por trás de tudo, e o próximo arco da campanha é contra ele de verdade — entrada prevista em <strong>Nível 10</strong>. Vitu segue como personagem legado ao lado do grupo, mas não sobe de nível junto (o número exato de nível dele está em confirmação).
+            Vecna nunca precisou se esconder de verdade — só esperar. Por trás do culto que o grupo cruzou sob Phandalin, o lich-deus vem reunindo segredos há muito mais tempo do que qualquer um imaginava, de muito mais gente do que só um punhado de cultistas numa ruína esquecida. O que aconteceu na Cripta dos Cantores Silenciados não foi o plano — foi só o primeiro fio solto que o grupo puxou.
           </p>
-          <div className="rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
+          <p className="text-sm leading-relaxed mb-3">
+            Agora Vecna sabe os nomes deles. E eles sabem o dele. Isso muda o tamanho do tabuleiro: o que vem a seguir não é mais sobre limpar uma masmorra e voltar pra casa — é sobre entender o que um deus dos segredos está tentando construir, e se existe alguma forma de impedir a tempo.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            Entrada prevista em <strong>Nível 10</strong>. Vitu segue como personagem legado ao lado do grupo, mas não sobe de nível junto (o número exato de nível dele está em confirmação).
+          </p>
+          <div className="rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)] mb-4">
             👁 Ainda não tem data nem gancho fechado — quanto tempo passa entre a Sessão 2 e a Sessão 3 ainda está em aberto. Esta seção cresce assim que isso for decidido.
           </div>
+
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">🛠️ Quer entrar na mesa? Crie sua ficha</h2>
+          <p className="text-sm leading-relaxed mb-3">
+            Nível Inicial: <strong>Nível 10</strong> (o grupo chega nesse nível vindo da Sessão 2). Regras: D&amp;D 2024 (Versão 5.5), qualquer classe do Livro do Jogador, qualquer raça — desde que a origem do personagem faça sentido em Faerûn.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            <strong>Exemplos de justificativa de raça:</strong> raças comuns (Humano, Elfo, Anão, Halfling, Gnomo) nasceram ou vivem na Costa da Espada; Dragonborn buscam recuperar a honra do seu povo após a quase-extinção dos dragões; Tieflings/Orcs/Goblins usam o serviço à Aliança dos Lordes como redenção; raças de outros planos caíram em Faerûn por uma fenda planar ou foram enviadas por algum motivo cósmico maior.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            <strong>Como seu personagem entra na história:</strong>
+          </p>
+          <ul className="text-sm leading-relaxed mb-3 list-disc pl-5 space-y-1">
+            <li>Já é conhecido de alguém do grupo (Fabo, Phillipe, Eldris ou Vitu) e foi chamado pra reforçar a missão agora que Vecna está envolvido de verdade;</li>
+            <li>É um agente independente da Aliança dos Lordes designado pra investigar a ameaça ao lado do grupo;</li>
+            <li>Sentiu, à própria maneira, o peso de algo antigo se movendo no multiverso e seguiu o rastro até esse grupo.</li>
+          </ul>
         </div>
       </details>
 
@@ -56,25 +79,52 @@ export default function LorePage() {
           <div className="mt-2 mb-4 rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
             👁 Isso é só até onde a mesa chegou. O resto da masmorra ainda não foi jogado, e fica de fora deste site de propósito.
           </div>
+        </div>
+      </details>
 
-          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">🛠️ Quer entrar na mesa? Crie sua ficha</h2>
-          <p className="text-sm leading-relaxed mb-3">
-            Nível Inicial: <strong>Nível 6</strong> (o grupo já chegou nesse nível vindo da Sessão 1). Regras: D&amp;D 2024 (Versão 5.5), qualquer classe do Livro do Jogador, qualquer raça — desde que a origem do personagem faça sentido em Faerûn.
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          🌙 Entressessões — entre a Sessão 1 e a Sessão 2
+        </summary>
+        <div className="mt-4">
+          <p className="text-sm leading-relaxed mb-4">
+            Depois de Thay, oito semanas de paz relativa em Phandalin antes do corpo de Bram Osgood aparecer nas ruínas. Cada herói passou esse tempo de um jeito bem diferente — até a última semana virar bagunça pra todo mundo junto.
           </p>
-          <p className="text-sm leading-relaxed mb-3">
-            <strong>Exemplos de justificativa de raça:</strong> raças comuns (Humano, Elfo, Anão, Halfling, Gnomo) nasceram ou vivem na Costa da Espada; Dragonborn buscam recuperar a honra do seu povo após a quase-extinção dos dragões; Tieflings/Orcs/Goblins usam o serviço à Aliança dos Lordes como redenção; raças de outros planos caíram em Faerûn por uma fenda planar ou foram enviadas por algum motivo cósmico maior.
-          </p>
-          <p className="text-sm leading-relaxed mb-3">
-            <strong>Como seu personagem entra na história:</strong>
-          </p>
-          <ul className="text-sm leading-relaxed mb-3 list-disc pl-5 space-y-1">
-            <li>Já é conhecido de alguém do grupo (Fabo, Phillipe, Eldris ou Vitu) e foi chamado pra reforçar a missão;</li>
-            <li>É um agente independente da Aliança dos Lordes designado pra acompanhar o grupo;</li>
-            <li>Sentiu o "despertar" dos Obeliscos Partidos por conta própria e chegou a Phandalin investigando por seus próprios motivos.</li>
-          </ul>
-          <div className="mt-4 rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
-            👁 Além do resumo lá em cima, o que ainda não foi jogado da masmorra fica de fora deste site de propósito — não quero estragar a surpresa pra ninguém na mesa.
+
+          <div className="rounded-md border-2 border-dashed border-[var(--accent)]/50 bg-[var(--sidebar)]/40 p-4 mb-4">
+            <h3 className="text-sm font-bold text-[var(--accent)] mb-2">🐻 O Honey Heist — o Pote de Ouro</h3>
+            <p className="text-sm leading-relaxed">
+              Quando Eldris morreu na floresta, Titânia agarrou a alma dele antes que fosse embora de vez — só que a fresta por onde ela puxou não levou pro lugar certo. A alma foi parar dentro de um pote de mel dourado, trancada num universo-bolso onde todo mundo é urso. Bob, Vitu, Phillipe e Fabo atravessaram atrás dela, viraram ursos ladrões de banco por uma noite, e assaltaram uma convenção inteira (a "UrsoCon") pra recuperar o pote certo — driblando segurança, uma cópia falsa em exibição, e uma cozinheira nada satisfeita chamada Chefe Rita — antes de voltar com a alma intacta pra Faerûn.
+            </p>
           </div>
+
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Fabo</summary>
+            <p className="text-sm leading-relaxed mt-2">
+              Vitu decretou que a melhor terapia pro trauma do Necrotério era trabalho braçal insano. Fabo passou as oito semanas saltando fardos em chamas com Vitu agarrado nas costas gritando ordens, destruindo carcaças de galinha (mortas e nem tão mortas assim) pra treinar precisão de machado, e esquivando de tudo que o parceiro decidia jogar nele nos dias de folga. Saiu do outro lado ridiculamente mais forte — fisicamente maior, mais rápido, mais brutal — e com dois talentos novos gravados no corpo: Atleta e Mestre em Armas Grandes.
+            </p>
+          </details>
+
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Phillipe</summary>
+            <p className="text-sm leading-relaxed mt-2">
+              Sildar tirou Phillipe do treino e botou ele pra ensinar no próprio dojo — "ninguém cresce vencendo gente pior que ele." Ensinando, Phillipe percebeu que carregava duas escolas de esgrima que nunca soube que eram duas: o círculo arcano da academia militar (o "compasso") e o golpe direto que aprendeu com Heidan (o "martelo"). Foi ensinando que virou Cavaleiro Místico de verdade. No fim das seis semanas, voltou ao cemitério onde Heidan está enterrado — não entrou, mas ficou até escurecer pela primeira vez. E pegou um aluno novo, um garoto de sete anos sem nome que ninguém sabe de onde veio.
+            </p>
+          </details>
+
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Eldris</summary>
+            <p className="text-sm leading-relaxed mt-2">
+              Passou semanas caçando sobreviventes dos Magos Vermelhos de Thay, com uma parada na cidade natal — os pais não o reconheceram de cara, mas a mãe pediu que ele voltasse mais vezes, pra se conhecerem de novo. Encontrou a Green Hag na floresta, disfarçada com a voz da Titânia. Perdeu a luta, recusou gastar um dos três Desejos pra se salvar, e morreu de verdade. Titânia salvou a alma dele a tempo, mas a instabilidade que já rondava o multiverso jogou tudo pro lugar errado — o resto dessa história é onde a Sessão 2 realmente começa.
+            </p>
+          </details>
+
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Vitu</summary>
+            <p className="text-sm leading-relaxed mt-2">
+              Presente em tudo isso do jeito que sempre está — sem arco pessoal registrado nessas oito semanas, mas pronto quando a fresta entre universos abriu e alguém precisou ir buscar a alma de um amigo dentro de um pote de mel.
+            </p>
+          </details>
         </div>
       </details>
 

@@ -328,6 +328,7 @@ export const BESTIARY: StatBlock[] = [
     ],
     traits: [
       { name: 'Resistência Mágica', desc: 'Vantagem em testes de resistência contra magias e outros efeitos mágicos.' },
+      { name: 'Imunidade a Magias', desc: 'Imune a três magias escolhidas por quem o criou. Nesta sessão: Rajada Mística/Eldritch Blast, Mísseis Mágicos e Aquecer Metal (confirmar essa última).' },
     ],
     actions: [
       { name: 'Espada Arcana (2x por turno)', desc: '+6 para acertar, alcance 1,5m. Acerto: 8 (1d8+4) cortante + 5 (1d10) força.' },
