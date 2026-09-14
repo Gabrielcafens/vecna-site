@@ -115,7 +115,13 @@ export default function LorePage() {
           <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
             <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Eldris</summary>
             <p className="text-sm leading-relaxed mt-2">
-              Passou semanas caçando sobreviventes dos Magos Vermelhos de Thay, com uma parada na cidade natal — os pais não o reconheceram de cara, mas a mãe pediu que ele voltasse mais vezes, pra se conhecerem de novo. Encontrou a Green Hag na floresta, disfarçada com a voz da Titânia. Perdeu a luta, recusou gastar um dos três Desejos pra se salvar, e morreu de verdade. Titânia salvou a alma dele a tempo, mas a instabilidade que já rondava o multiverso jogou tudo pro lugar errado — o resto dessa história é onde a Sessão 2 realmente começa.
+              Passou semanas caçando sobreviventes dos Magos Vermelhos de Thay, com uma parada na cidade natal — os pais não o reconheceram de cara, magoados sem saber nomear quem o tinha "levado" deles. Não insistiu em explicar. Antes de ir, a mãe pediu que ele voltasse mais vezes, pra se conhecerem de novo.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              De volta ao rastro, encontrou a Green Hag na floresta, disfarçada com a voz da Titânia. Perdeu a luta — caiu, e no último instante consciente escolheu não gastar um dos três Desejos pra se salvar. Morreu de verdade. A Hag arrastou o corpo pro próprio covil, onde mais quatro bruxas esperavam, e o que sobrou dele virou sopa.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Titânia alcançou a alma dele antes que fosse embora de vez — mas a instabilidade que já rondava o multiverso desviou o caminho, e ela foi parar no lugar errado. O resto dessa história é onde o Honey Heist e a Sessão 2 realmente começam.
             </p>
           </details>
 
