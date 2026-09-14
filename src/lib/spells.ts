@@ -20,6 +20,12 @@ export const USED_IN_SESSION_2: UsedSpell[] = [
     moment: 'Usada duas vezes na Cripta dos Cantores Silenciados (N10) — trouxe Eldris de volta, depois trouxe Fabo de volta, ambos caídos no mesmo combate.',
   },
   {
+    name: 'Aura da Vitalidade (Aura of Vitality)',
+    link: 'https://www.aidedd.org/spell/aura-of-vitality',
+    caster: 'Vitu',
+    moment: 'Manteve o grupo de pé durante boa parte do combate do N10, curando 2d6 por turno em quem mais precisava.',
+  },
+  {
     name: 'Curar Ferimentos e outras curas',
     link: 'https://www.aidedd.org/spell/cure-wounds',
     caster: 'Vitu',
@@ -110,7 +116,7 @@ export const SPELLBOOKS: { character: string; spells: SpellRef[] }[] = [
       { name: 'Arma Mágica', link: 'https://www.aidedd.org/spell/magic-weapon', level: '2º', effect: 'Uma arma tocada vira +1 por 1 hora.' },
       { name: 'Dissipar Magia', link: 'https://www.aidedd.org/spell/dispel-magic', level: '3º', effect: 'Encerra uma magia ativa.' },
       { name: 'Velocidade', link: 'https://www.aidedd.org/spell/haste', level: '3º', effect: 'Dobra o deslocamento, +2 CA, ação extra.' },
-      { name: 'Energia Curativa', level: '3º', effect: 'Toque, restaura 2d8 + Carisma em PV (link exato a confirmar).' },
+      { name: 'Aura da Vitalidade (Aura of Vitality)', link: 'https://www.aidedd.org/spell/aura-of-vitality', level: '3º', effect: 'Emanação de 9m; ao conjurar e no início de cada turno seu, restaura 2d6 PV numa criatura dentro dela — usada no N10.' },
       { name: 'Reviver Amigos (Revivify)', link: 'https://www.aidedd.org/spell/revivify', level: '3º', effect: 'Traz de volta um morto há até 1 minuto, com 1 PV — usada duas vezes no N10.' },
       { name: 'Proteção de Energia', link: 'https://www.aidedd.org/spell/protection-from-energy', level: '3º', effect: 'Resistência a um tipo de dano por 8h.' },
       { name: 'Ataque Mordente', level: '3º', effect: 'Um ataque com arma soma 3d6 de dano do mesmo tipo (link exato a confirmar).' },
