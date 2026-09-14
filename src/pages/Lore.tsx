@@ -3,9 +3,23 @@ export default function LorePage() {
     <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">Lore da Campanha</h1>
 
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          🔮 Sessão 3 — em construção
+        </summary>
+        <div className="mt-4">
+          <p className="text-sm leading-relaxed mb-3">
+            Vecna já se mostrou. O grupo sai da masmorra sabendo o nome de quem está por trás de tudo, e o próximo arco da campanha é contra ele de verdade — entrada prevista em <strong>Nível 10</strong>. Vitu segue como personagem legado ao lado do grupo, mas não sobe de nível junto (o número exato de nível dele está em confirmação).
+          </p>
+          <div className="rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
+            👁 Ainda não tem data nem gancho fechado — quanto tempo passa entre a Sessão 2 e a Sessão 3 ainda está em aberto. Esta seção cresce assim que isso for decidido.
+          </div>
+        </div>
+      </details>
+
       <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
-          🌟 Sessão 2 — O Ninho do Olho Eldritch (convite)
+          🌟 Sessão 2 — O Ninho do Olho Eldritch (em andamento)
         </summary>
         <div className="mt-4">
           <img
@@ -29,6 +43,20 @@ export default function LorePage() {
             Nível de entrada: <strong>6</strong>.
           </p>
 
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">O que já aconteceu</h2>
+          <p className="text-sm leading-relaxed mb-3">
+            Antes mesmo da masmorra, Eldris morreu sozinho numa floresta — a Green Hag usou a voz da Titânia como isca, e ele recusou usar um Desejo pra se salvar. Titânia pegou a alma dele a tempo, mas a instabilidade que já rondava o multiverso a jogou parar dentro de um pote de mel, num universo-bolso cheio de urso ladrão de banco. O grupo foi atrás — Bob, Vitu, Phillipe e Fabo, todos virados urso por uma noite — recuperou o pote, e alguns dias depois trouxe Eldris de volta com Ressurreição Verdadeira. Ele voltou com uma mancha roxa na palma da mão esquerda e a maioria das bênçãos do Baralho das Muitas Coisas silenciadas — só a Estrela continua.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            De volta a Phandalin, o grupo confirmou o corpo de Bram Osgood, destruiu o olho ressecado que ele carregava e seguiu pras ruínas apontadas pela irmã dele, Mira — que não veio junto. Na entrada, quem tentou forçar a passagem sem dizer a senha certa enfrentou a própria sombra: uma versão de si mesmo vinda de um multiverso onde Vecna já tinha vencido tudo. Lá dentro, atravessaram água parada, escaparam de uma emboscada aquática por pouco, e libertaram um fantasma sem nome preso havia anos — que acabou sendo Heidan Forteluz, o mentor perdido de Phillipe.
+          </p>
+          <p className="text-sm leading-relaxed mb-3">
+            O resto da sessão foi uma cripta trancada: um mini-ritual profano, ondas de zumbis, um golem furioso e guardiões de armadura vazia, contra um relógio que ninguém conseguia parar. O ritual completou antes do grupo dar conta de tudo — e no meio da poeira e do cansaço, uma projeção de <strong>Vecna</strong> se materializou pela primeira vez, oferecendo dons sobrenaturais em troca de lealdade. Alguns aceitaram. Todos saíram vivos.
+          </p>
+          <div className="mt-2 mb-4 rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
+            👁 Isso é só até onde a mesa chegou. O resto da masmorra ainda não foi jogado, e fica de fora deste site de propósito.
+          </div>
+
           <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">🛠️ Quer entrar na mesa? Crie sua ficha</h2>
           <p className="text-sm leading-relaxed mb-3">
             Nível Inicial: <strong>Nível 6</strong> (o grupo já chegou nesse nível vindo da Sessão 1). Regras: D&amp;D 2024 (Versão 5.5), qualquer classe do Livro do Jogador, qualquer raça — desde que a origem do personagem faça sentido em Faerûn.
@@ -45,7 +73,7 @@ export default function LorePage() {
             <li>Sentiu o "despertar" dos Obeliscos Partidos por conta própria e chegou a Phandalin investigando por seus próprios motivos.</li>
           </ul>
           <div className="mt-4 rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
-            👁 Além desse gancho, o resto da Sessão 2 fica de fora deste site de propósito — ela ainda não foi jogada, e não quero estragar a surpresa pra ninguém na mesa.
+            👁 Além do resumo lá em cima, o que ainda não foi jogado da masmorra fica de fora deste site de propósito — não quero estragar a surpresa pra ninguém na mesa.
           </div>
         </div>
       </details>
