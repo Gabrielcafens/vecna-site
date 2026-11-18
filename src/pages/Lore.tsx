@@ -8,18 +8,24 @@ export default function LorePage() {
           🔮 Sessão 3 — A Caça
         </summary>
         <div className="mt-4">
-          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Um perigo maior que uma masmorra</h2>
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Os anos em que tentaram detê-lo</h2>
           <p className="text-sm leading-relaxed mb-3">
-            Vecna nunca precisou se esconder de verdade — só esperar. Por trás do culto que o grupo cruzou sob Phandalin, o lich-deus vem reunindo segredos há muito mais tempo do que qualquer um imaginava, de muito mais gente do que só um punhado de cultistas numa ruína esquecida. O que aconteceu na Cripta dos Cantores Silenciados não foi o plano — foi só o primeiro fio solto que o grupo puxou.
+            Passaram-se anos desde a Cripta dos Cantores Silenciados. Anos em que Fabo, Phillipe e Eldris tentaram fazer a única coisa que ainda fazia sentido: deter Vecna. Cada um do seu jeito, cada um no seu canto do mundo.
           </p>
           <p className="text-sm leading-relaxed mb-3">
-            Agora Vecna sabe os nomes deles. E eles sabem o dele. Isso muda o tamanho do tabuleiro: o que vem a seguir não é mais sobre limpar uma masmorra e voltar pra casa — é sobre entender o que um deus dos segredos está tentando construir, e se existe alguma forma de impedir a tempo.
+            Não funcionou. Onde eles fechavam uma porta, o lich-deus abria três. Cultos de uma mão e um olho brotaram em cidades que nunca tinham ouvido o nome dele. Aldeias inteiras acordaram sem lembrar o que escondiam — e algumas, sem lembrar o próprio nome. Há bibliotecas queimadas, juramentos que ninguém cumpre porque ninguém lembra de tê-los feito, e cartas que chegam sem remetente, escritas com segredos que só o destinatário conhecia.
           </p>
           <p className="text-sm leading-relaxed mb-3">
-            Foster tem um plano, e ele depende de vocês.
+            Vecna pintou a desgraça no mundo com pincel fino e sem pressa. Ele não precisa destruir o que já está desfeito por dentro. E em algum ponto desses anos, o grupo parou de contar vitórias e passou a contar o que ainda restava.
+          </p>
+          <blockquote className="border-l-4 border-[var(--danger)] pl-4 italic text-[var(--muted)] mb-4">
+            "Ele já nos vê a todos. Vocês também... serão vistos."
+          </blockquote>
+          <p className="text-sm leading-relaxed mb-3">
+            Foi quando Foster chamou. Ele tem um plano, e esse plano depende de vocês.
           </p>
           <p className="text-sm leading-relaxed mb-3">
-            Nível: <strong>11</strong>, do início ao fim da sessão. Vitu segue como personagem legado ao lado do grupo.
+            Nível: <strong>11</strong>, do início ao fim da sessão. Nesta sessão, Vitu não está no grupo.
           </p>
           <div className="rounded-md border border-dashed border-[var(--accent)]/50 p-4 text-sm mb-4">
             📅 <strong>21/11, às 13h</strong> — casa do Café.
