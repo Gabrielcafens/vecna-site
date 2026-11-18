@@ -3,9 +3,9 @@ export default function LorePage() {
     <div className="p-6 max-w-[1600px] mx-auto">
       <h1 className="text-2xl font-bold mb-4">Lore da Campanha</h1>
 
-      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+      <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
-          🔮 Sessão 3 — em construção
+          🔮 Sessão 3 — A Caça
         </summary>
         <div className="mt-4">
           <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mb-2">Um perigo maior que uma masmorra</h2>
@@ -16,15 +16,18 @@ export default function LorePage() {
             Agora Vecna sabe os nomes deles. E eles sabem o dele. Isso muda o tamanho do tabuleiro: o que vem a seguir não é mais sobre limpar uma masmorra e voltar pra casa — é sobre entender o que um deus dos segredos está tentando construir, e se existe alguma forma de impedir a tempo.
           </p>
           <p className="text-sm leading-relaxed mb-3">
-            Entrada prevista em <strong>Nível 10</strong>. Vitu segue como personagem legado ao lado do grupo, mas não sobe de nível junto (o número exato de nível dele está em confirmação).
+            Dessa vez o grupo não vai a uma masmorra só. Foster tem um plano, e ele depende de vocês em lugares que ninguém ali imaginava visitar.
           </p>
-          <div className="rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)] mb-4">
-            👁 Ainda não tem data nem gancho fechado — quanto tempo passa entre a Sessão 2 e a Sessão 3 ainda está em aberto. Esta seção cresce assim que isso for decidido.
+          <p className="text-sm leading-relaxed mb-3">
+            Nível: <strong>11</strong>, do início ao fim da sessão. Vitu segue como personagem legado ao lado do grupo.
+          </p>
+          <div className="rounded-md border border-dashed border-[var(--accent)]/50 p-4 text-sm mb-4">
+            📅 <strong>21/11, às 13h</strong> — casa do Café.
           </div>
 
           <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">🛠️ Quer entrar na mesa? Crie sua ficha</h2>
           <p className="text-sm leading-relaxed mb-3">
-            Nível Inicial: <strong>Nível 10</strong> (o grupo chega nesse nível vindo da Sessão 2). Regras: D&amp;D 2024 (Versão 5.5), qualquer classe do Livro do Jogador, qualquer raça — desde que a origem do personagem faça sentido em Faerûn.
+            Nível Inicial: <strong>Nível 11</strong> (o grupo chega nesse nível vindo da Sessão 2). Regras: D&amp;D 2024 (Versão 5.5), qualquer classe do Livro do Jogador, qualquer raça — desde que a origem do personagem faça sentido em Faerûn.
           </p>
           <p className="text-sm leading-relaxed mb-3">
             <strong>Exemplos de justificativa de raça:</strong> raças comuns (Humano, Elfo, Anão, Halfling, Gnomo) nasceram ou vivem na Costa da Espada; Dragonborn buscam recuperar a honra do seu povo após a quase-extinção dos dragões; Tieflings/Orcs/Goblins usam o serviço à Aliança dos Lordes como redenção; raças de outros planos caíram em Faerûn por uma fenda planar ou foram enviadas por algum motivo cósmico maior.
@@ -40,9 +43,9 @@ export default function LorePage() {
         </div>
       </details>
 
-      <details open className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
         <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
-          🌟 Sessão 2 — O Ninho do Olho Eldritch (em andamento)
+          🌟 Sessão 2 — O Ninho do Olho Eldritch
         </summary>
         <div className="mt-4">
           <img
@@ -63,7 +66,7 @@ export default function LorePage() {
             "Há algo terrível, aberrante e antigo acordando lá embaixo — e já matou alguém pra provar."
           </blockquote>
           <p className="text-sm leading-relaxed mb-3">
-            Nível de entrada: <strong>6</strong>.
+            Sessão concluída. Nível de entrada: <strong>6</strong>.
           </p>
 
           <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">O que já aconteceu</h2>
@@ -76,9 +79,46 @@ export default function LorePage() {
           <p className="text-sm leading-relaxed mb-3">
             O resto da sessão foi uma cripta trancada: um mini-ritual profano, ondas de zumbis, um golem furioso e guardiões de armadura vazia, contra um relógio que ninguém conseguia parar. O ritual completou antes do grupo dar conta de tudo — e no meio da poeira e do cansaço, uma projeção de <strong>Vecna</strong> se materializou pela primeira vez, oferecendo dons sobrenaturais em troca de lealdade. Alguns aceitaram. Todos saíram vivos.
           </p>
-          <div className="mt-2 mb-4 rounded-md border border-dashed border-[var(--danger)] p-4 text-xs text-[var(--muted)]">
-            👁 Isso é só até onde a mesa chegou. O resto da masmorra ainda não foi jogado, e fica de fora deste site de propósito.
-          </div>
+          <h2 className="text-base font-bold text-[var(--accent)] border-b border-[var(--border)] pb-1 mt-6 mb-2">As dádivas de Vecna</h2>
+          <p className="text-sm leading-relaxed mb-3">
+            Vecna deixou claro que queria pelo menos dois aliados voluntários entre os quatro. Só <strong>Fabo</strong> aceitou a dádiva — o Charm of the Eldritch Eye. <strong>Phillipe</strong> recusou, mas negociou: contou o que tirou nas cartas, e Vecna passou a odiá-lo por isso. <strong>Eldris</strong> e <strong>Vitu</strong> recusaram.
+          </p>
+        </div>
+      </details>
+
+      <details className="rounded-lg border border-[var(--border)] bg-[var(--card)] p-4 mb-4 transition-all duration-200 hover:shadow-md hover:border-[var(--accent)]/40">
+        <summary className="cursor-pointer text-lg font-bold text-[var(--accent)] font-display">
+          🌙 Entressessões — entre a Sessão 2 e a Sessão 3
+        </summary>
+        <div className="mt-4">
+          <p className="text-sm leading-relaxed mb-4">
+            Vecna apareceu, ofereceu, ameaçou e se foi. O que cada herói fez com isso, entre uma sessão e outra, é contado por quem o viveu — cada relato entra aqui assim que o jogador entregar o dele.
+          </p>
+
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Fabo</summary>
+            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
+              👁 Aguardando o relato de Fabo.
+            </p>
+          </details>
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Phillipe</summary>
+            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
+              👁 Aguardando o relato de Phillipe.
+            </p>
+          </details>
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Eldris</summary>
+            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
+              👁 Aguardando o relato de Eldris.
+            </p>
+          </details>
+          <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
+            <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Vitu</summary>
+            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
+              👁 Aguardando o relato de Vitu.
+            </p>
+          </details>
         </div>
       </details>
 
