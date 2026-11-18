@@ -92,7 +92,7 @@ export default function LorePage() {
         </summary>
         <div className="mt-4">
           <p className="text-sm leading-relaxed mb-4">
-            Vecna apareceu, ofereceu, ameaçou e se foi. O que cada herói fez com isso, entre uma sessão e outra, é contado por quem o viveu — cada relato entra aqui assim que o jogador entregar o dele.
+            Vecna apareceu, ofereceu, ameaçou e se foi. E então o mundo seguiu em frente: entre a Sessão 2 e a Sessão 3 passaram-se <strong>alguns anos</strong> — entre três e cinco. O que cada herói fez com esse tempo é contado por quem o viveu; cada relato entra aqui assim que o jogador entregar o dele.
           </p>
 
           <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
