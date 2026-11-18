@@ -97,20 +97,71 @@ export default function LorePage() {
 
           <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
             <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Fabo</summary>
-            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
-              👁 Aguardando o relato de Fabo.
+            <blockquote className="border-l-4 border-[var(--danger)] pl-4 italic text-[var(--muted)] mt-2">
+              "Mudou que eu agora durmo pensando em como quebrar os ossos daqueles que querem me quebrar antes. Eu tenho medo de não conseguir resolver o problema e não ter meu nome lembrado… Vitu não pode ser o único herói do mundo."
+            </blockquote>
+            <p className="text-sm leading-relaxed mt-2">
+              <span className="text-[var(--muted)]">👁 O relato completo do que Fabo fez nesses anos ainda está por vir.</span>
             </p>
           </details>
           <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
             <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Phillipe</summary>
-            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
-              👁 Aguardando o relato de Phillipe.
+            <p className="text-sm leading-relaxed mt-2">
+              <strong>O Terceiro Mestre</strong>
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Philip aprendeu esgrima com dois mortos e um velho.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              O compasso veio da academia: o círculo, o ângulo, a lâmina como raio. O martelo veio de Heidan Forteluz, e de Sildar antes dele — a resposta que chega antes da pergunta. Durante oito semanas no dojo ele ensinou os dois juntos e achou que tinha terminado de se montar.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Aí veio a Cripta.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              O que ele viu lá embaixo não respondia a nenhum dos dois. Não havia ângulo contra aquilo. Não havia tempo de reação contra uma coisa que já sabia o nome dele antes de ele entrar. O Diabo da carta não era um diabo, e um homem com uma espada muito boa é, para Vecna, exatamente o que uma fechadura é para quem tem a chave.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Philip entendeu uma coisa simples e humilhante: ele vinha usando magia como tempero. Escudo quando ia morrer. Uma chama quando estava cercado. Truques que ele sabia executar e não sabia explicar — o que, para um professor, é a definição de não saber. Tinha passado sete anos como escudeiro aprendendo que servir é carregar. Tinha passado oito semanas como mestre aprendendo que ensinar é decompor. E nunca tinha decomposto a própria magia.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Então voltou a ser aluno.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Procurou os Gnomos de Phandelver — os mesmos que Sildar lhe apontou quando ele virou cavaleiro — e dessa vez não pediu treinamento. Pediu a biblioteca. Os gnomos acharam graça: um homem de cota de malha, mãos de espada, pedindo tinta e pena. Deram a ele um grimório em branco e a pior mesa da sala, perto da porta.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Philip encheu o grimório.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Não do jeito elegante. Do jeito dele — como treinou guarda a vida inteira, repetindo até o movimento sair sem ser pensado. Copiou, errou, copiou de novo. Descobriu que a Evocação é a escola que mais se parece com esgrima: você declara uma intenção, mede a distância, e a energia obedece à geometria. O relâmpago é uma estocada que atravessa cinco pessoas. O raio ardente são três botes do mesmo pulso. O círculo que ele desenhava com giz no chão do dojo era, o tempo todo, a mesma figura que os gnomos desenhavam nas margens das páginas.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              O compasso e o martelo nunca foram duas coisas. Eram três, e faltava a terceira.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Ele continuou dando aula no dojo. Só mudou o quadro: agora as runas que ele risca no chão não são cenografia, são notação. Os alunos copiam sem entender, do mesmo jeito que ele copiava.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Sildar foi vê-lo estudar uma vez. Ficou na porta, olhou o cavaleiro de armadura curvado sobre um livro, e não disse nada por um tempo longo. Quando falou, foi só:
+            </p>
+            <blockquote className="border-l-4 border-[var(--danger)] pl-4 italic text-[var(--muted)] mt-2">
+              — Heidan teria odiado isso.<br />— Eu sei.<br />— Ele estaria errado.
+            </blockquote>
+            <p className="text-sm leading-relaxed mt-2">
+              E o garoto da turma da tarde, o que não paga mensalidade, agora senta do lado da mesa enquanto Philip copia. Não entende uma palavra. Mas olha a página do mesmo jeito que Philip, aos sete anos, olhou a mão que o Heidan estendeu.
+            </p>
+            <p className="text-sm leading-relaxed mt-2">
+              Philip vai. Com a espada, o escudo, e um livro que ele mesmo escreveu — porque contra o deus dos segredos, a única resposta que ele conseguiu pensar foi parar de ter segredos consigo mesmo.
             </p>
           </details>
           <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
             <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">Eldris</summary>
-            <p className="text-sm leading-relaxed mt-2 text-[var(--muted)]">
-              👁 Aguardando o relato de Eldris.
+            <blockquote className="border-l-4 border-[var(--danger)] pl-4 italic text-[var(--muted)] mt-2">
+              "Não muda nada. Continuo grato a Titânia. Se eu voltei, foi por um motivo. Se eu não usei as magias de desejo, foi por um motivo. Tudo por aquela que me salvou."
+            </blockquote>
+            <p className="text-sm leading-relaxed mt-2">
+              <span className="text-[var(--muted)]">👁 O relato completo do que Eldris fez nesses anos ainda está por vir.</span>
             </p>
           </details>
           <details className="rounded-md border border-[var(--border)] bg-[var(--sidebar)]/30 p-3 mb-2">
