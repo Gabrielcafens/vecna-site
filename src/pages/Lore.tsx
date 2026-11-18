@@ -16,7 +16,7 @@ export default function LorePage() {
             Agora Vecna sabe os nomes deles. E eles sabem o dele. Isso muda o tamanho do tabuleiro: o que vem a seguir não é mais sobre limpar uma masmorra e voltar pra casa — é sobre entender o que um deus dos segredos está tentando construir, e se existe alguma forma de impedir a tempo.
           </p>
           <p className="text-sm leading-relaxed mb-3">
-            Dessa vez o grupo não vai a uma masmorra só. Foster tem um plano, e ele depende de vocês em lugares que ninguém ali imaginava visitar.
+            Foster tem um plano, e ele depende de vocês.
           </p>
           <p className="text-sm leading-relaxed mb-3">
             Nível: <strong>11</strong>, do início ao fim da sessão. Vitu segue como personagem legado ao lado do grupo.
